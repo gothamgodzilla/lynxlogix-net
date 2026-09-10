@@ -1,4 +1,4 @@
-const STORE = { key: "lynxlogix.pass.v1", desk: "lynxlogix.desk.v2" };
+const STORE = { key: "lynxlogix.pass.v1", desk: "lynxlogix.desk.v3" };
 
 function hasPass() {
   return localStorage.getItem(STORE.key) === "patron" || localStorage.getItem(STORE.key) === "desk";
@@ -22,19 +22,51 @@ function seedSignals() {
   return [
     { id: "TV-0910-A", source: "TradingView webhook (paper)", pair: "BTC-USD", side: "buy", venue: "Coinbase Advanced", size: "0.25%", reason: "4h close above range + volume expansion. Not a guarantee.", risk: "Stop conceptually 1.4R under signal bar. Cap 0.25% equity.", status: "awaiting human" },
     { id: "CH-0910-B", source: "CryptoHopper-style script flag (paper)", pair: "ETH-USD", side: "hold", venue: "Kraken", size: "0%", reason: "Script fired, Grok risk desk vetoed: funding crowded, spread wide.", risk: "No ticket. Log only.", status: "vetoed by risk bot" },
-    { id: "PH-0910-C", source: "Phantom watchlist (read-only)", pair: "SOL-USD", side: "sell", venue: "Kraken / Phantom (watch)", size: "trim 10% paper", reason: "Mean-reversion after extension. Human must confirm before any live wallet action.", risk: "Never auto-sign a wallet. Seed phrases never enter this system.", status: "awaiting human" }
+    { id: "PH-0910-C", source: "Phantom watchlist (read-only)", pair: "SOL-USD", side: "sell", venue: "Kraken / Phantom (watch)", size: "0.25%", reason: "Mean-reversion after extension. Human must confirm before any live wallet action.", risk: "Never auto-sign a wallet. Seed phrases never enter this system.", status: "awaiting human" }
   ];
 }
 
 function loadDesk() {
   const raw = localStorage.getItem(STORE.desk);
-  if (raw) return JSON.parse(raw);
-  const seed = { signals: seedSignals(), log: [] };
+  if (raw) {
+    const parsed = JSON.parse(raw);
+    if (typeof parsed.closed !== "boolean") parsed.closed = false;
+    if (!Array.isArray(parsed.log)) parsed.log = [];
+    if (!Array.isArray(parsed.signals)) parsed.signals = seedSignals();
+    return parsed;
+  }
+  const seed = { signals: seedSignals(), log: [], closed: false };
   localStorage.setItem(STORE.desk, JSON.stringify(seed));
   return seed;
 }
 function saveDesk(state) {
   localStorage.setItem(STORE.desk, JSON.stringify(state));
+}
+
+function parseSize(size) {
+  const n = parseFloat(String(size || "0").replace(/[^0-9.]/g, ""));
+  return Number.isFinite(n) ? n : 0;
+}
+
+function paperOpenPct(state) {
+  return state.signals
+    .filter((s) => String(s.status || "").startsWith("approved"))
+    .reduce((sum, s) => sum + parseSize(s.size), 0);
+}
+
+function renderRisk(state) {
+  const openEl = document.querySelector("[data-risk-open]");
+  const note = document.querySelector("[data-risk-note]");
+  const title = document.querySelector("[data-desk-state]");
+  if (!openEl && !title) return;
+  const open = paperOpenPct(state);
+  if (openEl) openEl.textContent = open.toFixed(2) + "%";
+  if (title) title.textContent = state.closed ? "Desk closed" : "Desk open";
+  if (note) {
+    if (state.closed) note.textContent = "Kill switch on. Approvals blocked. Signals still journal.";
+    else if (open >= 3) note.textContent = "Open paper book at cap. Reject or hold until something clears.";
+    else note.textContent = "Desk open. Per-ticket cap 1.00%. Book cap 3.00%.";
+  }
 }
 
 function mergeInbox(remote) {
@@ -68,8 +100,9 @@ async function pollInbox() {
 
 function renderDesk() {
   const root = document.querySelector("[data-desk]");
-  if (!root) return;
   const state = loadDesk();
+  renderRisk(state);
+  if (!root) return;
   root.innerHTML = state.signals.map((s) => `
     <article class="card ticket ${s.side}">
       <div class="tiny">${s.id} · ${s.source}</div>
@@ -93,6 +126,15 @@ function renderDesk() {
 }
 
 function handleDeskClick(e) {
+  const kill = e.target.closest("[data-kill]");
+  if (kill) {
+    const state = loadDesk();
+    state.closed = kill.dataset.kill === "close";
+    state.log.unshift(new Date().toISOString() + (state.closed ? " KILL desk closed" : " OPEN desk reopened"));
+    saveDesk(state);
+    renderDesk();
+    return;
+  }
   const btn = e.target.closest("[data-act]");
   if (!btn) return;
   const state = loadDesk();
@@ -101,8 +143,19 @@ function handleDeskClick(e) {
   const stamp = new Date().toISOString();
   const act = btn.dataset.act;
   if (act === "approve") {
-    sig.status = "approved — paper only";
-    state.log.unshift(stamp + " APPROVE " + sig.id + " " + sig.side + " " + sig.pair + " — no live order routed.");
+    if (state.closed) {
+      sig.status = "blocked — desk closed";
+      state.log.unshift(stamp + " BLOCK " + sig.id + " desk closed — would-have only");
+    } else if (parseSize(sig.size) > 1) {
+      sig.status = "blocked — size over 1%";
+      state.log.unshift(stamp + " BLOCK " + sig.id + " size cap");
+    } else if (paperOpenPct(state) + parseSize(sig.size) > 3.01 && !String(sig.status).startsWith("approved")) {
+      sig.status = "blocked — book cap";
+      state.log.unshift(stamp + " BLOCK " + sig.id + " 3% book cap");
+    } else {
+      sig.status = "approved — paper only";
+      state.log.unshift(stamp + " APPROVE " + sig.id + " " + sig.side + " " + sig.pair + " — no live order routed.");
+    }
   } else if (act === "reject") {
     sig.status = "rejected by human";
     state.log.unshift(stamp + " REJECT " + sig.id);
