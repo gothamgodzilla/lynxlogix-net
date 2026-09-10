@@ -1,23 +1,28 @@
-# Thursday 10 September 2026
+# Thursday 10 September 2026 — evening pass (16:17 PDT)
+
+Repo: https://github.com/gothamgodzilla/lynxlogix-net
+Preview: https://lynxlogix-net.vercel.app
+Hook: POST /api/hook?key=paper
 
 ## Deep-work blocks
 
-### Block 1 — 90 minutes — Gate, not glory
-Goal: Treat Version A as the only system that exists. Confirm TradingView can hit a webhook you control. Do not open Coinbase order docs.
+### Block 1 — 75 minutes — Prove Design 01
+Goal: From a TradingView alert (or curl) land one ticket on /desk.html. Approve it as paper. Confirm the ledger line says “no live order routed.” Set LYNX_HOOK_KEY on the Vercel project if you are done using the word `paper`.
 
-### Block 2 — 90 minutes — One public surface
-Goal: Point lynxlogix.net (or the Vercel URL) at this repo. Paste a real Stripe Payment Link into `pay.html` for House gift. Keep Mangasm+ pointed at https://www.mangasm.app/plus.
+### Block 2 — 60 minutes — Money doors, not new domains
+Goal: Paste a real Stripe Payment Link into pay.html for House gift. Keep Mangasm+ pointed at https://www.mangasm.app/plus. If lynxlogix.net DNS is ready, attach it to project `lynxlogix-net` on team GothamGanesh. Do not stand up coexist.click as a seventh marketing site tonight.
 
-### Block 3 — 60 minutes — Books, not mythology
-Goal: Export last 30 days of Stripe + App Store. Replace the planning MAR/ARR table with real cells or leave the table locked and labeled “unproven.”
+### Block 3 — 45 minutes — Honest book
+Goal: Export last 30 days of Stripe + App Store. Either replace the Owner MAR/ARR cells with real numbers or leave the veil on and write “unproven” in the public bio. That is the 1% texture: boredom and control.
 
 ## Quick wins
 
-- Grant yourself the atelier pass and read the Owner page as a skeptic
+- Open /designs.html and pick Design 01 out loud
+- Fire a test signal from /desk.html
+- Toggle the desk kill switch once so you know the closed state
+- Grant the atelier pass and read Owner as a skeptic
 - Add hello@lynxlogix.net to the real mailbox or change contact.html
-- Link this site from mangasm.app footer when you next touch that repo
-- Write tomorrow’s single feature on a card: “webhook receiver,” not “10 bots live”
 
 ## Do not spend time on today
 
-Do not wire live Coinbase, Kraken, or Phantom execution. Do not paste API secrets into Vercel env “just to see.” Do not design a tenth landing page. The house already has enough domains. One desk. One gate. One honest number.
+Do not wire live Coinbase Advanced, Kraken AddOrder, CryptoHopper live bots, or Phantom transaction signing. Do not paste exchange API secrets into Vercel “just to see.” Do not design another landing page for a domain that already has a hallway on /house.html. One desk. One gate. One honest number.
