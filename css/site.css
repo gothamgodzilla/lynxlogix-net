@@ -1,0 +1,65 @@
+:root {
+  --ink: #070707;
+  --ivory: #f3eee4;
+  --ivory-dim: #c9c2b4;
+  --gold: #c4a574;
+  --gold-2: #e4d2ae;
+  --line: rgba(196, 165, 116, 0.28);
+  --danger: #c45a5a;
+  --ok: #7d9a6a;
+  --hold: #c4a574;
+  --shadow: 0 30px 80px rgba(0, 0, 0, 0.55);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+html, body { margin: 0; background: #070707; color: var(--ivory); font-family: "Cormorant Garamond", Georgia, serif; }
+body { background-image: repeating-linear-gradient(90deg,#050505 0px,#050505 42px,#0b0b0b 42px,#0b0b0b 46px); min-height: 100vh; }
+a { color: var(--gold-2); text-decoration: none; }
+a:hover { color: #fff; }
+.wrap { width: min(1120px, calc(100% - 40px)); margin: 0 auto; }
+.nav { position: sticky; top: 0; z-index: 40; backdrop-filter: blur(16px); background: rgba(7,7,7,0.78); border-bottom: 1px solid var(--line); }
+.nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 16px 0; gap: 18px; }
+.brand { font-family: "Cinzel", serif; letter-spacing: 0.28em; font-size: 13px; color: var(--ivory); }
+.brand small { display: block; letter-spacing: 0.22em; color: var(--gold); font-size: 9px; margin-top: 4px; }
+.nav a { font-family: "Josefin Sans", sans-serif; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ivory-dim); }
+.nav-links { display: flex; gap: 18px; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--gold); color: var(--ivory); padding: 12px 18px; font-family: "Josefin Sans", sans-serif; letter-spacing: 0.16em; text-transform: uppercase; font-size: 11px; background: transparent; cursor: pointer; }
+.btn.solid { background: var(--gold); color: #111; }
+.btn:hover { background: var(--ivory); color: #111; border-color: var(--ivory); }
+.btn.ghost { border-color: #333; }
+.hero { padding: 92px 0 56px; }
+.kicker { font-family: "Josefin Sans", sans-serif; letter-spacing: 0.32em; text-transform: uppercase; font-size: 11px; color: var(--gold); }
+h1, h2, h3 { font-weight: 500; margin: 0; }
+h1 { font-size: clamp(42px, 8vw, 92px); line-height: 0.92; margin: 18px 0 22px; }
+h2 { font-size: clamp(28px, 4vw, 48px); line-height: 1.05; }
+h3 { font-size: 24px; }
+.lede { font-size: 22px; color: var(--ivory-dim); max-width: 680px; }
+.hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 32px; }
+.piano { display: grid; grid-template-columns: repeat(12, 1fr); height: 18px; margin: 48px 0 0; border: 1px solid var(--line); }
+.piano span { background: #0a0a0a; border-right: 1px solid #222; }
+.piano span:nth-child(odd) { background: #141414; }
+.section { padding: 72px 0; border-top: 1px solid var(--line); }
+.grid { display: grid; gap: 18px; }
+.grid.three { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.grid.two { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.card { background: linear-gradient(180deg, #121212, #0b0b0b); border: 1px solid #242424; padding: 24px; box-shadow: var(--shadow); }
+.card h3 { margin-bottom: 10px; }
+.muted { color: var(--ivory-dim); }
+.tiny { font-family: "Josefin Sans", sans-serif; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); }
+.stat { font-size: 36px; color: var(--gold-2); }
+.note { font-size: 14px; color: #8d877b; }
+table { width: 100%; border-collapse: collapse; font-size: 16px; }
+th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid #222; }
+th { font-family: "Josefin Sans", sans-serif; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); }
+.locked { position: relative; }
+.locked .veil { position: absolute; inset: 0; background: rgba(5,5,5,0.72); display: flex; align-items: center; justify-content: center; text-align: center; padding: 24px; }
+.ticket { border-left: 3px solid var(--gold); padding-left: 16px; margin: 16px 0; }
+.ticket.buy { border-color: var(--ok); }
+.ticket.sell { border-color: var(--danger); }
+.ticket.hold { border-color: var(--hold); }
+.row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+input, textarea, select { background: #0c0c0c; color: var(--ivory); border: 1px solid #333; padding: 12px 14px; font: inherit; width: 100%; }
+label { display: block; margin: 12px 0 6px; font-family: "Josefin Sans", sans-serif; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ivory-dim); }
+.footer { padding: 48px 0 72px; color: #8d877b; font-size: 15px; }
+.disclaimer { font-size: 13px; color: #6f6a60; max-width: 820px; }
+@media (max-width: 720px) { .nav-links { display: none; } }
