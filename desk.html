@@ -15,6 +15,7 @@
       <a class="brand" href="index.html">LYNXLOGIX<small>HUMAN GATE</small></a>
       <nav class="nav-links">
         <a href="index.html">Home</a>
+        <a href="versions.html">Versions</a>
         <a href="house.html">House</a>
         <a href="owner.html">Owner</a>
         <a href="pay.html">Pass</a>
@@ -24,13 +25,42 @@
     </div>
   </header>
   <main class="wrap" style="padding:64px 0">
-    <div class="kicker">Paper tickets only</div>
+    <div class="kicker">Version A · webhook inbox · paper tickets only</div>
     <h1>The desk.</h1>
-    <p class="lede">Three sample signals are loaded so the gate is real today. Approve writes a paper ledger. Nothing is sent to Coinbase, Kraken, or Phantom from this page.</p>
+    <p class="lede">TradingView posts here. The desk polls the inbox. You approve or kill. Nothing is sent to an exchange from this page.</p>
+    <form class="card" data-fire style="margin-top:28px">
+      <div class="tiny">Fire test signal</div>
+      <h3>Prove the hook without TradingView</h3>
+      <div class="grid three">
+        <div>
+          <label>Pair</label>
+          <input name="pair" value="BTCUSD" />
+        </div>
+        <div>
+          <label>Side</label>
+          <select name="side">
+            <option>buy</option>
+            <option>sell</option>
+            <option>hold</option>
+          </select>
+        </div>
+        <div>
+          <label>Hook key</label>
+          <input name="key" value="paper" />
+        </div>
+      </div>
+      <label>Comment</label>
+      <input name="comment" value="Manual paper test from the desk" />
+      <div class="row" style="margin-top:16px">
+        <button class="btn solid" type="submit">Post to /api/hook</button>
+        <span class="note" data-fire-status>Idle</span>
+      </div>
+      <p class="note">Production path: /api/hook?key=paper until LYNX_HOOK_KEY is set on Vercel.</p>
+    </form>
     <div class="grid two" style="margin-top:28px" data-desk></div>
   </main>
   <footer class="footer wrap">
-    <p class="disclaimer">Human-in-the-loop is the product. Wallet signing, API secrets, and mainnet execution are explicitly out of scope for this site.</p>
+    <p class="disclaimer">Human-in-the-loop is the product. Wallet signing, API secrets, and mainnet execution stay out of this site.</p>
   </footer>
   <script src="js/site.js"></script>
 </body>
