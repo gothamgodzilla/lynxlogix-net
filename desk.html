@@ -15,19 +15,37 @@
       <a class="brand" href="index.html">LYNXLOGIX<small>HUMAN GATE</small></a>
       <nav class="nav-links">
         <a href="index.html">Home</a>
+        <a href="designs.html">Designs</a>
         <a href="versions.html">Versions</a>
         <a href="house.html">House</a>
         <a href="owner.html">Owner</a>
         <a href="pay.html">Pass</a>
-        <a href="contact.html">Contact</a>
       </nav>
       <span class="tiny" data-pass-badge>Gallery view</span>
     </div>
   </header>
   <main class="wrap" style="padding:64px 0">
-    <div class="kicker">Version A · webhook inbox · paper tickets only</div>
+    <div class="kicker">Design 01 · Version A · webhook inbox · paper tickets only</div>
     <h1>The desk.</h1>
     <p class="lede">TradingView posts here. The desk polls the inbox. You approve or kill. Nothing is sent to an exchange from this page.</p>
+    <div class="grid two" style="margin-top:28px">
+      <article class="card">
+        <div class="tiny">Risk box</div>
+        <h3>Paper exposure</h3>
+        <p class="stat" data-risk-open>0.00%</p>
+        <p class="muted">Approved paper size today. Cap 1.00% per ticket, 3.00% open book until thirty paper days exist.</p>
+        <p class="note" data-risk-note>Desk open.</p>
+      </article>
+      <article class="card">
+        <div class="tiny">Kill switch</div>
+        <h3 data-desk-state>Desk open</h3>
+        <p class="muted">A closed desk still receives signals. It will not accept Approve paper. Tickets become journal lines.</p>
+        <div class="row" style="margin-top:14px">
+          <button class="btn solid" type="button" data-kill="close">Close desk</button>
+          <button class="btn" type="button" data-kill="open">Reopen desk</button>
+        </div>
+      </article>
+    </div>
     <form class="card" data-fire style="margin-top:28px">
       <div class="tiny">Fire test signal</div>
       <h3>Prove the hook without TradingView</h3>
