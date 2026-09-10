@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Three Versions — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>CHOOSE A DESK</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="desk.html">Desk</a>
+        <a href="bots.html">Ten bots</a>
+        <a href="house.html">House</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+      <a class="btn solid" href="desk.html">Open paper desk</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Human gate required · no live routing on this site</div>
+      <h1>Three ways<br/>to run the piano.</h1>
+      <p class="lede">Same law in every version: signals may be automatic. Money may not. Pick one. Do not run all three at once.</p>
+    </section>
+
+    <section class="section wrap">
+      <div class="tiny">Recommended first ship</div>
+      <h2>Version A — Signal Concierge</h2>
+      <p class="lede">TradingView alert hits a webhook. A Grok bot writes a one-page ticket. You approve, reject, or hold. The ledger records a paper fill. Nothing leaves the house.</p>
+      <div class="grid two" style="margin-top:24px">
+        <article class="card">
+          <div class="tiny">Turnkey flow</div>
+          <h3>What exists today</h3>
+          <p class="muted">Desk UI with approve / reject / hold. Sample tickets already loaded. Architecture written. Mangasm+ sales lane attached on the pass page.</p>
+        </article>
+        <article class="card">
+          <div class="tiny">What you add this week</div>
+          <h3>One webhook</h3>
+          <p class="muted">A private receiver (Vercel function or existing Ganesh worker) that accepts TradingView JSON and appends a ticket. No exchange keys.</p>
+        </article>
+      </div>
+      <p class="note" style="margin-top:18px">Best when the logic is already in your head and you want a written brief before any click on Coinbase or Kraken.</p>
+    </section>
+
+    <section class="section wrap">
+      <div class="tiny">Second ship · after 30 paper days</div>
+      <h2>Version B — Multi-venue Paper Desk</h2>
+      <p class="lede">Same tickets. Read-only windows onto Coinbase Advanced, Kraken, and a Phantom / Kraken Wallet watch address. Display balances. Never request a signature. Never store a seed.</p>
+      <div class="grid three" style="margin-top:24px">
+        <article class="card"><h3>Coinbase</h3><p class="muted">Read balances and fills in a private worker. Keys live only in that worker vault, never in this static site.</p></article>
+        <article class="card"><h3>Kraken</h3><p class="muted">Same pattern. One adapter, one permission: query. Withdraw and trade permissions stay off.</p></article>
+        <article class="card"><h3>Phantom watch</h3><p class="muted">Public address only. The desk shows SOL / tokens. A bot that can sign is a different product and is refused here.</p></article>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="tiny">Third ship · only if A and B are boring</div>
+      <h2>Version C — Dual-confirm Hopper</h2>
+      <p class="lede">A CryptoHopper or Pine script may raise a flag. Release still needs three yeses: script flag, Grok risk bot does not veto, human approve. Missing any one kills the ticket.</p>
+      <article class="card" style="margin-top:24px">
+        <div class="tiny">Why this is last</div>
+        <h3>Two machines can recommend. Only you can release.</h3>
+        <p class="muted">Hopper scripts drift. Pine alerts double-fire. Dual-confirm is how you keep sophistication without giving the night the vault.</p>
+      </article>
+    </section>
+
+    <section class="section wrap">
+      <div class="tiny">Decision card</div>
+      <h2>Your gate today</h2>
+      <table>
+        <thead><tr><th>If you want</th><th>Choose</th><th>Do not also</th></tr></thead>
+        <tbody>
+          <tr><td>A working ritual this week</td><td>A</td><td>Open Coinbase order docs</td></tr>
+          <tr><td>Venue awareness without spend</td><td>B after 30 paper days</td><td>Paste API secrets into Vercel “just to see”</td></tr>
+          <tr><td>Script + model + human</td><td>C after A and B are dull</td><td>Let Hopper auto-execute</td></tr>
+        </tbody>
+      </table>
+      <div class="hero-actions">
+        <a class="btn solid" href="desk.html">Practice the gate</a>
+        <a class="btn" href="bots.html">See the ten roles</a>
+        <a class="btn ghost" href="ARCHITECTURE.md">Read the law</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer wrap">
+    <p class="disclaimer">Not investment advice. Not a broker-dealer. “10x” on this desk means process density, not a promised return.</p>
+  </footer>
+  <script src="js/site.js"></script>
+</body>
+</html>
