@@ -11,7 +11,7 @@ Flow
 1. TradingView alert → HTTPS webhook → queue
 2. Grok bot writes a one-page ticket: pair, side, size as % of equity, invalidation, why-now, why-not
 3. You receive the ticket (site desk + email/automation)
-4. Human taps Approve paper / Reject / Hold
+4. Human types PAPER ONLY, then taps Approve paper / Reject / Hold
 5. Ledger appends. No live order.
 
 Why it wins: one integration, visible gate, you already know the logic.
@@ -49,9 +49,15 @@ Release requires:
 
 - Script flag
 - Grok risk bot does not veto
-- Human approve
+- Human approve (plus PAPER ONLY on this build)
 
 If any one is missing, the ticket dies.
+
+## Day 2 designs (11 September 2026)
+
+- Design 04 Morning Board: local brief (regime / devil / liaison) on every ticket
+- Design 05 Dual-Phrase Gate: approve requires typing PAPER ONLY
+- Design 06 Patron Hallway: after any decision, sell Mangasm+ / house pass
 
 ## Shared risk box
 
