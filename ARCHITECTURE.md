@@ -16,7 +16,9 @@ Flow
 6. Rehearse the kill on `/rehearse.html` before you need it.
 7. Witness the book on `/witness.html` (JSON + family-office card).
 8. Steward the blocks on `/steward.html`.
-9. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+9. Time the gap on `/clock.html`.
+10. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+11. Pre-write the next day on `/saturday.html` so the house does not spawn another repo.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -65,6 +67,7 @@ Day 3 afternoon — 10 Daily Close, 11 Thirty-Day Paper Scoreboard, 12 Salon Nig
 Day 3 noon — 13 Brief Factory, 14 Kill-Switch Rehearsal, 15 One Money Door
 Day 3 13:03 — 16 Witness Dossier, 17 Cathedral Card, 18 Proven vs Planned
 Day 3 14:02 — 19 Session Steward, 20 Night Ledger, 21 One Hallway
+Day 3 16:01 — 22 Patron Primer, 23 Decision Clock, 24 Saturday Board
 
 ## Shared risk box
 
@@ -82,3 +85,7 @@ Use it as **throughput of reviewed tickets** and **quality of briefs**, not as a
 ## House sales law
 
 Every hallway ends at Mangasm+ or a house gift. LynxLogix.NET does not sell coins.
+
+## Repo law
+
+Do not open a third landing repository while lynxlogix-net and house-landings are alive. Upgrade the hallway. Point custom domains at the existing Vercel projects on the GothamGanesh team.
