@@ -153,6 +153,55 @@ function renderScore() {
   root.innerHTML = cells.map((c) => `<article class="card"><div class="tiny">${c[0]}</div><p class="stat">${c[1]}</p><p class="muted">${c[2]}</p></article>`).join("");
 }
 
+function familyOfficeCard() {
+  const state = loadDesk();
+  const s = scoreDesk(state);
+  return [
+    "LYNXLOGIX.NET — PAPER WITNESS",
+    "exportedAt: " + new Date().toISOString(),
+    "executed: false",
+    "deskClosed: " + state.closed,
+    "tickets: " + s.tickets,
+    "awaiting human: " + s.awaiting,
+    "paper approved: " + s.approved,
+    "rejected: " + s.rejected,
+    "open paper %: " + s.openPct.toFixed(2),
+    "human decisions: " + s.decisions,
+    "law: signals may be automatic; money may not.",
+    "venues named on tickets are passports, not live keys."
+  ].join("\n");
+}
+
+function cathedralCard() {
+  return [
+    "Mangasm is the living product. LynxLogix.NET is the vault door that does not open itself.",
+    "If you want the home — safety-first, no data-sale ad model — start here:",
+    "https://www.mangasm.app/plus",
+    "This desk does not sell coins."
+  ].join("\n");
+}
+
+function setWitnessStatus(text) {
+  const el = document.querySelector("[data-witness-status]");
+  if (el) el.textContent = text;
+}
+
+async function copyText(text, okMsg) {
+  try {
+    await navigator.clipboard.writeText(text);
+    setWitnessStatus(okMsg);
+  } catch (_) {
+    setWitnessStatus("Copy blocked by the browser — select the preview instead.");
+  }
+}
+
+function handleWitness(e) {
+  const btn = e.target.closest("[data-witness]");
+  if (!btn) return;
+  if (btn.dataset.witness === "copy") copyText(familyOfficeCard(), "Family-office card copied.");
+  if (btn.dataset.witness === "cathedral") copyText(cathedralCard(), "Mangasm card copied.");
+}
+
 function closePhraseOk() {
   const input = document.querySelector("[data-close-phrase]");
   const typed = input ? String(input.value || "").trim().toUpperCase() : "";
@@ -240,6 +289,7 @@ function exportLedger() {
   a.download = "lynxlogix-paper-ledger.json";
   a.click();
   URL.revokeObjectURL(a.href);
+  setWitnessStatus("Witness JSON downloaded — executed: false.");
 }
 
 function resetLedger() {
@@ -256,6 +306,8 @@ function renderDesk() {
   renderPhrase();
   renderClose();
   renderScore();
+  const preview = document.querySelector("[data-cathedral-preview]");
+  if (preview) preview.textContent = cathedralCard().replace(/\n/g, " ");
   if (!root) return;
   root.innerHTML = state.signals.map((s) => {
     const brief = composeBrief(s);
@@ -408,6 +460,7 @@ document.addEventListener("DOMContentLoaded", () => {
     handleDeskClick(e);
     handlePay(e);
     handleClose(e);
+    handleWitness(e);
   });
   document.body.addEventListener("submit", (e) => {
     handleFire(e);
