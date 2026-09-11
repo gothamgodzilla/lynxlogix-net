@@ -1,4 +1,4 @@
-const STORE = { key: "lynxlogix.pass.v1", desk: "lynxlogix.desk.v3", phrase: "lynxlogix.phrase.v1" };
+const STORE = { key: "lynxlogix.pass.v1", desk: "lynxlogix.desk.v3", phrase: "lynxlogix.phrase.v1", close: "lynxlogix.close.v1" };
 
 function hasPass() {
   return localStorage.getItem(STORE.key) === "patron" || localStorage.getItem(STORE.key) === "desk";
@@ -116,6 +116,81 @@ function renderRisk(state) {
   }
 }
 
+function scoreDesk(state) {
+  const statuses = state.signals.map((s) => String(s.status || ""));
+  const log = state.log || [];
+  const has = (needle) => statuses.filter((s) => s.toLowerCase().includes(needle)).length;
+  const logHas = (needle) => log.filter((l) => String(l).toLowerCase().includes(needle)).length;
+  return {
+    tickets: state.signals.length,
+    awaiting: has("awaiting"),
+    approved: has("approved"),
+    rejected: has("rejected"),
+    held: has("held"),
+    vetoed: has("vetoed"),
+    blocked: has("blocked") + logHas(" block "),
+    closed: state.closed ? 1 : 0,
+    openPct: paperOpenPct(state),
+    decisions: log.length
+  };
+}
+
+function renderScore() {
+  const root = document.querySelector("[data-score]");
+  if (!root) return;
+  const s = scoreDesk(loadDesk());
+  const cells = [
+    ["Tickets in book", s.tickets, "Inbox + seed. Not fills."],
+    ["Awaiting human", s.awaiting, "The gate still owes a sentence."],
+    ["Paper approved", s.approved, "Would-have only. executed: false."],
+    ["Rejected", s.rejected, "A no is a completed ticket."],
+    ["Risk vetoes", s.vetoed, "Bot may speak. Bot may not spend."],
+    ["Phrase / cap blocks", s.blocked, "Dual-phrase and book cap doing work."],
+    ["Human decisions logged", s.decisions, "Throughput of reviewed thought."],
+    ["Open paper %", s.openPct.toFixed(2) + "%", "Cap 3.00% across the book."],
+    ["Desk sealed", s.closed ? "Yes" : "No", "Daily Close is a signature."]
+  ];
+  root.innerHTML = cells.map((c) => `<article class="card"><div class="tiny">${c[0]}</div><p class="stat">${c[1]}</p><p class="muted">${c[2]}</p></article>`).join("");
+}
+
+function closePhraseOk() {
+  const input = document.querySelector("[data-close-phrase]");
+  const typed = input ? String(input.value || "").trim().toUpperCase() : "";
+  return typed === "CLOSE THE DESK";
+}
+
+function renderClose() {
+  const input = document.querySelector("[data-close-phrase]");
+  const status = document.querySelector("[data-close-status]");
+  if (!input || !status) return;
+  if (!input.dataset.bound) {
+    input.value = sessionStorage.getItem(STORE.close) || "";
+    input.dataset.bound = "1";
+    input.addEventListener("input", () => {
+      sessionStorage.setItem(STORE.close, input.value);
+      renderClose();
+    });
+  }
+  status.textContent = closePhraseOk() ? "Phrase accepted — you may seal the day." : "Type CLOSE THE DESK to seal.";
+}
+
+function handleClose(e) {
+  const btn = e.target.closest("[data-close]");
+  if (!btn) return;
+  const status = document.querySelector("[data-close-status]");
+  if (!closePhraseOk()) {
+    if (status) status.textContent = "Blocked — type CLOSE THE DESK.";
+    return;
+  }
+  const state = loadDesk();
+  state.closed = true;
+  state.log.unshift(new Date().toISOString() + " CLOSE sealed by human — executed: false");
+  saveDesk(state);
+  renderDesk();
+  renderScore();
+  if (status) status.textContent = "Day sealed. Approvals blocked until reopen.";
+}
+
 function mergeInbox(remote) {
   if (!Array.isArray(remote) || !remote.length) return;
   const state = loadDesk();
@@ -139,6 +214,7 @@ async function pollInbox() {
     const data = await res.json();
     mergeInbox(data.signals || []);
     renderDesk();
+    renderScore();
     if (status && status.dataset.hold !== "1") status.textContent = "Inbox " + (data.count || 0) + " warm";
   } catch (_) {
     if (status && status.dataset.hold !== "1") status.textContent = "Inbox unreachable — local ledger only";
@@ -154,6 +230,8 @@ function exportLedger() {
     openPaperPct: paperOpenPct(state),
     deskClosed: state.closed,
     phraseGate: "PAPER ONLY required",
+    closeGate: "CLOSE THE DESK required",
+    score: scoreDesk(state),
     signals: state.signals,
     log: state.log
   }, null, 2)], { type: "application/json" });
@@ -168,6 +246,7 @@ function resetLedger() {
   if (!confirm("Reset the local paper book on this browser? This does not touch any exchange.")) return;
   localStorage.removeItem(STORE.desk);
   renderDesk();
+  renderScore();
 }
 
 function renderDesk() {
@@ -175,6 +254,8 @@ function renderDesk() {
   const state = loadDesk();
   renderRisk(state);
   renderPhrase();
+  renderClose();
+  renderScore();
   if (!root) return;
   root.innerHTML = state.signals.map((s) => {
     const brief = composeBrief(s);
@@ -326,6 +407,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.body.addEventListener("click", (e) => {
     handleDeskClick(e);
     handlePay(e);
+    handleClose(e);
   });
   document.body.addEventListener("submit", (e) => {
     handleFire(e);
