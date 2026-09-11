@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Night Ledger — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>NIGHT LEDGER</small></a>
+      <nav class="nav-links">
+        <a href="steward.html">Steward</a>
+        <a href="close.html">Close</a>
+        <a href="score.html">Score</a>
+        <a href="witness.html">Witness</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+      <a class="btn solid" href="close.html">Seal the desk</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Friday 11 September 2026 · Design 20</div>
+      <h1>Dusk is a
+        <br/>signature.</h1>
+      <p class="lede">Family offices do not want a P&L screenshot. They want one page that says what was reviewed, what was refused, and that no machine spent the vault.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <div class="tiny">Compose</div>
+      <label for="night-line">One proven sentence for the month</label>
+      <textarea id="night-line" data-night-line rows="3" placeholder="Example: Stripe export this month is $0. Paper desk ran. No live keys."></textarea>
+      <div class="hero-actions">
+        <button class="btn solid" data-night="compose">Compose night page</button>
+        <button class="btn" data-night="copy">Copy night page</button>
+        <button class="btn ghost" data-night="print">Print / PDF</button>
+      </div>
+      <p class="note" data-night-status>Nothing here is a fill. executed: false.</p>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Preview</div>
+        <pre class="muted" data-night-preview style="white-space:pre-wrap;font-family:inherit;font-size:18px;line-height:1.45"></pre>
+      </article>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">Night ledger is process evidence. It is not a valuation and not investment advice.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day3pm.js"></script>
+</body>
+</html>
