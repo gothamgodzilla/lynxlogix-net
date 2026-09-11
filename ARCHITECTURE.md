@@ -14,7 +14,8 @@ Flow
 4. Human types PAPER ONLY, then taps Approve paper / Reject / Hold
 5. Ledger appends. No live order.
 6. Rehearse the kill on `/rehearse.html` before you need it.
-7. End of session: Daily Close on /close.html. Type CLOSE THE DESK.
+7. Witness the book on `/witness.html` (JSON + family-office card).
+8. End of session: Daily Close on /close.html. Type CLOSE THE DESK.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -61,6 +62,7 @@ Day 2 — 04 Morning Board, 05 Dual-Phrase Gate, 06 Patron Hallway
 Day 3 morning — 07 Venue Passport, 08 Family Office Packet, 09 Quiet Room
 Day 3 afternoon — 10 Daily Close, 11 Thirty-Day Paper Scoreboard, 12 Salon Night
 Day 3 noon — 13 Brief Factory, 14 Kill-Switch Rehearsal, 15 One Money Door
+Day 3 13:03 — 16 Witness Dossier, 17 Cathedral Card, 18 Proven vs Planned
 
 ## Shared risk box
 
