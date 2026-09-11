@@ -15,7 +15,8 @@ Flow
 5. Ledger appends. No live order.
 6. Rehearse the kill on `/rehearse.html` before you need it.
 7. Witness the book on `/witness.html` (JSON + family-office card).
-8. End of session: Daily Close on /close.html. Type CLOSE THE DESK.
+8. Steward the blocks on `/steward.html`.
+9. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -63,6 +64,7 @@ Day 3 morning — 07 Venue Passport, 08 Family Office Packet, 09 Quiet Room
 Day 3 afternoon — 10 Daily Close, 11 Thirty-Day Paper Scoreboard, 12 Salon Night
 Day 3 noon — 13 Brief Factory, 14 Kill-Switch Rehearsal, 15 One Money Door
 Day 3 13:03 — 16 Witness Dossier, 17 Cathedral Card, 18 Proven vs Planned
+Day 3 14:02 — 19 Session Steward, 20 Night Ledger, 21 One Hallway
 
 ## Shared risk box
 
