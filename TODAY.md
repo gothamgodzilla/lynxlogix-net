@@ -1,39 +1,39 @@
-# Friday 11 September 2026 — 09:08 PDT morning pass
+# Friday 11 September 2026 — 10:06 PDT — Day 3
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
 Hook: POST /api/hook?key=paper
 Team: GothamGanesh · project `lynxlogix-net`
 
-This is Day 2 of the same desk. Do not open a second crypto repo.
+This is Day 3 of the same desk. Version A still runs. Designs 01–06 stay in force.
 
 ## Today's three designs
 
-1. Design 04 — Morning Board (shipped): every ticket now carries a local Grok brief — regime, devil, risk line — before you touch the key.
-2. Design 05 — Dual-Phrase Gate (shipped): Approve paper requires typing PAPER ONLY. The gate is slower on purpose.
-3. Design 06 — Patron Hallway (shipped): after any decision, Bot 08 offers Mangasm+ / house pass. Sales, not execution.
+1. Design 07 — Venue Passport (ship): Coinbase Advanced, Kraken, Phantom, Kraken Wallet, TradingView, Hopper each get a paper/read-only card. No live keys.
+2. Design 08 — Family Office Packet (ship): a printable weekly brief from the local paper book. Wealth wants a file, not a dashboard scream.
+3. Design 09 — Quiet Room (ship): UHNW invitation texture. After the packet, sell Mangasm+ and the $2,500 seat — never a coin.
 
 Keep Version A as the running system. B and C stay paper architecture.
 
 ## Deep-work blocks today
 
-### Block 1 — 50 minutes — Prove the slower gate
-Goal: Open /desk.html. Fire one test signal. Read the Morning Board lines. Type PAPER ONLY. Approve. Export the ledger. Confirm the JSON still says executed: false.
+### Block 1 — 55 minutes — Prove the packet
+Goal: Open /desk.html. Fire one paper signal. Type PAPER ONLY. Approve or reject. Open /packet.html. Print or save the weekly packet. Confirm it still says executed: false.
 
-### Block 2 — 40 minutes — Money doors only
-Goal: Paste a real Stripe Payment Link into pay.html for House gift. Keep Mangasm+ pointed at https://www.mangasm.app/plus. If lynxlogix.net DNS is ready, attach it to project `lynxlogix-net` on team GothamGanesh. Do not stand up coexist.click as a seventh marketing site.
+### Block 2 — 40 minutes — One money door
+Goal: Paste a real Stripe Payment Link into pay.html for House gift, or leave the atelier key and send one person to https://www.mangasm.app/plus. Attach lynxlogix.net DNS only if the name is ready. Do not invent a second checkout stack.
 
-### Block 3 — 30 minutes — One honest number
-Goal: Export last 30 days of Stripe + App Store. Either replace Owner MAR/ARR cells with real numbers or leave the veil and the word unproven.
+### Block 3 — 35 minutes — House map, not house sprawl
+Goal: Walk /house.html and /venues.html. Confirm every hallway still ends at Mangasm+ or the house pass. If a sister landing is needed, use the single `house-landings` repo — not six new brand systems.
 
 ## Quick wins
 
-- Open /today.html and read the law out loud
-- Open /designs.html and pick Design 05 as today's operating key
-- Toggle the desk kill switch once, then try to approve (it must block)
-- Walk /house.html and confirm every hallway still ends at Mangasm+
-- Confirm hello@lynxlogix.net lands in a real mailbox
+- Read /today.html out loud
+- Pick Design 07 on /designs.html as today's operating sketch
+- Toggle kill switch, try Approve, confirm block
+- Open /packet.html and print to PDF
+- Send one Mangasm+ link from the Quiet Room
 
 ## Do not spend time on today
 
-Do not wire live Coinbase Advanced, Kraken AddOrder, CryptoHopper live bots, or Phantom transaction signing. Do not paste exchange API secrets into Vercel. Do not create another landing repo for a domain that already has a hallway on /house.html. One desk. One gate. One honest number.
+Do not wire live Coinbase Advanced, Kraken AddOrder, CryptoHopper live bots, or Phantom transaction signing. Do not paste exchange API secrets into Vercel. Do not promise 10x returns. “10x” remains process quality only.
