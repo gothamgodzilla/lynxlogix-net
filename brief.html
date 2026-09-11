@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brief Factory — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>BRIEF FACTORY</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="bots.html">Ten bots</a>
+        <a href="desk.html">Desk</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Design 13 · Day 3 noon · Grok writes, you press</div>
+      <h1>Ten voices.<br/>One ticket.</h1>
+      <p class="lede">This is the systematic Grok-bot workflow. Fill the stub. Copy the pack. Paste it into Grok. The desk still requires PAPER ONLY before anything is marked approved — and approved still means paper.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <form class="card" data-brief-form style="max-width:720px">
+        <label>Pair</label>
+        <input name="pair" value="BTC-USD" required />
+        <label>Side the signal claims</label>
+        <select name="side">
+          <option>buy</option>
+          <option>sell</option>
+          <option>hold</option>
+        </select>
+        <label>Venue (paper / watch only)</label>
+        <select name="venue">
+          <option>Coinbase Advanced (paper)</option>
+          <option>Kraken (paper)</option>
+          <option>Phantom watch (read-only)</option>
+          <option>Kraken Wallet watch (read-only)</option>
+        </select>
+        <label>Source</label>
+        <select name="source">
+          <option>TradingView webhook</option>
+          <option>CryptoHopper script flag</option>
+          <option>Manual desk</option>
+        </select>
+        <label>Raw note from the chart or script</label>
+        <textarea name="note" rows="4">4h close above range. Volume expansion. Not a guarantee.</textarea>
+        <div class="row" style="margin-top:18px">
+          <button class="btn solid" type="submit">Compose ten-voice pack</button>
+          <a class="btn" href="desk.html">Send the human to the desk</a>
+        </div>
+      </form>
+      <article class="card" style="margin-top:22px">
+        <div class="tiny">Copy pack</div>
+        <h3>Paste this into Grok</h3>
+        <p class="note" data-brief-status>Waiting for a stub.</p>
+        <textarea data-brief-out rows="22" readonly placeholder="The pack lands here."></textarea>
+        <div class="row" style="margin-top:14px">
+          <button class="btn solid" type="button" data-brief-copy>Copy pack</button>
+          <a class="btn ghost" href="https://www.mangasm.app/plus">After the brief, sell Mangasm+</a>
+        </div>
+      </article>
+    </section>
+    <section class="section wrap">
+      <div class="tiny">Law of the factory</div>
+      <h2>What the pack is allowed to do.</h2>
+      <div class="grid three" style="margin-top:22px">
+        <article class="card"><h3>Write</h3><p class="muted">Regime, veto, size as % of equity, devil, compliance tone, journal line.</p></article>
+        <article class="card"><h3>Never spend</h3><p class="muted">No Coinbase order, no Kraken AddOrder, no Phantom signature, no seed field.</p></article>
+        <article class="card"><h3>Always sell the house</h3><p class="muted">Liaison bot ends every pack with Mangasm+ — never a coin.</p></article>
+      </div>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">The factory produces briefs. It does not produce fills. Not investment advice.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day3noon.js"></script>
+</body>
+</html>
