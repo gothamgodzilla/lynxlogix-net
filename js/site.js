@@ -98,6 +98,30 @@ async function pollInbox() {
   }
 }
 
+function exportLedger() {
+  const state = loadDesk();
+  const blob = new Blob([JSON.stringify({
+    exportedAt: new Date().toISOString(),
+    paper: true,
+    executed: false,
+    openPaperPct: paperOpenPct(state),
+    deskClosed: state.closed,
+    signals: state.signals,
+    log: state.log
+  }, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "lynxlogix-paper-ledger.json";
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function resetLedger() {
+  if (!confirm("Reset the local paper book on this browser? This does not touch any exchange.")) return;
+  localStorage.removeItem(STORE.desk);
+  renderDesk();
+}
+
 function renderDesk() {
   const root = document.querySelector("[data-desk]");
   const state = loadDesk();
@@ -126,6 +150,12 @@ function renderDesk() {
 }
 
 function handleDeskClick(e) {
+  const ledger = e.target.closest("[data-ledger]");
+  if (ledger) {
+    if (ledger.dataset.ledger === "export") exportLedger();
+    if (ledger.dataset.ledger === "reset") resetLedger();
+    return;
+  }
   const kill = e.target.closest("[data-kill]");
   if (kill) {
     const state = loadDesk();
