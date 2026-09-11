@@ -9,11 +9,12 @@ No version below stores a seed phrase, signs a Phantom transaction unattended, o
 Flow
 
 1. TradingView alert → HTTPS webhook → queue
-2. Grok bot writes a one-page ticket: pair, side, size as % of equity, invalidation, why-now, why-not
+2. Brief Factory (`/brief.html`) or Grok bot writes a one-page ticket: pair, side, size as % of equity, invalidation, why-now, why-not
 3. You receive the ticket (site desk + email/automation)
 4. Human types PAPER ONLY, then taps Approve paper / Reject / Hold
 5. Ledger appends. No live order.
-6. End of session: Daily Close on /close.html. Type CLOSE THE DESK.
+6. Rehearse the kill on `/rehearse.html` before you need it.
+7. End of session: Daily Close on /close.html. Type CLOSE THE DESK.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -59,15 +60,21 @@ If any one is missing, the ticket dies.
 Day 2 — 04 Morning Board, 05 Dual-Phrase Gate, 06 Patron Hallway
 Day 3 morning — 07 Venue Passport, 08 Family Office Packet, 09 Quiet Room
 Day 3 afternoon — 10 Daily Close, 11 Thirty-Day Paper Scoreboard, 12 Salon Night
+Day 3 noon — 13 Brief Factory, 14 Kill-Switch Rehearsal, 15 One Money Door
 
 ## Shared risk box
 
 - Max 0.25–1.00% equity per ticket until 30 paper days exist
 - Daily loss stop pauses new tickets
 - Kill switch is a single “desk closed” flag plus the Daily Close phrase
+- Monthly rehearsal of the kill is required texture, not optional theater
 - No market-order language on first live week if you later add a private execution worker
 - Record every “would have” fill in paper for 30 days before considering a private execution worker
 
 ## Honest meaning of “sell 10x”
 
 Use it as **throughput of reviewed tickets** and **quality of briefs**, not as a return claim. Advertising 10x profit is how desks become defendants.
+
+## House sales law
+
+Every hallway ends at Mangasm+ or a house gift. LynxLogix.NET does not sell coins.
