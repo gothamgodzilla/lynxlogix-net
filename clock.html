@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Decision Clock — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>DECISION CLOCK</small></a>
+      <nav class="nav-links">
+        <a href="today.html">Today</a>
+        <a href="desk.html">Desk</a>
+        <a href="witness.html">Witness</a>
+        <a href="steward.html">Steward</a>
+      </nav>
+      <a class="btn solid" href="desk.html">Decide one ticket</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Friday 11 September 2026 · 16:01 PDT · Design 23</div>
+      <h1>How long did<br/>the human take?</h1>
+      <p class="lede">A sophisticated desk is not faster orders. It is a measured gap between a signal landing and a sentence being written. This clock never talks to Coinbase.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <div class="tiny">Paper latency</div>
+      <div class="grid three" style="margin-top:22px" data-clock-stats></div>
+      <p class="note" data-clock-status style="margin-top:18px">Local ledger only. executed: false.</p>
+      <div class="hero-actions">
+        <button class="btn solid" data-clock="refresh">Recount the book</button>
+        <button class="btn" data-clock="copy">Copy clock card</button>
+        <a class="btn ghost" href="saturday.html">Write Saturday</a>
+      </div>
+    </section>
+    <section class="section wrap">
+      <div class="tiny">Human ledger, timed</div>
+      <div data-clock-log></div>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">Latency is a process metric. It is not alpha. Fast wrong decisions still lose money.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day3dusk.js"></script>
+</body>
+</html>
