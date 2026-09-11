@@ -1,18 +1,19 @@
-# Friday 11 September 2026 — 12:01 PDT — Day 3 noon close
+# Friday 11 September 2026 — 13:03 PDT — Day 3 afternoon
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
 Hook: POST /api/hook?key=paper
 Team: GothamGanesh · project `lynxlogix-net`
-Sister hallways: https://github.com/gothamgodzilla/house-landings · live project `house-landings`
+Sister hallways: https://github.com/gothamgodzilla/house-landings
+Mangasm (sales door): https://www.mangasm.app/plus
 
-Version A still runs. Designs 01–12 stay in force. Noon ships 13–15.
+Version A still runs. Designs 01–15 stay in force. Afternoon ships 16–18.
 
-## Today's three designs (noon pick)
+## Today's three designs (13:03 pick)
 
-1. Design 13 — Brief Factory (ship): the actual Grok-bot system. Ten role prompts, one ticket schema, one copy pack. Bots write. You decide.
-2. Design 14 — Kill-Switch Rehearsal (ship): wealth rehearses the close before it needs the close. Type REHEARSE THE KILL. Score the drill. Do not wait for a red day.
-3. Design 15 — One Money Door (ship): after every brief and every drill, the only product sold is Mangasm+ or a house gift. Never a coin. Never a second checkout stack.
+1. Design 16 — Witness Dossier (ship): UHNW texture. Export the paper book as a witness file. Family office sees process, not a casino chart.
+2. Design 17 — Cathedral Card (ship): after every witness export, the only outbound card is Mangasm+. Never a coin. Never a second checkout stack.
+3. Design 18 — Proven vs Planned (ship): planning MAR/ARR stays behind the pass and stays labeled unproven. Do not publish hope as cash.
 
 Keep Version A as the running system. B and C stay paper architecture.
 
@@ -22,27 +23,27 @@ Keep Version A as the running system. B and C stay paper architecture.
 - Version B · after 30 paper days — Multi-venue Paper Desk. Coinbase, Kraken, Phantom as read-only passports. Live keys never on this site.
 - Version C · last — Dual-confirm Hopper. Script flag + Grok veto + human. Two machines may recommend. Only you release.
 
-Recommendation: stay on A. “10x” means ten times the process quality — briefs, risk, venues, ledger — not a promised return.
+Recommendation: stay on A. “10x” means ten times the process quality — briefs, risk, venues, ledger, witness — not a promised return.
 
-## Deep-work blocks today
+## Deep-work blocks today (afternoon remaining)
 
-### Block 1 — 45 minutes — Prove the factory
-Goal: Open /brief.html. Generate one ten-voice pack for BTC-USD. Paste it into a Grok thread if you want. Drop the resulting ticket on /desk.html (or fire /api/hook). Type PAPER ONLY. Approve or kill. Confirm executed: false.
+### Block 1 — 40 minutes — Witness the book
+Goal: Open /desk.html. Type PAPER ONLY. Decide one ticket. Open /witness.html. Download the JSON witness. Confirm the file says executed: false.
 
-### Block 2 — 30 minutes — Rehearse the close
-Goal: Open /rehearse.html. Type REHEARSE THE KILL. Confirm the drill writes to the scoreboard. Then open /close.html and decide whether to actually seal the desk for the rest of Friday.
+### Block 2 — 25 minutes — Send the cathedral
+Goal: Copy the Mangasm card from /witness.html. Send it to one real person. Live checkout is https://www.mangasm.app/plus — do not invent Whop + Apple + a token today.
 
-### Block 3 — 30 minutes — One money door
-Goal: Send one real person to https://www.mangasm.app/plus. If you have a Stripe Payment Link for House gift, paste it into pay.html. Do not invent Whop + Stripe + Apple + a token. Do not price a coin.
+### Block 3 — 25 minutes — Honest book
+Goal: Open /owner.html. Grant the local pass if you need the planning table. Write one sentence of what is *proven* this month (Stripe export or “zero”). Do not raise the planning ARR cells.
 
 ## Quick wins
 
 - Read /today.html out loud
-- Pick Design 13 on /designs.html as the noon operating sketch
-- Copy one Brief Factory pack
-- Run one rehearsal phrase
-- Send one Mangasm+ link from /salon.html or /pay.html
+- Pick Design 16 on /designs.html
+- Export one witness file
+- Send one Mangasm+ link
+- Leave the six other brand rebuilds closed
 
 ## Do not spend time on today
 
-Do not wire live Coinbase Advanced, Kraken AddOrder, CryptoHopper live bots, or Phantom transaction signing. Do not paste exchange API secrets into Vercel. Do not promise 10x returns. Do not publish the owner MAR/ARR table as proven cash. Do not rebuild Mangasm.app from this desk today. Do not stand up six new brand systems.
+Do not wire live Coinbase Advanced, Kraken AddOrder, CryptoHopper live bots, or Phantom transaction signing. Do not paste exchange API secrets into Vercel. Do not promise 10x returns. Do not publish the owner MAR/ARR table as proven cash. Do not rebuild Mangasm.app, Coexist.llc, Coexist.Click, Ganesh.Guru, and LynxLogix.AI as six new systems today. Upgrade this hallway only.
