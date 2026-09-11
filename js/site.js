@@ -1,4 +1,4 @@
-const STORE = { key: "lynxlogix.pass.v1", desk: "lynxlogix.desk.v3" };
+const STORE = { key: "lynxlogix.pass.v1", desk: "lynxlogix.desk.v3", phrase: "lynxlogix.phrase.v1" };
 
 function hasPass() {
   return localStorage.getItem(STORE.key) === "patron" || localStorage.getItem(STORE.key) === "desk";
@@ -20,10 +20,31 @@ function renderLocks() {
 
 function seedSignals() {
   return [
-    { id: "TV-0910-A", source: "TradingView webhook (paper)", pair: "BTC-USD", side: "buy", venue: "Coinbase Advanced", size: "0.25%", reason: "4h close above range + volume expansion. Not a guarantee.", risk: "Stop conceptually 1.4R under signal bar. Cap 0.25% equity.", status: "awaiting human" },
-    { id: "CH-0910-B", source: "CryptoHopper-style script flag (paper)", pair: "ETH-USD", side: "hold", venue: "Kraken", size: "0%", reason: "Script fired, Grok risk desk vetoed: funding crowded, spread wide.", risk: "No ticket. Log only.", status: "vetoed by risk bot" },
-    { id: "PH-0910-C", source: "Phantom watchlist (read-only)", pair: "SOL-USD", side: "sell", venue: "Kraken / Phantom (watch)", size: "0.25%", reason: "Mean-reversion after extension. Human must confirm before any live wallet action.", risk: "Never auto-sign a wallet. Seed phrases never enter this system.", status: "awaiting human" }
+    { id: "TV-0911-A", source: "TradingView webhook (paper)", pair: "BTC-USD", side: "buy", venue: "Coinbase Advanced", size: "0.25%", reason: "4h close above range + volume expansion. Not a guarantee.", risk: "Stop conceptually 1.4R under signal bar. Cap 0.25% equity.", status: "awaiting human" },
+    { id: "CH-0911-B", source: "CryptoHopper-style script flag (paper)", pair: "ETH-USD", side: "hold", venue: "Kraken", size: "0%", reason: "Script fired, Grok risk desk vetoed: funding crowded, spread wide.", risk: "No ticket. Log only.", status: "vetoed by risk bot" },
+    { id: "PH-0911-C", source: "Phantom watchlist (read-only)", pair: "SOL-USD", side: "sell", venue: "Kraken / Phantom (watch)", size: "0.25%", reason: "Mean-reversion after extension. Human must confirm before any live wallet action.", risk: "Never auto-sign a wallet. Seed phrases never enter this system.", status: "awaiting human" }
   ];
+}
+
+function composeBrief(sig) {
+  const pair = String(sig.pair || "UNKNOWN");
+  const side = String(sig.side || "hold").toLowerCase();
+  const source = String(sig.source || "").toLowerCase();
+  let weather = "range";
+  if (source.includes("hopper") || side === "hold") weather = "crowded / veto-leaning";
+  else if (side === "buy") weather = "trend attempt";
+  else if (side === "sell") weather = "extension / mean-revert";
+  const devil =
+    side === "buy"
+      ? "Breakouts fail in quiet tape. A 4h close can be a stop hunt. If you cannot name invalidation in one sentence, this is fashion."
+      : side === "sell"
+        ? "Extensions can extend. Selling strength because it looks expensive is how books get run over. Watch-only wallets are not exits."
+        : "A hold that still occupies attention is a hidden position. If risk vetoed it, do not dress it as patience.";
+  return {
+    regime: "Regime: " + weather + " on " + pair + ". Size stays a percent of equity.",
+    devil: "Devil: " + devil,
+    liaison: "Liaison: after you decide, the living product is Mangasm+ — not a coin."
+  };
 }
 
 function loadDesk() {
@@ -52,6 +73,32 @@ function paperOpenPct(state) {
   return state.signals
     .filter((s) => String(s.status || "").startsWith("approved"))
     .reduce((sum, s) => sum + parseSize(s.size), 0);
+}
+
+function phraseOk() {
+  const input = document.querySelector("[data-phrase]");
+  const typed = input ? String(input.value || "").trim().toUpperCase() : String(sessionStorage.getItem(STORE.phrase) || "").toUpperCase();
+  return typed === "PAPER ONLY";
+}
+
+function renderPhrase() {
+  const input = document.querySelector("[data-phrase]");
+  const status = document.querySelector("[data-phrase-status]");
+  if (!input || !status) return;
+  if (!input.dataset.bound) {
+    input.value = sessionStorage.getItem(STORE.phrase) || "";
+    input.dataset.bound = "1";
+    input.addEventListener("input", () => {
+      sessionStorage.setItem(STORE.phrase, input.value);
+      renderPhrase();
+    });
+  }
+  status.textContent = phraseOk() ? "Phrase accepted — paper approvals allowed." : "Phrase empty or wrong — type PAPER ONLY.";
+}
+
+function showHallway() {
+  const el = document.querySelector("[data-hallway]");
+  if (el) el.style.display = "block";
 }
 
 function renderRisk(state) {
@@ -106,6 +153,7 @@ function exportLedger() {
     executed: false,
     openPaperPct: paperOpenPct(state),
     deskClosed: state.closed,
+    phraseGate: "PAPER ONLY required",
     signals: state.signals,
     log: state.log
   }, null, 2)], { type: "application/json" });
@@ -126,12 +174,16 @@ function renderDesk() {
   const root = document.querySelector("[data-desk]");
   const state = loadDesk();
   renderRisk(state);
+  renderPhrase();
   if (!root) return;
-  root.innerHTML = state.signals.map((s) => `
+  root.innerHTML = state.signals.map((s) => {
+    const brief = composeBrief(s);
+    return `
     <article class="card ticket ${s.side}">
       <div class="tiny">${s.id} · ${s.source}</div>
       <h3>${String(s.side || "hold").toUpperCase()} ${s.pair}</h3>
       <p class="muted">${s.reason || ""}</p>
+      <p class="note">${brief.regime}<br>${brief.devil}<br>${brief.liaison}</p>
       <p class="note">${s.venue || "paper"} · size ${s.size || "n/a"}${s.price ? " · " + s.price : ""}<br>${s.risk || ""}</p>
       <p class="tiny">${s.status}</p>
       <div class="row" style="margin-top:14px">
@@ -140,7 +192,8 @@ function renderDesk() {
         <button class="btn ghost" data-act="note" data-id="${s.id}">Hold for later</button>
       </div>
     </article>
-  `).join("") + `
+  `;
+  }).join("") + `
     <article class="card">
       <div class="tiny">Human ledger</div>
       <h3>Decisions</h3>
@@ -173,7 +226,10 @@ function handleDeskClick(e) {
   const stamp = new Date().toISOString();
   const act = btn.dataset.act;
   if (act === "approve") {
-    if (state.closed) {
+    if (!phraseOk()) {
+      sig.status = "blocked — type PAPER ONLY";
+      state.log.unshift(stamp + " BLOCK " + sig.id + " dual-phrase gate");
+    } else if (state.closed) {
       sig.status = "blocked — desk closed";
       state.log.unshift(stamp + " BLOCK " + sig.id + " desk closed — would-have only");
     } else if (parseSize(sig.size) > 1) {
@@ -186,12 +242,15 @@ function handleDeskClick(e) {
       sig.status = "approved — paper only";
       state.log.unshift(stamp + " APPROVE " + sig.id + " " + sig.side + " " + sig.pair + " — no live order routed.");
     }
+    showHallway();
   } else if (act === "reject") {
     sig.status = "rejected by human";
     state.log.unshift(stamp + " REJECT " + sig.id);
+    showHallway();
   } else {
     sig.status = "held";
     state.log.unshift(stamp + " HOLD " + sig.id);
+    showHallway();
   }
   saveDesk(state);
   renderDesk();
