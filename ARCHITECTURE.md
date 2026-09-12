@@ -13,7 +13,7 @@ Flow
 3. You receive the ticket (site desk + email/automation)
 4. Human types PAPER ONLY, then taps Approve paper / Reject / Hold
 5. Ledger appends. No live order.
-6. Saturday cap: one ticket only (`/one.html`).
+6. Saturday cap: one ticket only (`/one.html`). Seal the weekend on `/seal.html`.
 7. Treasury split (`/treasury.html`): product cash never recapitalizes the paper sleeve.
 8. Domains bind to living Vercel projects (`/domains.html`). No seventh repo.
 9. Seat the ten voices on `/orchestra.html` before the key.
@@ -30,7 +30,10 @@ Flow
 20. Dusk the book on `/dusk.html` with DUSK THE BOOK.
 21. Constrain SuperClaude / OpenCode on `/opencode.html` with KEEP THE HOUSE.
 22. Reserve one patron hour on `/hour.html`. No chart.
-23. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+23. Seal Saturday on `/seal.html` with SEAL SATURDAY.
+24. Write the sales liaison brief on `/sales.html` with SELL THE HOME.
+25. Stamp venue readiness on `/ready.html` with KEYS STAY DARK.
+26. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -87,6 +90,7 @@ Day 4 10:18 — 34 Ten-Bot Score, 35 UHNW Quiet Desk, 36 Planning Book Seal
 Day 4 11:08 — 37 Paper Tape, 38 Concierge Card, 39 Noon Bell
 Day 4 12:05 — 40 After-Bell Receipt, 41 Patron Door Count, 42 Evening Watch
 Day 4 13:00 — 43 Dusk After-Action, 44 SuperClaude / OpenCode Room, 45 One Patron Hour
+Day 4 14:15 — 46 Saturday Seal, 47 Sales Liaison Brief, 48 Venue Readiness Card
 
 ## Shared risk box
 
@@ -100,6 +104,9 @@ Day 4 13:00 — 43 Dusk After-Action, 44 SuperClaude / OpenCode Room, 45 One Pat
 - Dusk book: three lines, phrase DUSK THE BOOK
 - OpenCode: phrase KEEP THE HOUSE, no third repo
 - Patron hour: one reserved conversation, no chart
+- Saturday seal: phrase SEAL SATURDAY
+- Sales brief: phrase SELL THE HOME, no ticker
+- Venue card: phrase KEYS STAY DARK
 - No market-order language on first live week if you later add a private execution worker
 - Record every “would have” fill in paper for 30 days before considering a private execution worker
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
