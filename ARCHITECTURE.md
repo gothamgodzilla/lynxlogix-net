@@ -16,9 +16,12 @@ Flow
 6. Saturday cap: one ticket only (`/one.html`).
 7. Treasury split (`/treasury.html`): product cash never recapitalizes the paper sleeve.
 8. Domains bind to living Vercel projects (`/domains.html`). No seventh repo.
-9. Rehearse the kill on `/rehearse.html` before you need it.
-10. Witness the book on `/witness.html`.
-11. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+9. Seat the ten voices on `/orchestra.html` before the key.
+10. Quiet desk on `/wealth.html` sells Mangasm+, not coins.
+11. Planning book on `/book.html` stays labeled a model.
+12. Rehearse the kill on `/rehearse.html` before you need it.
+13. Witness the book on `/witness.html`.
+14. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -71,6 +74,7 @@ Day 3 16:01 — 22 Patron Primer, 23 Decision Clock, 24 Saturday Board
 Day 3 17:10 — 25 Evening Audit, 26 Patron Letter, 27 Dry-Run Passport
 Day 3 18:16 — 28 Family Office Mandate, 29 Rebuild Invitation, 30 Signal Grammar
 Day 4 09:18 — 31 House Treasury Split, 32 Single Paper Ticket, 33 Domain Binding Law
+Day 4 10:18 — 34 Ten-Bot Score, 35 UHNW Quiet Desk, 36 Planning Book Seal
 
 ## Shared risk box
 
