@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Single Paper Ticket — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>ONE TICKET</small></a>
+      <nav class="nav-links">
+        <a href="desk.html">Desk</a>
+        <a href="grammar.html">Grammar</a>
+        <a href="witness.html">Witness</a>
+        <a href="treasury.html">Treasury</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Saturday 12 September 2026 · Design 32</div>
+      <h1>One ticket.<br/>Then the lid closes.</h1>
+      <p class="lede">Saturday is not a scan day. Type PAPER ONLY. Choose. Export the witness. A second ticket is a violation of the board Friday already wrote.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="phrase">Gate phrase</label>
+      <input id="phrase" data-one-phrase placeholder="Type PAPER ONLY" />
+      <label for="note">Ticket in one sentence</label>
+      <textarea id="note" data-one-note rows="3" placeholder="Pair, side, size as % of paper sleeve, invalidation."></textarea>
+      <div class="hero-actions">
+        <button class="btn solid" data-one="approve">Approve paper</button>
+        <button class="btn" data-one="reject">Reject</button>
+        <button class="btn ghost" data-one="hold">Hold</button>
+      </div>
+      <p class="note" data-one-status>No Saturday ticket sealed yet.</p>
+      <div class="hero-actions">
+        <a class="btn" href="desk.html">Full desk if you need the ledger</a>
+        <a class="btn ghost" href="witness.html">Export witness</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">This page cannot place a live order. executed remains false.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day4.js"></script>
+</body>
+</html>
