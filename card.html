@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Concierge Card — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>CONCIERGE CARD</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="wealth.html">Quiet desk</a>
+        <a href="invite.html">Invitation</a>
+        <a href="pay.html">Pass</a>
+        <a href="https://www.mangasm.app/plus">Mangasm+</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Saturday 12 September 2026 · Design 38 · sales door</div>
+      <h1>One card.<br/>No ticker.</h1>
+      <p class="lede">The wealthy do not want a coin pitch from the house that rebuilds belonging. Name the patron. Copy the card. Send Mangasm+ or the house pass. If a pair name appears in the draft, the card is void.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="card-who">Patron or house</label>
+      <input id="card-who" data-card-who placeholder="First name or house only" />
+      <label for="card-note">Private line (optional, no pairs)</label>
+      <input id="card-note" data-card-note placeholder="We kept the hallway quiet." />
+      <div class="hero-actions">
+        <button class="btn solid" data-card-seal>Seal the card</button>
+        <button class="btn" data-card-copy>Copy card</button>
+        <a class="btn ghost" href="https://www.mangasm.app/plus">Open Mangasm+</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Sendable copy</div>
+        <p class="lede" data-card-out>Name the patron to seal a card. The draft will never mention BTC, ETH, SOL, or a return.</p>
+      </article>
+      <p class="note" data-card-status>House sales law: every hallway ends at Mangasm+ or a gift. LynxLogix.NET does not sell coins.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A concierge card is hospitality copy. It is not a solicitation to trade.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day4noon.js"></script>
+</body>
+</html>
