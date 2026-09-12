@@ -33,16 +33,7 @@
         <article class="card">
           <div class="tiny">Turnkey alert body</div>
           <h3>JSON the hook already accepts</h3>
-          <pre class="muted" data-grammar-json style="white-space:pre-wrap;font-family:ui-monospace,monospace;font-size:14px;line-height:1.5">{{
-  "source": "tradingview",
-  "pair": "BTC-USD",
-  "side": "buy",
-  "reason": "break of range high with volume",
-  "invalidation": "close back inside range",
-  "size": "0.50% equity paper",
-  "venue": "coinbase-paper",
-  "hopper": false
-}}</pre>
+          <pre class="muted" data-grammar-json style="white-space:pre-wrap;font-family:ui-monospace,monospace;font-size:14px;line-height:1.5">{ "source": "tradingview", "pair": "BTC-USD", "side": "buy", "reason": "break of range high with volume", "invalidation": "close back inside range", "size": "0.50% equity paper", "venue": "coinbase-paper", "hopper": false }</pre>
           <p class="note">POST /api/hook?key=paper — or your LYNX_HOOK_KEY. Response always includes executed: false.</p>
           <button class="btn solid" data-grammar="copy">Copy JSON</button>
           <p class="note" data-grammar-status>Paste into a TradingView alert webhook body. Do not attach exchange API secrets.</p>
