@@ -1,0 +1,18 @@
+{
+  "$id": "https://lynxlogix.net/schemas/ticket.v1.json",
+  "title": "LynxLogix paper ticket",
+  "type": "object",
+  "required": ["id", "pair", "side", "source"],
+  "properties": {
+    "id": { "type": "string" },
+    "source": { "type": "string", "description": "TradingView webhook or Hopper-style flag. Not an order." },
+    "pair": { "type": "string" },
+    "side": { "enum": ["buy", "sell", "hold"] },
+    "venue": { "type": "string", "description": "Named passport only." },
+    "size": { "type": "string", "description": "Percent of equity, cap 1.00% per ticket." },
+    "reason": { "type": "string" },
+    "risk": { "type": "string" },
+    "status": { "type": "string" },
+    "executed": { "const": false }
+  }
+}

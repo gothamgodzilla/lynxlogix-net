@@ -1,0 +1,23 @@
+{
+  "name": "lynx-paper-desk",
+  "version": "0.3.0",
+  "shippedAt": "2026-09-12T02:42:00Z",
+  "executed": false,
+  "liveKeys": false,
+  "walletSigner": false,
+  "sku": "paper-ritual-pack",
+  "law": "signals may be automatic; money may not",
+  "venuesNamedNotArmed": ["Coinbase Advanced", "Kraken", "Phantom watch", "Kraken Wallet", "TradingView", "CryptoHopper flag"],
+  "humanGates": ["PAPER ONLY", "CLOSE THE DESK"],
+  "checkoutUntilWhopSellerExists": "https://www.mangasm.app/plus",
+  "sourceRepo": "https://github.com/gothamgodzilla/lynxlogix-net",
+  "liveDesk": "https://lynxlogix-net.vercel.app",
+  "zipHint": "Use GitHub Code \u2192 Download ZIP or create a Release tagged desk-pack-0.3.0",
+  "contents": [
+    "manifest.json",
+    "LICENSE.txt",
+    "PAPER_ONLY.txt",
+    "schemas/ticket.v1.json",
+    "prompts/ten-bots.md"
+  ]
+}

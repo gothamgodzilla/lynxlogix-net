@@ -1,0 +1,10 @@
+Type this phrase on the desk before any paper approval:
+
+PAPER ONLY
+
+Type this phrase to seal the day:
+
+CLOSE THE DESK
+
+If either phrase is missing, the ticket dies.
+executed: false

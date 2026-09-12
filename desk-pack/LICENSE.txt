@@ -1,0 +1,15 @@
+LynxLogix Paper Desk Pack 0.3.0
+Mangasm Enterprises / Coexist, LLC
+
+This pack is a paper ritual and a ticket schema.
+It is not a broker-dealer product.
+It does not place live orders.
+It does not store seed phrases or exchange secrets.
+It does not sign Phantom or Kraken Wallet transactions.
+
+You may run the public desk at https://lynxlogix-net.vercel.app
+You may copy the schema into your own TradingView alert body.
+You may not advertise this pack as a promised return.
+
+The only living consumer checkout named by this house is Mangasm+:
+https://www.mangasm.app/plus
