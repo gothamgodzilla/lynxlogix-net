@@ -27,7 +27,10 @@ Flow
 17. After noon, seal one sentence on `/after.html`.
 18. Count Mangasm+ doors on `/doors.html`. Cap three.
 19. Seat the evening watch on `/watch.html` with PAPER ONLY.
-20. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+20. Dusk the book on `/dusk.html` with DUSK THE BOOK.
+21. Constrain SuperClaude / OpenCode on `/opencode.html` with KEEP THE HOUSE.
+22. Reserve one patron hour on `/hour.html`. No chart.
+23. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -83,6 +86,7 @@ Day 4 09:18 — 31 House Treasury Split, 32 Single Paper Ticket, 33 Domain Bindi
 Day 4 10:18 — 34 Ten-Bot Score, 35 UHNW Quiet Desk, 36 Planning Book Seal
 Day 4 11:08 — 37 Paper Tape, 38 Concierge Card, 39 Noon Bell
 Day 4 12:05 — 40 After-Bell Receipt, 41 Patron Door Count, 42 Evening Watch
+Day 4 13:00 — 43 Dusk After-Action, 44 SuperClaude / OpenCode Room, 45 One Patron Hour
 
 ## Shared risk box
 
@@ -93,6 +97,9 @@ Day 4 12:05 — 40 After-Bell Receipt, 41 Patron Door Count, 42 Evening Watch
 - Noon bell: CLOSE THE DESK or one HOLD THE BELL
 - After-bell: one sentence, no pair
 - Door count: three Mangasm+ marks, then stop
+- Dusk book: three lines, phrase DUSK THE BOOK
+- OpenCode: phrase KEEP THE HOUSE, no third repo
+- Patron hour: one reserved conversation, no chart
 - No market-order language on first live week if you later add a private execution worker
 - Record every “would have” fill in paper for 30 days before considering a private execution worker
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
