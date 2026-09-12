@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paper Tape — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>PAPER TAPE</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="one.html">One ticket</a>
+        <a href="witness.html">Witness</a>
+        <a href="card.html">Concierge card</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Saturday 12 September 2026 · Design 37</div>
+      <h1>Print the would-have.<br/>Never the fill.</h1>
+      <p class="lede">The 1% desk does not flash a ticker. It prints a short tape: pair, size as percent of equity, invalidation, and executed: false. This is the Saturday receipt. Coinbase, Kraken, Hopper, and Phantom do not see it.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="tape-pair">Paper pair</label>
+      <input id="tape-pair" data-tape-pair placeholder="e.g. BTC-USD paper" />
+      <label for="tape-size">Size as % of paper sleeve (max 1.00)</label>
+      <input id="tape-size" data-tape-size placeholder="0.25" />
+      <label for="tape-why">Why now, in one line</label>
+      <input id="tape-why" data-tape-why placeholder="Regime named. Risk veto seated. Human still holds the key." />
+      <div class="hero-actions">
+        <button class="btn solid" data-tape-print>Print paper tape</button>
+        <a class="btn" href="one.html">Return to the Saturday lid</a>
+        <a class="btn ghost" href="https://www.mangasm.app/plus">After the tape · Mangasm+</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Tape</div>
+        <pre class="muted" data-tape-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No tape printed on this browser.</pre>
+      </article>
+      <p class="note" data-tape-status>A tape is a witness object. It is not an order ticket for any venue.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">Would-have is not a fill. executed remains false on this site.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day4noon.js"></script>
+</body>
+</html>
