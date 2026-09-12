@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>House Till — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>HOUSE TILL</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="pay.html">Pass</a>
+        <a href="owner.html">Owner</a>
+        <a href="sales.html">Sales</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Saturday 12 September 2026 · Design 51 · working wall</div>
+      <h1>Till the house.<br/>Do not invent cash.</h1>
+      <p class="lede">The only live checkout in the house today is Mangasm+. House gifts and desk seats still travel through contact until a Stripe Payment Link is pasted on /pay.html. Exchange keys do not belong in this till.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label class="row"><input type="checkbox" data-till-plus style="width:auto" /> Mangasm+ at mangasm.app/plus is reachable</label>
+      <label class="row"><input type="checkbox" data-till-invoice style="width:auto" /> House gift and desk seat can be invoiced from /contact.html</label>
+      <label class="row"><input type="checkbox" data-till-dark style="width:auto" /> No Coinbase, Kraken, or Phantom secrets on this site</label>
+      <label for="till-phrase">Release phrase</label>
+      <input id="till-phrase" data-till-phrase placeholder="TILL THE HOUSE" />
+      <div class="hero-actions">
+        <button class="btn solid" data-till-btn>Stamp the till</button>
+        <a class="btn" href="https://www.mangasm.app/plus">Open live checkout</a>
+        <a class="btn ghost" href="pay.html">House pass</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Till receipt</div>
+        <pre class="muted" data-till-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No till stamp on this browser.</pre>
+      </article>
+      <p class="note" data-till-status>Type TILL THE HOUSE. Check only what is true.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A till stamp is an honesty check. Planning MAR/ARR on /owner.html stays behind the pass and is not proven cash.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day4eve.js"></script>
+</body>
+</html>
