@@ -19,6 +19,9 @@ Flow
 9. Time the gap on `/clock.html`.
 10. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 11. Pre-write the next day on `/saturday.html` so the house does not spawn another repo.
+12. Audit dusk against facts on `/audit.html`.
+13. Write one patron letter on `/letter.html` — the only checkout is Mangasm+.
+14. Dry-run venues on `/dryrun.html` without keys.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -68,6 +71,7 @@ Day 3 noon — 13 Brief Factory, 14 Kill-Switch Rehearsal, 15 One Money Door
 Day 3 13:03 — 16 Witness Dossier, 17 Cathedral Card, 18 Proven vs Planned
 Day 3 14:02 — 19 Session Steward, 20 Night Ledger, 21 One Hallway
 Day 3 16:01 — 22 Patron Primer, 23 Decision Clock, 24 Saturday Board
+Day 3 17:10 — 25 Evening Audit, 26 Patron Letter, 27 Dry-Run Passport
 
 ## Shared risk box
 
