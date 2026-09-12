@@ -13,17 +13,12 @@ Flow
 3. You receive the ticket (site desk + email/automation)
 4. Human types PAPER ONLY, then taps Approve paper / Reject / Hold
 5. Ledger appends. No live order.
-6. Rehearse the kill on `/rehearse.html` before you need it.
-7. Witness the book on `/witness.html` (JSON + family-office card).
-8. Steward the blocks on `/steward.html`.
-9. Time the gap on `/clock.html`.
-10. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
-11. Pre-write the next day on `/saturday.html` so the house does not spawn another repo.
-12. Audit dusk against facts on `/audit.html`.
-13. Write one patron letter on `/letter.html` — the only checkout is Mangasm+.
-14. Dry-run venues on `/dryrun.html` without keys.
-15. Seal a family-office mandate on `/mandate.html`.
-16. Invite one room on `/invite.html`.
+6. Saturday cap: one ticket only (`/one.html`).
+7. Treasury split (`/treasury.html`): product cash never recapitalizes the paper sleeve.
+8. Domains bind to living Vercel projects (`/domains.html`). No seventh repo.
+9. Rehearse the kill on `/rehearse.html` before you need it.
+10. Witness the book on `/witness.html`.
+11. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -75,15 +70,17 @@ Day 3 14:02 — 19 Session Steward, 20 Night Ledger, 21 One Hallway
 Day 3 16:01 — 22 Patron Primer, 23 Decision Clock, 24 Saturday Board
 Day 3 17:10 — 25 Evening Audit, 26 Patron Letter, 27 Dry-Run Passport
 Day 3 18:16 — 28 Family Office Mandate, 29 Rebuild Invitation, 30 Signal Grammar
+Day 4 09:18 — 31 House Treasury Split, 32 Single Paper Ticket, 33 Domain Binding Law
 
 ## Shared risk box
 
 - Max 0.25–1.00% equity per ticket until 30 paper days exist
 - Daily loss stop pauses new tickets
+- Saturday hard cap: one ticket
 - Kill switch is a single “desk closed” flag plus the Daily Close phrase
-- Monthly rehearsal of the kill is required texture, not optional theater
 - No market-order language on first live week if you later add a private execution worker
 - Record every “would have” fill in paper for 30 days before considering a private execution worker
+- Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
 
 ## Honest meaning of “sell 10x”
 
