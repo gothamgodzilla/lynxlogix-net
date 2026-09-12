@@ -21,7 +21,10 @@ Flow
 11. Planning book on `/book.html` stays labeled a model.
 12. Rehearse the kill on `/rehearse.html` before you need it.
 13. Witness the book on `/witness.html`.
-14. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+14. Print the would-have on `/tape.html`. executed: false.
+15. Send one concierge card from `/card.html`. No ticker in the copy.
+16. Ring `/bell.html` at noon: CLOSE THE DESK or HOLD THE BELL once.
+17. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -75,6 +78,7 @@ Day 3 17:10 — 25 Evening Audit, 26 Patron Letter, 27 Dry-Run Passport
 Day 3 18:16 — 28 Family Office Mandate, 29 Rebuild Invitation, 30 Signal Grammar
 Day 4 09:18 — 31 House Treasury Split, 32 Single Paper Ticket, 33 Domain Binding Law
 Day 4 10:18 — 34 Ten-Bot Score, 35 UHNW Quiet Desk, 36 Planning Book Seal
+Day 4 11:08 — 37 Paper Tape, 38 Concierge Card, 39 Noon Bell
 
 ## Shared risk box
 
@@ -82,6 +86,7 @@ Day 4 10:18 — 34 Ten-Bot Score, 35 UHNW Quiet Desk, 36 Planning Book Seal
 - Daily loss stop pauses new tickets
 - Saturday hard cap: one ticket
 - Kill switch is a single “desk closed” flag plus the Daily Close phrase
+- Noon bell: CLOSE THE DESK or one HOLD THE BELL
 - No market-order language on first live week if you later add a private execution worker
 - Record every “would have” fill in paper for 30 days before considering a private execution worker
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
