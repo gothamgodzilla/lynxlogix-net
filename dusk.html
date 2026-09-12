@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dusk After-Action — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>DUSK BOOK</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="after.html">After</a>
+        <a href="witness.html">Witness</a>
+        <a href="close.html">Close</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Saturday 12 September 2026 · Design 43 · 13:00 PDT</div>
+      <h1>Dusk the book.<br/>Do not reopen the tape.</h1>
+      <p class="lede">After noon the 1% desk writes three lines: what the human did, what the bots did not spend, and which hallway sold the living product. This is an after-action, not a second Saturday ticket.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="dusk-desk">Desk line</label>
+      <textarea id="dusk-desk" data-dusk-desk rows="2" placeholder="Bell closed. After-bell sealed. Watch seated. executed: false."></textarea>
+      <label for="dusk-sales">Sales line</label>
+      <textarea id="dusk-sales" data-dusk-sales rows="2" placeholder="One Mangasm+ door marked. No coin offered."></textarea>
+      <label for="dusk-bots">Bot line</label>
+      <textarea id="dusk-bots" data-dusk-bots rows="2" placeholder="Ten voices seated. Zero spenders. Venues unread."></textarea>
+      <label for="dusk-phrase">Release phrase</label>
+      <input id="dusk-phrase" data-dusk-phrase placeholder="DUSK THE BOOK" />
+      <div class="hero-actions">
+        <button class="btn solid" data-dusk-seal>Seal the dusk book</button>
+        <a class="btn" href="witness.html">Carry to witness</a>
+        <a class="btn ghost" href="https://www.mangasm.app/plus">Mangasm+ door</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">After-action</div>
+        <pre class="muted" data-dusk-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No dusk book on this browser.</pre>
+      </article>
+      <p class="note" data-dusk-status>Type DUSK THE BOOK. Pair names and return claims void the page.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A dusk book is a witness object. It is not an order and not a second ticket.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day4dusk.js"></script>
+</body>
+</html>
