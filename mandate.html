@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mandate — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>MANDATE</small></a>
+      <nav class="nav-links">
+        <a href="quiet.html">Quiet</a>
+        <a href="packet.html">Packet</a>
+        <a href="owner.html">Owner</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+      <a class="btn solid" href="invite.html">Invite a patron</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Friday 11 September 2026 · Design 28 · 1% room</div>
+      <h1>Write the law<br/>before the ticket.</h1>
+      <p class="lede">A family office does not buy a bot. It buys a mandate: what the desk may look at, what size it may even paper, and which sentence is forbidden. This page is that card.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <div class="grid two">
+        <article class="card">
+          <label for="mandate-office">Office or principal</label>
+          <input id="mandate-office" data-mandate-office placeholder="Webster family / house account" />
+          <label for="mandate-cap">Max paper size per ticket</label>
+          <select id="mandate-cap" data-mandate-cap>
+            <option value="0.25% of marked equity">0.25% of marked equity</option>
+            <option value="0.50% of marked equity" selected>0.50% of marked equity</option>
+            <option value="1.00% of marked equity">1.00% of marked equity</option>
+          </select>
+          <label for="mandate-venues">Venues allowed to be named</label>
+          <textarea id="mandate-venues" data-mandate-venues rows="3">Coinbase Advanced (paper/read), Kraken (paper/read), Phantom watch address, Kraken Wallet watch only</textarea>
+          <label for="mandate-forbid">Forbidden sentences</label>
+          <textarea id="mandate-forbid" data-mandate-forbid rows="3">No guaranteed return. No “10x profit.” No unattended live order. No seed phrase in a bot. No coin sold from this desk.</textarea>
+          <div class="hero-actions">
+            <button class="btn solid" data-mandate="save">Seal mandate</button>
+            <button class="btn" data-mandate="copy">Copy card</button>
+          </div>
+          <p class="note" data-mandate-status>Sealed on this browser only. Not a power of attorney.</p>
+        </article>
+        <article class="card">
+          <div class="tiny">Preview</div>
+          <pre class="muted" data-mandate-preview style="white-space:pre-wrap;font-family:inherit;font-size:18px;line-height:1.45"></pre>
+        </article>
+      </div>
+    </section>
+    <section class="section wrap">
+      <div class="tiny">What the 1% actually underwrite</div>
+      <h2>Discretion is the product.</h2>
+      <div class="grid three" style="margin-top:18px">
+        <article class="card"><h3>Process density</h3><p class="muted">“10x” on this desk means ten times the quality of briefs, vetoes, and journals — never a promised multiple.</p></article>
+        <article class="card"><h3>Human last key</h3><p class="muted">Ten Grok voices may draft. Version A, B, or C may recommend. Only the mandate holder releases.</p></article>
+        <article class="card"><h3>A living house</h3><p class="muted">The membership they can actually buy tonight is Mangasm+. The desk is the vault door beside it.</p></article>
+      </div>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">Not investment advice. Not a managed account. Not a solicitation to trade.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day3late.js"></script>
+</body>
+</html>
