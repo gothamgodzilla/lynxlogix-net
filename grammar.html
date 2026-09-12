@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Signal Grammar — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>GRAMMAR</small></a>
+      <nav class="nav-links">
+        <a href="desk.html">Desk</a>
+        <a href="brief.html">Brief</a>
+        <a href="dryrun.html">Dry-run</a>
+        <a href="HOOK.md">Hook law</a>
+      </nav>
+      <a class="btn solid" href="desk.html">Open paper desk</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Friday 11 September 2026 · Design 30 · Version A intake</div>
+      <h1>Teach the bell<br/>to speak paper.</h1>
+      <p class="lede">TradingView and Hopper may fire automatically. The webhook only writes a ticket. executed stays false. You still type the phrase and press the key.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <div class="grid two">
+        <article class="card">
+          <div class="tiny">Turnkey alert body</div>
+          <h3>JSON the hook already accepts</h3>
+          <pre class="muted" data-grammar-json style="white-space:pre-wrap;font-family:ui-monospace,monospace;font-size:14px;line-height:1.5">{{
+  "source": "tradingview",
+  "pair": "BTC-USD",
+  "side": "buy",
+  "reason": "break of range high with volume",
+  "invalidation": "close back inside range",
+  "size": "0.50% equity paper",
+  "venue": "coinbase-paper",
+  "hopper": false
+}}</pre>
+          <p class="note">POST /api/hook?key=paper — or your LYNX_HOOK_KEY. Response always includes executed: false.</p>
+          <button class="btn solid" data-grammar="copy">Copy JSON</button>
+          <p class="note" data-grammar-status>Paste into a TradingView alert webhook body. Do not attach exchange API secrets.</p>
+        </article>
+        <article class="card">
+          <div class="tiny">Human gate after the bell</div>
+          <h3>What happens next</h3>
+          <p class="muted">1. Hook normalizes the payload into a ticket.</p>
+          <p class="muted">2. Brief Factory or a Grok scribe writes why-now / why-not.</p>
+          <p class="muted">3. You type PAPER ONLY, then Approve / Reject / Hold.</p>
+          <p class="muted">4. Ledger records a would-have. Coinbase, Kraken, and Phantom stay untouched.</p>
+          <div class="hero-actions">
+            <a class="btn" href="desk.html">Practice the key</a>
+            <a class="btn ghost" href="bots.html">See ten voices</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="section wrap">
+      <div class="tiny">Version map</div>
+      <h2>A runs. B and C wait.</h2>
+      <table>
+        <thead><tr><th>Version</th><th>May fire alone</th><th>May spend alone</th></tr></thead>
+        <tbody>
+          <tr><td>A · Signal Concierge</td><td>Webhook + brief</td><td>Never</td></tr>
+          <tr><td>B · Multi-venue paper</td><td>Same, plus read-only passports</td><td>Never on this site</td></tr>
+          <tr><td>C · Dual-confirm Hopper</td><td>Script flag + Grok veto</td><td>Only if you later build a private worker — not tonight</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A webhook is not an order. Paper tickets are not fills. Crypto can go to zero.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day3late.js"></script>
+</body>
+</html>
