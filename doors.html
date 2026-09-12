@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Patron Door Count — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>DOORS</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="card.html">Card</a>
+        <a href="pay.html">Pass</a>
+        <a href="https://www.mangasm.app/plus">Mangasm+</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Saturday 12 September 2026 · Design 41 · sales door</div>
+      <h1>Count doors,<br/>not coins.</h1>
+      <p class="lede">Today’s sales feature is one counted opening of Mangasm+. The desk may not sell a pair. A wealthy patron is invited into a rebuild, not a ticker. Mark the door. Then stop.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <p class="stat" data-door-count>0</p>
+      <p class="tiny">Mangasm+ doors marked on this browser today</p>
+      <label for="door-who">Patron or hallway</label>
+      <input id="door-who" data-door-who placeholder="Named patron, or ‘self test’" />
+      <div class="hero-actions">
+        <button class="btn solid" data-door-mark>Mark one door</button>
+        <a class="btn" href="https://www.mangasm.app/plus">Open the living paywall</a>
+        <a class="btn ghost" href="pay.html">House pass instead</a>
+      </div>
+      <p class="note" data-door-status>Saturday cap: three marked doors. A fourth is refused. Coins are not a door.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">Door count is a sales cadence, not revenue proof. Stripe on Mangasm+ is the living money door.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day4pm.js"></script>
+</body>
+</html>
