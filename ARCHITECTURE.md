@@ -8,7 +8,7 @@ No version below stores a seed phrase, signs a Phantom transaction unattended, o
 
 Flow
 
-1. TradingView alert → HTTPS webhook → queue
+1. TradingView alert → HTTPS webhook → queue (`/grammar.html` is the payload recipe)
 2. Brief Factory (`/brief.html`) or Grok bot writes a one-page ticket: pair, side, size as % of equity, invalidation, why-now, why-not
 3. You receive the ticket (site desk + email/automation)
 4. Human types PAPER ONLY, then taps Approve paper / Reject / Hold
@@ -22,6 +22,8 @@ Flow
 12. Audit dusk against facts on `/audit.html`.
 13. Write one patron letter on `/letter.html` — the only checkout is Mangasm+.
 14. Dry-run venues on `/dryrun.html` without keys.
+15. Seal a family-office mandate on `/mandate.html`.
+16. Invite one room on `/invite.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -72,6 +74,7 @@ Day 3 13:03 — 16 Witness Dossier, 17 Cathedral Card, 18 Proven vs Planned
 Day 3 14:02 — 19 Session Steward, 20 Night Ledger, 21 One Hallway
 Day 3 16:01 — 22 Patron Primer, 23 Decision Clock, 24 Saturday Board
 Day 3 17:10 — 25 Evening Audit, 26 Patron Letter, 27 Dry-Run Passport
+Day 3 18:16 — 28 Family Office Mandate, 29 Rebuild Invitation, 30 Signal Grammar
 
 ## Shared risk box
 
