@@ -33,7 +33,10 @@ Flow
 23. Seal Saturday on `/seal.html` with SEAL SATURDAY.
 24. Write the sales liaison brief on `/sales.html` with SELL THE HOME.
 25. Stamp venue readiness on `/ready.html` with KEYS STAY DARK.
-26. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+26. Write Monday inherit on `/monday.html` with MONDAY INHERITS.
+27. Seal one patron gift on `/gift.html` with GIFT THE HOUSE.
+28. Stamp the till on `/till.html` with TILL THE HOUSE.
+29. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -91,6 +94,7 @@ Day 4 11:08 — 37 Paper Tape, 38 Concierge Card, 39 Noon Bell
 Day 4 12:05 — 40 After-Bell Receipt, 41 Patron Door Count, 42 Evening Watch
 Day 4 13:00 — 43 Dusk After-Action, 44 SuperClaude / OpenCode Room, 45 One Patron Hour
 Day 4 14:15 — 46 Saturday Seal, 47 Sales Liaison Brief, 48 Venue Readiness Card
+Day 4 16:15 — 49 Monday Inherit, 50 Patron Gift, 51 House Till
 
 ## Shared risk box
 
@@ -107,6 +111,9 @@ Day 4 14:15 — 46 Saturday Seal, 47 Sales Liaison Brief, 48 Venue Readiness Car
 - Saturday seal: phrase SEAL SATURDAY
 - Sales brief: phrase SELL THE HOME, no ticker
 - Venue card: phrase KEYS STAY DARK
+- Monday inherit: phrase MONDAY INHERITS
+- Patron gift: phrase GIFT THE HOUSE, no chart
+- House till: phrase TILL THE HOUSE
 - No market-order language on first live week if you later add a private execution worker
 - Record every “would have” fill in paper for 30 days before considering a private execution worker
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
@@ -121,4 +128,4 @@ Every hallway ends at Mangasm+ or a house gift. LynxLogix.NET does not sell coin
 
 ## Repo law
 
-Do not open a third landing repository while lynxlogix-net and house-landings are alive. Upgrade the hallway. Point custom domains at the existing Vercel projects on the GothamGanesh team.
+Do not open a fourth landing repository while lynxlogix-net, house-landings, and lynxlogix-house are alive. Upgrade the hallway. Point custom domains at the existing Vercel projects on GothamGanesh or COEXIST iNTeLLiGeNCE.
