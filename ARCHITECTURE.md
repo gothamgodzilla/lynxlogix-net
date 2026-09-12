@@ -24,7 +24,10 @@ Flow
 14. Print the would-have on `/tape.html`. executed: false.
 15. Send one concierge card from `/card.html`. No ticker in the copy.
 16. Ring `/bell.html` at noon: CLOSE THE DESK or HOLD THE BELL once.
-17. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+17. After noon, seal one sentence on `/after.html`.
+18. Count Mangasm+ doors on `/doors.html`. Cap three.
+19. Seat the evening watch on `/watch.html` with PAPER ONLY.
+20. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -79,6 +82,7 @@ Day 3 18:16 — 28 Family Office Mandate, 29 Rebuild Invitation, 30 Signal Gramm
 Day 4 09:18 — 31 House Treasury Split, 32 Single Paper Ticket, 33 Domain Binding Law
 Day 4 10:18 — 34 Ten-Bot Score, 35 UHNW Quiet Desk, 36 Planning Book Seal
 Day 4 11:08 — 37 Paper Tape, 38 Concierge Card, 39 Noon Bell
+Day 4 12:05 — 40 After-Bell Receipt, 41 Patron Door Count, 42 Evening Watch
 
 ## Shared risk box
 
@@ -87,6 +91,8 @@ Day 4 11:08 — 37 Paper Tape, 38 Concierge Card, 39 Noon Bell
 - Saturday hard cap: one ticket
 - Kill switch is a single “desk closed” flag plus the Daily Close phrase
 - Noon bell: CLOSE THE DESK or one HOLD THE BELL
+- After-bell: one sentence, no pair
+- Door count: three Mangasm+ marks, then stop
 - No market-order language on first live week if you later add a private execution worker
 - Record every “would have” fill in paper for 30 days before considering a private execution worker
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
