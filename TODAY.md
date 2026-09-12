@@ -1,4 +1,4 @@
-# Saturday 12 September 2026 — 13:00 PDT — Day 4 afternoon
+# Saturday 12 September 2026 — 14:15 PDT — Day 4 late afternoon
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
@@ -7,13 +7,13 @@ Team: GothamGanesh · project `lynxlogix-net`
 Sister hallway: https://github.com/gothamgodzilla/house-landings
 Mangasm (sales door): https://www.mangasm.app/plus
 
-Version A still runs. Designs 01–42 stay in force. Afternoon ships 43–45.
+Version A still runs. Designs 01–45 stay in force. Late afternoon ships 46–48.
 
-## Today's three designs (13:00 pick)
+## Today's three designs (14:15 pick)
 
-1. Design 43 — Dusk After-Action (ship): three lines after noon — desk / sales / bots. Phrase: DUSK THE BOOK. executed: false. Live on /dusk.html.
-2. Design 44 — SuperClaude / OpenCode Room (ship): constrained brainstorming prompt. Phrase: KEEP THE HOUSE. No third repo. Live on /opencode.html.
-3. Design 45 — One Patron Hour (ship): UHNW scarcity. One reserved hour, no chart. Sales door is Mangasm+. Live on /hour.html.
+1. Design 46 — Saturday Seal (ship): weekend receipt. Phrase: SEAL SATURDAY. executed: false. Live on /seal.html.
+2. Design 47 — Sales Liaison Brief (ship): 1% outbound that sells Mangasm+, not coins. Phrase: SELL THE HOME. Live on /sales.html.
+3. Design 48 — Venue Readiness Card (ship): Coinbase / Kraken / Phantom as unread passports. Phrase: KEYS STAY DARK. Live on /ready.html.
 
 Keep Version A as the running system. B and C stay paper architecture.
 
@@ -23,25 +23,25 @@ Keep Version A as the running system. B and C stay paper architecture.
 - Version B · after 30 paper days — Multi-venue Paper Desk. Coinbase, Kraken, Phantom as read-only passports. Live keys never on this site.
 - Version C · last — Dual-confirm Hopper. Script flag + Grok veto + human. Two machines may recommend. Only you release.
 
-Recommendation: stay on A. “10x” means ten times the process quality — briefs, risk, venues, ledger, witness, mandate, grammar, treasury, orchestra, quiet desk, planning seal, tape, card, noon bell, after-bell, doors, watch, dusk book, OpenCode room, patron hour — not a promised return.
+Recommendation: stay on A. “10x” means ten times the process quality — not a promised return.
 
 ## Deep-work blocks today
 
-### Block 1 — 20 minutes — Dusk the book
-Goal: Open /dusk.html. Write three lines with no pair names. Type DUSK THE BOOK. Carry the receipt to /witness.html. Do not reopen /tape.html.
+### Block 1 — 20 minutes — Seal Saturday
+Goal: Open /seal.html. Write tickets / doors / Monday inherit. Type SEAL SATURDAY. Do not fire a second paper ticket.
 
-### Block 2 — 25 minutes — Keep the house
-Goal: Open /opencode.html. Write what SuperClaude / OpenCode may invent next. Type KEEP THE HOUSE. Paste the sealed prompt into your brain tool. Do not create a new GitHub landing repository.
+### Block 2 — 25 minutes — Sell the home
+Goal: Open /sales.html. Name one patron. Write why the home. Type SELL THE HOME. Send https://www.mangasm.app/plus. Do not mention a pair.
 
-### Block 3 — 20 minutes — Reserve one hour
-Goal: Open /hour.html. Name one patron or “self rehearsal.” Reserve the hour. Send https://www.mangasm.app/plus. Then walk to /close.html before inventing a seventh brand site.
+### Block 3 — 20 minutes — Keys stay dark
+Goal: Open /ready.html. Check only what is true. Type KEYS STAY DARK. Confirm Version B stays closed. Then walk to /close.html.
 
 ## Quick wins
 
 - Open https://lynxlogix-net.vercel.app/today.html
-- Seal /dusk.html
-- Seal one SuperClaude prompt on /opencode.html
-- Reserve /hour.html or send one Mangasm+ link
+- Seal /seal.html
+- Seal one outbound on /sales.html
+- Stamp /ready.html
 - Confirm executed: false on /witness.html
 - Confirm lynxlogix-net and house-landings remain the only landing repos
 
