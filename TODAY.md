@@ -1,4 +1,4 @@
-# Saturday 12 September 2026 — 12:05 PDT — Day 4 noon
+# Saturday 12 September 2026 — 13:00 PDT — Day 4 afternoon
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
@@ -7,13 +7,13 @@ Team: GothamGanesh · project `lynxlogix-net`
 Sister hallway: https://github.com/gothamgodzilla/house-landings
 Mangasm (sales door): https://www.mangasm.app/plus
 
-Version A still runs. Designs 01–39 stay in force. Noon ships 40–42.
+Version A still runs. Designs 01–42 stay in force. Afternoon ships 43–45.
 
-## Today's three designs (12:05 pick)
+## Today's three designs (13:00 pick)
 
-1. Design 40 — After-Bell Receipt (ship): one sentence of truth after noon. No pair. executed: false. Live on /after.html.
-2. Design 41 — Patron Door Count (ship): mark up to three Mangasm+ doors. Coins are not a door. Live on /doors.html.
-3. Design 42 — Evening Watch (ship): seat the ten Grok voices with PAPER ONLY. Alerts may speak. Money may not. Live on /watch.html.
+1. Design 43 — Dusk After-Action (ship): three lines after noon — desk / sales / bots. Phrase: DUSK THE BOOK. executed: false. Live on /dusk.html.
+2. Design 44 — SuperClaude / OpenCode Room (ship): constrained brainstorming prompt. Phrase: KEEP THE HOUSE. No third repo. Live on /opencode.html.
+3. Design 45 — One Patron Hour (ship): UHNW scarcity. One reserved hour, no chart. Sales door is Mangasm+. Live on /hour.html.
 
 Keep Version A as the running system. B and C stay paper architecture.
 
@@ -23,27 +23,27 @@ Keep Version A as the running system. B and C stay paper architecture.
 - Version B · after 30 paper days — Multi-venue Paper Desk. Coinbase, Kraken, Phantom as read-only passports. Live keys never on this site.
 - Version C · last — Dual-confirm Hopper. Script flag + Grok veto + human. Two machines may recommend. Only you release.
 
-Recommendation: stay on A. “10x” means ten times the process quality — briefs, risk, venues, ledger, witness, mandate, grammar, treasury, orchestra, quiet desk, planning seal, tape, card, noon bell, after-bell, doors, watch — not a promised return.
+Recommendation: stay on A. “10x” means ten times the process quality — briefs, risk, venues, ledger, witness, mandate, grammar, treasury, orchestra, quiet desk, planning seal, tape, card, noon bell, after-bell, doors, watch, dusk book, OpenCode room, patron hour — not a promised return.
 
 ## Deep-work blocks today
 
-### Block 1 — 20 minutes — Seal the after-bell
-Goal: If the noon bell is already rung, open /after.html and write one sentence with no pair names. If the bell is not rung, ring /bell.html first, then seal the receipt. Carry both to /witness.html.
+### Block 1 — 20 minutes — Dusk the book
+Goal: Open /dusk.html. Write three lines with no pair names. Type DUSK THE BOOK. Carry the receipt to /witness.html. Do not reopen /tape.html.
 
-### Block 2 — 25 minutes — Mark one real door
-Goal: Open /doors.html. Name one real patron or “self test.” Mark one door. Send https://www.mangasm.app/plus. That is the sales feature for this hour. Cap is three doors.
+### Block 2 — 25 minutes — Keep the house
+Goal: Open /opencode.html. Write what SuperClaude / OpenCode may invent next. Type KEEP THE HOUSE. Paste the sealed prompt into your brain tool. Do not create a new GitHub landing repository.
 
-### Block 3 — 20 minutes — Seat the evening watch
-Goal: Open /watch.html. Type PAPER ONLY. Confirm the ten voices are seated and that Coinbase / Kraken / Hopper / Phantom stay closed. Then walk to /close.html before inventing a seventh brand site.
+### Block 3 — 20 minutes — Reserve one hour
+Goal: Open /hour.html. Name one patron or “self rehearsal.” Reserve the hour. Send https://www.mangasm.app/plus. Then walk to /close.html before inventing a seventh brand site.
 
 ## Quick wins
 
 - Open https://lynxlogix-net.vercel.app/today.html
-- Seal /after.html
-- Mark one door on /doors.html
-- Send one Mangasm+ link
-- Type PAPER ONLY on /watch.html
+- Seal /dusk.html
+- Seal one SuperClaude prompt on /opencode.html
+- Reserve /hour.html or send one Mangasm+ link
 - Confirm executed: false on /witness.html
+- Confirm lynxlogix-net and house-landings remain the only landing repos
 
 ## Do not spend time on today
 
