@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Venue Readiness — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>VENUE READY</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="venues.html">Passports</a>
+        <a href="versions.html">Versions</a>
+        <a href="desk.html">Desk</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Saturday 12 September 2026 · Design 48 · Version B is not live</div>
+      <h1>Keys stay dark.<br/>Readiness is not routing.</h1>
+      <p class="lede">Version B may one day read Coinbase, Kraken, and a watch-only wallet. It may not live on this static site. Check the boxes that are true today. Do not paste a secret. Do not sign Phantom from a bot.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <div class="grid three">
+        <article class="card"><div class="tiny">Coinbase Advanced</div><h3>Read later.</h3><p class="muted">View-only key in a private worker after 30 paper days. Trade scope stays off.</p></article>
+        <article class="card"><div class="tiny">Kraken</div><h3>Read later.</h3><p class="muted">Query balances and closed orders. AddOrder stays in the drawer.</p></article>
+        <article class="card"><div class="tiny">Phantom / Kraken Wallet</div><h3>Watch only.</h3><p class="muted">Display an address. Never request a signature. Never store a seed.</p></article>
+      </div>
+      <label style="margin-top:28px"><input type="checkbox" data-ready-paper /> 30 paper days exist</label>
+      <label><input type="checkbox" data-ready-kill /> Daily Close phrase works on this browser</label>
+      <label><input type="checkbox" data-ready-worker /> Private worker exists off this repo</label>
+      <label><input type="checkbox" data-ready-dark /> No API secret is in Vercel or the static site</label>
+      <label for="ready-phrase">Release phrase</label>
+      <input id="ready-phrase" data-ready-phrase placeholder="KEYS STAY DARK" />
+      <div class="hero-actions">
+        <button class="btn solid" data-ready-btn>Stamp the card</button>
+        <a class="btn" href="venues.html">Venue passports</a>
+        <a class="btn ghost" href="desk.html">Stay on Version A</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Readiness card</div>
+        <pre class="muted" data-ready-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No readiness card on this browser.</pre>
+      </article>
+      <p class="note" data-ready-status>Type KEYS STAY DARK. A missing checkbox keeps Version B closed.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">This card cannot place an order. TradingView and CryptoHopper may send signals. Only the human key releases, and this build releases paper only.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day4pm2.js"></script>
+</body>
+</html>
