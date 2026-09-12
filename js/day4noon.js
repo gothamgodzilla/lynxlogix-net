@@ -71,12 +71,11 @@
     const line = note ? note.value.trim() : "";
     if (!name) return "";
     if (banned.test(name + " " + line)) return "VOID";
-    return (
-      name +
-      — \n\nThe house stayed quiet. We did not send a market. We kept a hallway." +
-      (line ? "\n\n" + line : "") +
-      "\n\nIf you want the rebuild rather than another extraction machine: https://www.mangasm.app/plus\n\n— LynxLogix / Mangasm Enterprises"
-    );
+    var body = name + ",\n\nThe house stayed quiet. We did not send a market. We kept a hallway.";
+    if (line) body += "\n\n" + line;
+    body += "\n\nIf you want the rebuild rather than another extraction machine: https://www.mangasm.app/plus";
+    body += "\n\n- LynxLogix / Mangasm Enterprises";
+    return body;
   }
   const sealCard = document.querySelector("[data-card-seal]");
   if (sealCard) {
