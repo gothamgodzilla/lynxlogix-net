@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dry-Run Passport — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>DRY-RUN</small></a>
+      <nav class="nav-links">
+        <a href="venues.html">Venues</a>
+        <a href="desk.html">Desk</a>
+        <a href="rehearse.html">Rehearse</a>
+        <a href="versions.html">Versions</a>
+      </nav>
+      <a class="btn solid" href="desk.html">Back to paper</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Friday 11 September 2026 · Design 27 · Version B rehearsal only</div>
+      <h1>Walk the venues<br/>without the keys.</h1>
+      <p class="lede">Coinbase Advanced, Kraken, Phantom, and Kraken Wallet may be named. They may not be armed from this site. A dry-run is how Version B stays a passport instead of a leak.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <div class="grid two">
+        <article class="card">
+          <div class="tiny">Coinbase Advanced</div>
+          <h3>Read later. Never trade from Vercel.</h3>
+          <label><input type="checkbox" data-dry="cb-paper" /> Paper ticket names Coinbase as venue only</label>
+          <label><input type="checkbox" data-dry="cb-view" /> I know view/read is the only permission that may exist later</label>
+          <label><input type="checkbox" data-dry="cb-secret" /> No Coinbase secret is in this repo or Vercel env</label>
+        </article>
+        <article class="card">
+          <div class="tiny">Kraken</div>
+          <h3>Query later. AddOrder stays off.</h3>
+          <label><input type="checkbox" data-dry="kr-paper" /> Paper ticket names Kraken as venue only</label>
+          <label><input type="checkbox" data-dry="kr-query" /> I will not enable trade or withdraw on any future key</label>
+          <label><input type="checkbox" data-dry="kr-secret" /> No Kraken secret is in this repo or Vercel env</label>
+        </article>
+        <article class="card">
+          <div class="tiny">Phantom / Kraken Wallet</div>
+          <h3>Watch address. Never sign.</h3>
+          <label><input type="checkbox" data-dry="ph-watch" /> Wallet is a watch address in my head, not a signer in a bot</label>
+          <label><input type="checkbox" data-dry="ph-seed" /> No seed phrase has been typed into this house</label>
+          <label><input type="checkbox" data-dry="ph-sign" /> I refuse unattended Phantom transaction signing</label>
+        </article>
+        <article class="card">
+          <div class="tiny">TradingView / Hopper</div>
+          <h3>Flags only. No auto-execute.</h3>
+          <label><input type="checkbox" data-dry="tv-hook" /> TradingView may POST /api/hook?key=paper</label>
+          <label><input type="checkbox" data-dry="hp-flag" /> Hopper/Pine may raise a flag, never a live order</label>
+          <label><input type="checkbox" data-dry="hp-human" /> Release still needs PAPER ONLY + human tap</label>
+        </article>
+      </div>
+      <div class="hero-actions">
+        <button class="btn solid" data-dry-act="save">Save dry-run</button>
+        <button class="btn" data-dry-act="copy">Copy passport</button>
+        <a class="btn ghost" href="close.html">Seal if done</a>
+      </div>
+      <p class="note" data-dry-status>Version B does not start tonight. This page is the rehearsal.</p>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Passport card</div>
+        <pre class="muted" data-dry-preview style="white-space:pre-wrap;font-family:inherit;font-size:18px;line-height:1.45"></pre>
+      </article>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">Naming an exchange is not connecting an exchange. Live routing remains refused on this build.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day3eve.js"></script>
+</body>
+</html>
