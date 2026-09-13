@@ -1,4 +1,4 @@
-# Saturday 12 September 2026 — 17:11 PDT — Day 4 late evening
+# Saturday 12 September 2026 — 18:19 PDT — Day 4 night
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
@@ -8,13 +8,13 @@ Sister hallway: https://github.com/gothamgodzilla/house-landings
 House twin (already exists — do not spawn a fourth): https://github.com/gothamgodzilla/lynxlogix-house
 Mangasm (sales door): https://www.mangasm.app/plus
 
-Version A still runs. Designs 01–51 stay in force. Late evening ships 52–54.
+Version A still runs. Designs 01–54 stay in force. Night ships 55–57.
 
-## Today's three designs (17:11 pick)
+## Today's three designs (18:19 pick)
 
-1. Design 52 — Version Key (ship): human gate among A / B / C. Phrase: KEEP VERSION A. executed: false. Live on /gate.html.
-2. Design 53 — Sunday Dark (ship): weekend rest is a control. Phrase: SUNDAY STAYS DARK. Live on /sunday.html.
-3. Design 54 — Evening Walk (ship): hand the closed desk to night. Phrase: WALK TO NIGHT. Live on /walk.html.
+1. Design 55 — Night Lamp (ship): one light after close. Phrase: LIGHT THE LAMP. Live on /lamp.html.
+2. Design 56 — Velvet Envelope (ship): 1% private note. Phrase: SEAL THE VELVET. Live on /velvet.html.
+3. Design 57 — Rebuild Door (ship): one Mangasm+ send. Phrase: OPEN THE REBUILD. Live on /rebuild.html.
 
 Keep Version A as the running system. B and C stay paper architecture.
 
@@ -28,21 +28,21 @@ Recommendation: stay on A. “10x” means ten times the process quality — not
 
 ## Deep-work blocks today
 
-### Block 1 — 15 minutes — Version key
-Goal: Open /gate.html. Mark A. Write one sentence why A still runs. Type KEEP VERSION A. Do not open Version B keys.
+### Block 1 — 15 minutes — Night lamp
+Goal: Open /lamp.html. Name rooms the lamp may light and rooms that stay dark. Type LIGHT THE LAMP. Do not reopen the ticket book.
 
-### Block 2 — 15 minutes — Sunday dark
-Goal: Open /sunday.html. Write rest / refuse. Type SUNDAY STAYS DARK. Do not queue a Sunday ticket.
+### Block 2 — 15 minutes — Velvet envelope
+Goal: Open /velvet.html. First name + one private line. Type SEAL THE VELVET. Do not attach a chart.
 
-### Block 3 — 15 minutes — Evening walk
-Goal: Open /walk.html. Write what this hour saw and what night inherits. Type WALK TO NIGHT. Then /close.html → CLOSE THE DESK.
+### Block 3 — 15 minutes — Rebuild door
+Goal: Open /rebuild.html. Name the room. Why the home, not a coin. Type OPEN THE REBUILD. Send https://www.mangasm.app/plus once. Then /close.html → CLOSE THE DESK.
 
 ## Quick wins
 
 - Open https://lynxlogix-net.vercel.app/today.html
-- Seal /gate.html
-- Seal /sunday.html
-- Seal /walk.html
+- Seal /lamp.html
+- Seal /velvet.html
+- Seal /rebuild.html
 - Confirm executed: false on /witness.html
 - Confirm no fourth landing repo was opened this hour
 - Send one living checkout: https://www.mangasm.app/plus
