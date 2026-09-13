@@ -39,7 +39,10 @@ Flow
 29. Seal the version key on `/gate.html` with KEEP VERSION A.
 30. Seal Sunday dark on `/sunday.html` with SUNDAY STAYS DARK.
 31. Walk to night on `/walk.html` with WALK TO NIGHT.
-32. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+32. Light one lamp on `/lamp.html` with LIGHT THE LAMP.
+33. Seal one velvet envelope on `/velvet.html` with SEAL THE VELVET.
+34. Open one rebuild door on `/rebuild.html` with OPEN THE REBUILD.
+35. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -99,6 +102,7 @@ Day 4 13:00 — 43 Dusk After-Action, 44 SuperClaude / OpenCode Room, 45 One Pat
 Day 4 14:15 — 46 Saturday Seal, 47 Sales Liaison Brief, 48 Venue Readiness Card
 Day 4 16:15 — 49 Monday Inherit, 50 Patron Gift, 51 House Till
 Day 4 17:11 — 52 Version Key, 53 Sunday Dark, 54 Evening Walk
+Day 4 18:19 — 55 Night Lamp, 56 Velvet Envelope, 57 Rebuild Door
 
 ## Shared risk box
 
@@ -122,6 +126,9 @@ Day 4 17:11 — 52 Version Key, 53 Sunday Dark, 54 Evening Walk
 - Version key: phrase KEEP VERSION A
 - Sunday dark: phrase SUNDAY STAYS DARK
 - Evening walk: phrase WALK TO NIGHT
+- Night lamp: phrase LIGHT THE LAMP
+- Velvet envelope: phrase SEAL THE VELVET
+- Rebuild door: phrase OPEN THE REBUILD
 - No market-order language on first live week if you later add a private execution worker
 - Record every “would have” fill in paper for 30 days before considering a private execution worker
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
