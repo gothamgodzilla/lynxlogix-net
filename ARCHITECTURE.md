@@ -55,7 +55,10 @@ Flow
 45. Hold noon silence on `/silence.html` with HOLD THE SILENCE.
 46. Seat three Grok voices on `/voices.html` with SEAT THE VOICES.
 47. Keep SuperClaude inside the house on `/spec.html` with KEEP THE SPEC.
-48. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+48. Keep the afternoon on `/afternoon.html` with KEEP THE AFTERNOON.
+49. Pour patron tea on `/tea.html` with POUR THE TEA.
+50. Lock Monday inherit on `/inherit.html` with LOCK THE INHERIT.
+51. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -120,6 +123,7 @@ Day 5 09:21 — 58 Dawn Census, 59 Dark Window, 60 Patron Breakfast
 Day 5 10:11 — 61 Sunday Carry, 62 Venue Hush, 63 Patron Linen
 Day 5 11:04 — 64 Meridian Check, 65 Private Parlor, 66 Rebuild Send
 Day 5 12:12 — 67 Noon Silence, 68 Three Voices, 69 Spec Gate
+Day 5 13:15 — 70 Afternoon Receipt, 71 Patron Tea, 72 Inherit Lock
 
 ## Shared risk box
 
@@ -128,9 +132,9 @@ Day 5 12:12 — 67 Noon Silence, 68 Three Voices, 69 Spec Gate
 - Saturday hard cap: one ticket
 - Sunday: zero tickets
 - Kill switch is a single “desk closed” flag plus the Daily Close phrase
-- Noon silence: phrase HOLD THE SILENCE
-- Three voices: phrase SEAT THE VOICES
-- Spec gate: phrase KEEP THE SPEC
+- Afternoon receipt: phrase KEEP THE AFTERNOON
+- Patron tea: phrase POUR THE TEA
+- Inherit lock: phrase LOCK THE INHERIT
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
 
 ## Honest meaning of “sell 10x”
