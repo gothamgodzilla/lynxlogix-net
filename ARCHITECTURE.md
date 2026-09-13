@@ -58,7 +58,10 @@ Flow
 48. Keep the afternoon on `/afternoon.html` with KEEP THE AFTERNOON.
 49. Pour patron tea on `/tea.html` with POUR THE TEA.
 50. Lock Monday inherit on `/inherit.html` with LOCK THE INHERIT.
-51. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+51. Keep vespers on `/vespers.html` with KEEP THE VESPERS.
+52. Write the house on `/correspondence.html` with WRITE THE HOUSE.
+53. Count the desk on `/inventory.html` with COUNT THE DESK.
+54. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -124,6 +127,7 @@ Day 5 10:11 — 61 Sunday Carry, 62 Venue Hush, 63 Patron Linen
 Day 5 11:04 — 64 Meridian Check, 65 Private Parlor, 66 Rebuild Send
 Day 5 12:12 — 67 Noon Silence, 68 Three Voices, 69 Spec Gate
 Day 5 13:15 — 70 Afternoon Receipt, 71 Patron Tea, 72 Inherit Lock
+Day 5 14:09 — 73 Vespers Board, 74 Patron Correspondence, 75 Desk Inventory
 
 ## Shared risk box
 
@@ -135,6 +139,9 @@ Day 5 13:15 — 70 Afternoon Receipt, 71 Patron Tea, 72 Inherit Lock
 - Afternoon receipt: phrase KEEP THE AFTERNOON
 - Patron tea: phrase POUR THE TEA
 - Inherit lock: phrase LOCK THE INHERIT
+- Vespers board: phrase KEEP THE VESPERS
+- Patron correspondence: phrase WRITE THE HOUSE
+- Desk inventory: phrase COUNT THE DESK
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
 
 ## Honest meaning of “sell 10x”
