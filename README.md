@@ -1,28 +1,19 @@
 # LynxLogix.NET
 
-Luxury piano-black house site for the crypto desk of Mangasm Enterprises.
+Luxury crypto command desk. Piano-black. Human-gated. Paper first.
 
-Live intent: `lynxlogix.net` on Vercel (GothamGanesh team).
+Live: https://lynxlogix-net.vercel.app
 
-## What this is
+Day 5 dawn (13 September 2026, 09:21 PDT) ships designs 58–60:
 
-- Public landing for LynxLogix.NET / LynxLogix.AI
-- Human-gated paper desk (approve / reject / hold)
-- House map: Mangasm.app, Coexist, Ganesh.Guru
-- Owner book with **illustrative** MAR/ARR behind a pass
-- Paywall page that already routes Mangasm+ to the live Stripe membership
+- `/dawn.html` — COUNT THE HOUSE
+- `/window.html` — KEEP THE WINDOW DARK
+- `/breakfast.html` — BREAKFAST THE HOUSE
 
-## What this is not
+Version A runs. Versions B and C stay paper. Sunday tickets: zero.
 
-- Not a live exchange bot
-- Not a wallet signer
-- Not a promise of 10x returns
-- Not an audited valuation
+Law: signals may be automatic. Money may not.
 
-## Local
-
-Open `index.html` or deploy the folder as a static site.
-
-## Daily rule
-
-Upgrade one feature. Do not wire mainnet keys.
+Sister hallway: https://github.com/gothamgodzilla/house-landings
+House twin: https://github.com/gothamgodzilla/lynxlogix-house
+Living checkout: https://www.mangasm.app/plus

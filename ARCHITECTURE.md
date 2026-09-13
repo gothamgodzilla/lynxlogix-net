@@ -14,35 +14,39 @@ Flow
 4. Human types PAPER ONLY, then taps Approve paper / Reject / Hold
 5. Ledger appends. No live order.
 6. Saturday cap: one ticket only (`/one.html`). Seal the weekend on `/seal.html`.
-7. Treasury split (`/treasury.html`): product cash never recapitalizes the paper sleeve.
-8. Domains bind to living Vercel projects (`/domains.html`). No seventh repo.
-9. Seat the ten voices on `/orchestra.html` before the key.
-10. Quiet desk on `/wealth.html` sells Mangasm+, not coins.
-11. Planning book on `/book.html` stays labeled a model.
-12. Rehearse the kill on `/rehearse.html` before you need it.
-13. Witness the book on `/witness.html`.
-14. Print the would-have on `/tape.html`. executed: false.
-15. Send one concierge card from `/card.html`. No ticker in the copy.
-16. Ring `/bell.html` at noon: CLOSE THE DESK or HOLD THE BELL once.
-17. After noon, seal one sentence on `/after.html`.
-18. Count Mangasm+ doors on `/doors.html`. Cap three.
-19. Seat the evening watch on `/watch.html` with PAPER ONLY.
-20. Dusk the book on `/dusk.html` with DUSK THE BOOK.
-21. Constrain SuperClaude / OpenCode on `/opencode.html` with KEEP THE HOUSE.
-22. Reserve one patron hour on `/hour.html`. No chart.
-23. Seal Saturday on `/seal.html` with SEAL SATURDAY.
-24. Write the sales liaison brief on `/sales.html` with SELL THE HOME.
-25. Stamp venue readiness on `/ready.html` with KEYS STAY DARK.
-26. Write Monday inherit on `/monday.html` with MONDAY INHERITS.
-27. Seal one patron gift on `/gift.html` with GIFT THE HOUSE.
-28. Stamp the till on `/till.html` with TILL THE HOUSE.
-29. Seal the version key on `/gate.html` with KEEP VERSION A.
-30. Seal Sunday dark on `/sunday.html` with SUNDAY STAYS DARK.
-31. Walk to night on `/walk.html` with WALK TO NIGHT.
-32. Light one lamp on `/lamp.html` with LIGHT THE LAMP.
-33. Seal one velvet envelope on `/velvet.html` with SEAL THE VELVET.
-34. Open one rebuild door on `/rebuild.html` with OPEN THE REBUILD.
-35. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+7. Sunday: zero tickets (`/sunday.html`, `/window.html`). Rest is a control.
+8. Treasury split (`/treasury.html`): product cash never recapitalizes the paper sleeve.
+9. Domains bind to living Vercel projects (`/domains.html`). No seventh repo.
+10. Seat the ten voices on `/orchestra.html` before the key.
+11. Quiet desk on `/wealth.html` sells Mangasm+, not coins.
+12. Planning book on `/book.html` stays labeled a model.
+13. Rehearse the kill on `/rehearse.html` before you need it.
+14. Witness the book on `/witness.html`.
+15. Print the would-have on `/tape.html`. executed: false.
+16. Send one concierge card from `/card.html`. No ticker in the copy.
+17. Ring `/bell.html` at noon: CLOSE THE DESK or HOLD THE BELL once.
+18. After noon, seal one sentence on `/after.html`.
+19. Count Mangasm+ doors on `/doors.html`. Cap three.
+20. Seat the evening watch on `/watch.html` with PAPER ONLY.
+21. Dusk the book on `/dusk.html` with DUSK THE BOOK.
+22. Constrain SuperClaude / OpenCode on `/opencode.html` with KEEP THE HOUSE.
+23. Reserve one patron hour on `/hour.html`. No chart.
+24. Seal Saturday on `/seal.html` with SEAL SATURDAY.
+25. Write the sales liaison brief on `/sales.html` with SELL THE HOME.
+26. Stamp venue readiness on `/ready.html` with KEYS STAY DARK.
+27. Write Monday inherit on `/monday.html` with MONDAY INHERITS.
+28. Seal one patron gift on `/gift.html` with GIFT THE HOUSE.
+29. Stamp the till on `/till.html` with TILL THE HOUSE.
+30. Seal the version key on `/gate.html` with KEEP VERSION A.
+31. Seal Sunday dark on `/sunday.html` with SUNDAY STAYS DARK.
+32. Walk to night on `/walk.html` with WALK TO NIGHT.
+33. Light one lamp on `/lamp.html` with LIGHT THE LAMP.
+34. Seal one velvet envelope on `/velvet.html` with SEAL THE VELVET.
+35. Open one rebuild door on `/rebuild.html` with OPEN THE REBUILD.
+36. Count the house at dawn on `/dawn.html` with COUNT THE HOUSE.
+37. Keep the Sunday window dark on `/window.html` with KEEP THE WINDOW DARK.
+38. Seat one patron breakfast on `/breakfast.html` with BREAKFAST THE HOUSE.
+39. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -103,6 +107,7 @@ Day 4 14:15 — 46 Saturday Seal, 47 Sales Liaison Brief, 48 Venue Readiness Car
 Day 4 16:15 — 49 Monday Inherit, 50 Patron Gift, 51 House Till
 Day 4 17:11 — 52 Version Key, 53 Sunday Dark, 54 Evening Walk
 Day 4 18:19 — 55 Night Lamp, 56 Velvet Envelope, 57 Rebuild Door
+Day 5 09:21 — 58 Dawn Census, 59 Dark Window, 60 Patron Breakfast
 
 ## Shared risk box
 
@@ -129,6 +134,9 @@ Day 4 18:19 — 55 Night Lamp, 56 Velvet Envelope, 57 Rebuild Door
 - Night lamp: phrase LIGHT THE LAMP
 - Velvet envelope: phrase SEAL THE VELVET
 - Rebuild door: phrase OPEN THE REBUILD
+- Dawn census: phrase COUNT THE HOUSE
+- Dark window: phrase KEEP THE WINDOW DARK
+- Patron breakfast: phrase BREAKFAST THE HOUSE
 - No market-order language on first live week if you later add a private execution worker
 - Record every “would have” fill in paper for 30 days before considering a private execution worker
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
