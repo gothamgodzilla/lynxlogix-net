@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Velvet Envelope — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>VELVET</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="lamp.html">Lamp</a>
+        <a href="hour.html">Hour</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Saturday 12 September 2026 · Design 56 · 18:19 PDT · 1% texture</div>
+      <h1>Write one velvet<br/>envelope.</h1>
+      <p class="lede">Wealthy rooms buy silence, not dashboards. One private note. No pair. No return claim. The gift is a reserved hour and a living membership.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="vel-who">Patron</label>
+      <input id="vel-who" data-vel-who placeholder="First name only" />
+      <label for="vel-note">Private line</label>
+      <textarea id="vel-note" data-vel-note rows="3" placeholder="The house is closed tonight. The membership is open. I kept you a quiet hour."></textarea>
+      <label for="vel-phrase">Release phrase</label>
+      <input id="vel-phrase" data-vel-phrase placeholder="SEAL THE VELVET" />
+      <div class="hero-actions">
+        <button class="btn solid" data-vel-btn>Seal the envelope</button>
+        <a class="btn" href="rebuild.html">Rebuild door</a>
+        <a class="btn ghost" href="gift.html">Saturday gift</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Envelope</div>
+        <pre class="muted" data-vel-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No velvet envelope on this browser.</pre>
+      </article>
+      <p class="note" data-vel-status>Type SEAL THE VELVET. Cap is one Saturday envelope after the gift.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A velvet note is hospitality. It is not a trade idea and not investment advice.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day4night.js"></script>
+</body>
+</html>
