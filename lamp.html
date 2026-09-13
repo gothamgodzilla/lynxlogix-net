@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Night Lamp — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>NIGHT LAMP</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="velvet.html">Velvet</a>
+        <a href="rebuild.html">Rebuild</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Saturday 12 September 2026 · Design 55 · 18:19 PDT</div>
+      <h1>One lamp.<br/>No chart.</h1>
+      <p class="lede">The desk is closed. One light stays on so a human can find contact, the house pass, and Mangasm+. The book does not reopen.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="lamp-rooms">Rooms the lamp may light</label>
+      <textarea id="lamp-rooms" data-lamp-rooms rows="2" placeholder="Contact. House pass. Mangasm+. Night ledger. Nothing else."></textarea>
+      <label for="lamp-dark">Rooms that stay dark</label>
+      <textarea id="lamp-dark" data-lamp-dark rows="2" placeholder="No second ticket. No venue keys. No SuperClaude leaving the house."></textarea>
+      <label for="lamp-phrase">Release phrase</label>
+      <input id="lamp-phrase" data-lamp-phrase placeholder="LIGHT THE LAMP" />
+      <div class="hero-actions">
+        <button class="btn solid" data-lamp-btn>Seal the night lamp</button>
+        <a class="btn" href="velvet.html">Velvet envelope</a>
+        <a class="btn ghost" href="contact.html">Contact</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Lamp receipt</div>
+        <pre class="muted" data-lamp-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No night lamp on this browser.</pre>
+      </article>
+      <p class="note" data-lamp-status>Type LIGHT THE LAMP. Two lines. No pair names.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A night lamp is wayfinding. It is not a fill. executed: false.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day4night.js"></script>
+</body>
+</html>
