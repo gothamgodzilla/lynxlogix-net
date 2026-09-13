@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Version Key — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>VERSION KEY</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="versions.html">Versions</a>
+        <a href="sunday.html">Sunday</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Saturday 12 September 2026 · Design 52 · 17:11 PDT</div>
+      <h1>You pick<br/>the running desk.</h1>
+      <p class="lede">Three versions exist. Only one may run. Signals may be automatic. Money may not. Tonight the law is KEEP VERSION A.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <div class="grid three">
+        <article class="card"><div class="tiny">A · running</div><h3>Signal Concierge</h3><p class="muted">TradingView webhook. Grok brief. PAPER ONLY. Approve / Reject / Hold. Night Ledger.</p></article>
+        <article class="card"><div class="tiny">B · after 30 paper days</div><h3>Multi-venue Paper Desk</h3><p class="muted">Coinbase, Kraken, Phantom as read-only passports. Keys never on this site.</p></article>
+        <article class="card"><div class="tiny">C · last</div><h3>Dual-confirm Hopper</h3><p class="muted">Script flag + Grok veto + human. Two machines recommend. Only you release.</p></article>
+      </div>
+      <label for="gate-vote">Running version tonight</label>
+      <select id="gate-vote" data-gate-vote>
+        <option value="">Choose</option>
+        <option value="A">A — Signal Concierge (required tonight)</option>
+        <option value="B">B — held until 30 paper days</option>
+        <option value="C">C — last, after A and B are dull</option>
+      </select>
+      <label for="gate-why">Why A still runs</label>
+      <textarea id="gate-why" data-gate-why rows="2" placeholder="One sentence. No pair. No venue. No return claim."></textarea>
+      <label for="gate-phrase">Release phrase</label>
+      <input id="gate-phrase" data-gate-phrase placeholder="KEEP VERSION A" />
+      <div class="hero-actions">
+        <button class="btn solid" data-gate-btn>Seal the version key</button>
+        <a class="btn" href="sunday.html">Sunday dark</a>
+        <a class="btn ghost" href="versions.html">Read the three desks</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Version receipt</div>
+        <pre class="muted" data-gate-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No version key on this browser.</pre>
+      </article>
+      <p class="note" data-gate-status>Type KEEP VERSION A. Mark A. One sentence.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A version key is a process control. It is not a fill and not investment advice. “10x” means process quality.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day4late.js"></script>
+</body>
+</html>

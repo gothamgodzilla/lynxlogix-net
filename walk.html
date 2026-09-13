@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Evening Walk — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>EVENING WALK</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="gate.html">Version key</a>
+        <a href="close.html">Close</a>
+        <a href="night.html">Night</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Saturday 12 September 2026 · Design 54 · 17:11 PDT</div>
+      <h1>Walk the house<br/>to night.</h1>
+      <p class="lede">Designs 52–54 end the evening. You saw the version key and the Sunday dark. Night inherits a closed desk, not a new ticket.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="walk-seen">What this hour saw</label>
+      <textarea id="walk-seen" data-walk-seen rows="2" placeholder="Version A kept. Sunday dark sealed. No fourth repo."></textarea>
+      <label for="walk-next">What night inherits</label>
+      <textarea id="walk-next" data-walk-next rows="2" placeholder="Closed desk. Paper ledger. Mangasm+ as the live door."></textarea>
+      <label for="walk-phrase">Release phrase</label>
+      <input id="walk-phrase" data-walk-phrase placeholder="WALK TO NIGHT" />
+      <div class="hero-actions">
+        <button class="btn solid" data-walk-btn>Seal the walk</button>
+        <a class="btn" href="close.html">Close the desk</a>
+        <a class="btn ghost" href="night.html">Night ledger</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Walk receipt</div>
+        <pre class="muted" data-walk-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No evening walk on this browser.</pre>
+      </article>
+      <p class="note" data-walk-status>Type WALK TO NIGHT. Then CLOSE THE DESK on /close.html.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">An evening walk is cadence. executed: false.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day4late.js"></script>
+</body>
+</html>
