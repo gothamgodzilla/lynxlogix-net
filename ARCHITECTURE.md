@@ -52,7 +52,10 @@ Flow
 42. Hold the meridian on `/meridian.html` with HOLD THE MERIDIAN.
 43. Seat the parlor on `/parlor.html` with SEAT THE PARLOR.
 44. Send the home on `/send.html` with SEND THE HOME.
-45. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+45. Hold noon silence on `/silence.html` with HOLD THE SILENCE.
+46. Seat three Grok voices on `/voices.html` with SEAT THE VOICES.
+47. Keep SuperClaude inside the house on `/spec.html` with KEEP THE SPEC.
+48. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -79,7 +82,7 @@ Grok bots (roles, not 10 unsupervised spenders)
 9. Night watch (alerts only)
 10. Post-trade journal
 
-All ten may speak. Only the human key releases.
+Today’s seated trio (Design 68): **Scribe, Veto, Liaison.** All ten may speak. Only the human key releases.
 
 ## Version C — Dual-confirm Hopper
 
@@ -116,6 +119,7 @@ Day 4 18:19 — 55 Night Lamp, 56 Velvet Envelope, 57 Rebuild Door
 Day 5 09:21 — 58 Dawn Census, 59 Dark Window, 60 Patron Breakfast
 Day 5 10:11 — 61 Sunday Carry, 62 Venue Hush, 63 Patron Linen
 Day 5 11:04 — 64 Meridian Check, 65 Private Parlor, 66 Rebuild Send
+Day 5 12:12 — 67 Noon Silence, 68 Three Voices, 69 Spec Gate
 
 ## Shared risk box
 
@@ -124,35 +128,9 @@ Day 5 11:04 — 64 Meridian Check, 65 Private Parlor, 66 Rebuild Send
 - Saturday hard cap: one ticket
 - Sunday: zero tickets
 - Kill switch is a single “desk closed” flag plus the Daily Close phrase
-- Noon bell: CLOSE THE DESK or one HOLD THE BELL
-- After-bell: one sentence, no pair
-- Door count: three Mangasm+ marks, then stop
-- Dusk book: three lines, phrase DUSK THE BOOK
-- OpenCode: phrase KEEP THE HOUSE, no third repo
-- Patron hour: one reserved conversation, no chart
-- Saturday seal: phrase SEAL SATURDAY
-- Sales brief: phrase SELL THE HOME, no ticker
-- Venue card: phrase KEYS STAY DARK
-- Monday inherit: phrase MONDAY INHERITS
-- Patron gift: phrase GIFT THE HOUSE, no chart
-- House till: phrase TILL THE HOUSE
-- Version key: phrase KEEP VERSION A
-- Sunday dark: phrase SUNDAY STAYS DARK
-- Evening walk: phrase WALK TO NIGHT
-- Night lamp: phrase LIGHT THE LAMP
-- Velvet envelope: phrase SEAL THE VELVET
-- Rebuild door: phrase OPEN THE REBUILD
-- Dawn census: phrase COUNT THE HOUSE
-- Dark window: phrase KEEP THE WINDOW DARK
-- Patron breakfast: phrase BREAKFAST THE HOUSE
-- Sunday carry: phrase CARRY THE HOUSE
-- Venue hush: phrase HUSH THE VENUES
-- Patron linen: phrase LAY THE LINEN
-- Meridian check: phrase HOLD THE MERIDIAN
-- Private parlor: phrase SEAT THE PARLOR
-- Rebuild send: phrase SEND THE HOME
-- No market-order language on first live week if you later add a private execution worker
-- Record every “would have” fill in paper for 30 days before considering a private execution worker
+- Noon silence: phrase HOLD THE SILENCE
+- Three voices: phrase SEAT THE VOICES
+- Spec gate: phrase KEEP THE SPEC
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
 
 ## Honest meaning of “sell 10x”
