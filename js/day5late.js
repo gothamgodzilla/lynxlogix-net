@@ -7,167 +7,155 @@
     localStorage.setItem(KEY, JSON.stringify(state));
   }
 
-  const dark = document.querySelector("[data-meridian-dark]");
-  const tempt = document.querySelector("[data-meridian-tempt]");
-  const merPhrase = document.querySelector("[data-meridian-phrase]");
-  const merOut = document.querySelector("[data-meridian-out]");
-  const merStatus = document.querySelector("[data-meridian-status]");
+  const dark = document.querySelector("[data-vespers-dark]");
+  const itch = document.querySelector("[data-vespers-itch]");
+  const vespersPhrase = document.querySelector("[data-vespers-phrase]");
+  const vespersOut = document.querySelector("[data-vespers-out]");
+  const vespersStatus = document.querySelector("[data-vespers-status]");
   if (dark && state.dark) dark.value = state.dark;
-  if (tempt && state.tempt) tempt.value = state.tempt;
-  if (merOut && state.meridianText) merOut.textContent = state.meridianText;
-  if (merStatus && state.meridianSealed) {
-    merStatus.textContent = "Meridian sealed. Money did not move.";
+  if (itch && state.itch) itch.value = state.itch;
+  if (vespersOut && state.vespersText) vespersOut.textContent = state.vespersText;
+  if (vespersStatus && state.vespersSealed) {
+    vespersStatus.textContent = "Vespers sealed. Desk stays dark.";
   }
-  const merBtn = document.querySelector("[data-meridian-btn]");
-  if (merBtn) {
-    merBtn.addEventListener("click", function () {
+  const vespersBtn = document.querySelector("[data-vespers-btn]");
+  if (vespersBtn) {
+    vespersBtn.addEventListener("click", function () {
       const a = dark ? dark.value.trim() : "";
-      const b = tempt ? tempt.value.trim() : "";
-      const phrase = merPhrase ? merPhrase.value.trim().toUpperCase() : "";
-      if (phrase !== "HOLD THE MERIDIAN") {
-        if (merStatus) merStatus.textContent = "Type HOLD THE MERIDIAN.";
+      const b = itch ? itch.value.trim() : "";
+      const phrase = vespersPhrase ? vespersPhrase.value.trim().toUpperCase() : "";
+      if (phrase !== "KEEP THE VESPERS") {
+        if (vespersStatus) vespersStatus.textContent = "Type KEEP THE VESPERS.";
         return;
       }
       if (!a || !b) {
-        if (merStatus) merStatus.textContent = "Two lines. What is dark. What tried to light.";
+        if (vespersStatus) vespersStatus.textContent = "Two lines. What is dark. What tried to reopen.";
         return;
       }
       if (banned.test(a + " " + b)) {
-        if (merStatus) merStatus.textContent = "Void. The meridian is a clock, not a ticker.";
+        if (vespersStatus) vespersStatus.textContent = "Void. Vespers is a clock, not a ticker.";
         return;
       }
       const book = [
-        "LYNXLOGIX.NET · MERIDIAN CHECK",
-        "Sunday 13 September 2026 · 11:04 PDT",
+        "LYNXLOGIX.NET · VESPERS BOARD",
+        "Sunday 13 September 2026 · 14:09 PDT",
         "still dark: " + a,
-        "tried to light: " + b,
+        "tried to reopen: " + b,
         "version: A running · B/C paper",
         "sunday tickets: 0",
         "executed: false",
         "sealed: " + new Date().toISOString()
       ].join("\n");
       state.dark = a;
-      state.tempt = b;
-      state.meridianText = book;
-      state.meridianSealed = true;
-      state.meridianAt = new Date().toISOString();
+      state.itch = b;
+      state.vespersText = book;
+      state.vespersSealed = true;
+      state.vespersAt = new Date().toISOString();
       save();
-      if (merOut) merOut.textContent = book;
-      if (merStatus) merStatus.textContent = "Sealed. Carry to /parlor.html.";
+      if (vespersOut) vespersOut.textContent = book;
+      if (vespersStatus) vespersStatus.textContent = "Sealed. Carry to /correspondence.html.";
     });
   }
 
-  const who = document.querySelector("[data-parlor-who]");
-  const why = document.querySelector("[data-parlor-why]");
-  const parlorPhrase = document.querySelector("[data-parlor-phrase]");
-  const parlorOut = document.querySelector("[data-parlor-out]");
-  const parlorStatus = document.querySelector("[data-parlor-status]");
-  if (who && state.parlorWho) who.value = state.parlorWho;
-  if (why && state.parlorWhy) why.value = state.parlorWhy;
-  if (parlorOut && state.parlorText) parlorOut.textContent = state.parlorText;
-  if (parlorStatus && state.parlorSealed) {
-    parlorStatus.textContent = "Parlor seated for " + state.parlorWho + ". Chart stays outside.";
+  const who = document.querySelector("[data-letter-who]");
+  const offer = document.querySelector("[data-letter-offer]");
+  const letterPhrase = document.querySelector("[data-letter-phrase]");
+  const letterOut = document.querySelector("[data-letter-out]");
+  const letterStatus = document.querySelector("[data-letter-status]");
+  if (who && state.who) who.value = state.who;
+  if (offer && state.offer) offer.value = state.offer;
+  if (letterOut && state.letterText) letterOut.textContent = state.letterText;
+  if (letterStatus && state.letterSealed) {
+    letterStatus.textContent = "Letter sealed. Coins stay out of the envelope.";
   }
-  const parlorBtn = document.querySelector("[data-parlor-btn]");
-  if (parlorBtn) {
-    parlorBtn.addEventListener("click", function () {
-      const name = who ? who.value.trim() : "";
-      const line = why ? why.value.trim() : "";
-      const phrase = parlorPhrase ? parlorPhrase.value.trim().toUpperCase() : "";
-      if (phrase !== "SEAT THE PARLOR") {
-        if (parlorStatus) parlorStatus.textContent = "Type SEAT THE PARLOR.";
+  const letterBtn = document.querySelector("[data-letter-btn]");
+  if (letterBtn) {
+    letterBtn.addEventListener("click", function () {
+      const a = who ? who.value.trim() : "";
+      const b = offer ? offer.value.trim() : "";
+      const phrase = letterPhrase ? letterPhrase.value.trim().toUpperCase() : "";
+      if (phrase !== "WRITE THE HOUSE") {
+        if (letterStatus) letterStatus.textContent = "Type WRITE THE HOUSE.";
         return;
       }
-      if (!name || !line) {
-        if (parlorStatus) parlorStatus.textContent = "Name the guest and what they buy besides a chart.";
+      if (!a || !b) {
+        if (letterStatus) letterStatus.textContent = "Two lines. Who. What the house offers.";
         return;
       }
-      if (banned.test(name + " " + line)) {
-        if (parlorStatus) parlorStatus.textContent = "Void. The parlor sells the home, not a pair.";
-        return;
-      }
-      if (state.parlorSealed) {
-        if (parlorStatus) parlorStatus.textContent = "Sunday cap: one parlor guest.";
+      if (banned.test(a + " " + b)) {
+        if (letterStatus) letterStatus.textContent = "Void. No coins in the envelope.";
         return;
       }
       const card = [
-        "LYNXLOGIX.NET · PRIVATE PARLOR",
-        name + ",",
-        "",
-        line,
-        "",
-        "The chart stays in the hallway.",
-        "Mangasm+: https://www.mangasm.app/plus",
-        "Pass: https://lynxlogix-net.vercel.app/pay.html",
-        "Owner book: https://lynxlogix-net.vercel.app/owner.html",
-        "",
-        "- LynxLogix / Mangasm Enterprises"
+        "LYNXLOGIX.NET · PATRON CORRESPONDENCE",
+        "Sunday 13 September 2026 · 14:09 PDT",
+        "receives: " + a,
+        "offer: " + b,
+        "product: Mangasm+",
+        "coins sold: none",
+        "sunday tickets: 0",
+        "executed: false",
+        "sealed: " + new Date().toISOString()
       ].join("\n");
-      state.parlorWho = name;
-      state.parlorWhy = line;
-      state.parlorText = card;
-      state.parlorSealed = true;
-      state.parlorAt = new Date().toISOString();
+      state.who = a;
+      state.offer = b;
+      state.letterText = card;
+      state.letterSealed = true;
+      state.letterAt = new Date().toISOString();
       save();
-      if (parlorOut) parlorOut.textContent = card;
-      if (parlorStatus) parlorStatus.textContent = "Sealed. Carry to /send.html if they are waiting.";
+      if (letterOut) letterOut.textContent = card;
+      if (letterStatus) letterStatus.textContent = "Sealed. Carry to /inventory.html.";
     });
   }
 
-  const sendWho = document.querySelector("[data-send-who]");
-  const sendLine = document.querySelector("[data-send-line]");
-  const sendPhrase = document.querySelector("[data-send-phrase]");
-  const sendOut = document.querySelector("[data-send-out]");
-  const sendStatus = document.querySelector("[data-send-status]");
-  if (sendWho && state.sendWho) sendWho.value = state.sendWho;
-  if (sendLine && state.sendLine) sendLine.value = state.sendLine;
-  if (sendOut && state.sendText) sendOut.textContent = state.sendText;
-  if (sendStatus && state.sendSealed) {
-    sendStatus.textContent = "Send sealed for " + state.sendWho + ". Sunday cap is one card.";
+  const alive = document.querySelector("[data-inventory-alive]");
+  const refuse = document.querySelector("[data-inventory-refuse]");
+  const inventoryPhrase = document.querySelector("[data-inventory-phrase]");
+  const inventoryOut = document.querySelector("[data-inventory-out]");
+  const inventoryStatus = document.querySelector("[data-inventory-status]");
+  if (alive && state.alive) alive.value = state.alive;
+  if (refuse && state.refuse) refuse.value = state.refuse;
+  if (inventoryOut && state.inventoryText) inventoryOut.textContent = state.inventoryText;
+  if (inventoryStatus && state.inventorySealed) {
+    inventoryStatus.textContent = "Inventory sealed. Three doors. No fourth.";
   }
-  const sendBtn = document.querySelector("[data-send-btn]");
-  if (sendBtn) {
-    sendBtn.addEventListener("click", function () {
-      const name = sendWho ? sendWho.value.trim() : "";
-      const line = sendLine ? sendLine.value.trim() : "";
-      const phrase = sendPhrase ? sendPhrase.value.trim().toUpperCase() : "";
-      if (phrase !== "SEND THE HOME") {
-        if (sendStatus) sendStatus.textContent = "Type SEND THE HOME.";
+  const inventoryBtn = document.querySelector("[data-inventory-btn]");
+  if (inventoryBtn) {
+    inventoryBtn.addEventListener("click", function () {
+      const a = alive ? alive.value.trim() : "";
+      const b = refuse ? refuse.value.trim() : "";
+      const phrase = inventoryPhrase ? inventoryPhrase.value.trim().toUpperCase() : "";
+      if (phrase !== "COUNT THE DESK") {
+        if (inventoryStatus) inventoryStatus.textContent = "Type COUNT THE DESK.";
         return;
       }
-      if (!name || !line) {
-        if (sendStatus) sendStatus.textContent = "Name the guest and write one sentence.";
+      if (!a || !b) {
+        if (inventoryStatus) inventoryStatus.textContent = "Two lines. What is alive. What must not open.";
         return;
       }
-      if (banned.test(name + " " + line)) {
-        if (sendStatus) sendStatus.textContent = "Void. The send is a home, not a return.";
-        return;
-      }
-      if (state.sendSealed) {
-        if (sendStatus) sendStatus.textContent = "Sunday cap: one rebuild send.";
+      if (banned.test(a + " " + b)) {
+        if (inventoryStatus) inventoryStatus.textContent = "Void. The count is a leash, not a ticker.";
         return;
       }
       const letter = [
-        "LYNXLOGIX.NET · REBUILD SEND",
-        name + ",",
-        "",
-        line,
-        "",
-        "The membership is live.",
-        "Mangasm+: https://www.mangasm.app/plus",
-        "House pass: https://lynxlogix-net.vercel.app/pay.html",
-        "Contact: https://lynxlogix-net.vercel.app/contact.html",
-        "",
-        "- LynxLogix / Mangasm Enterprises"
+        "LYNXLOGIX.NET · DESK INVENTORY",
+        "Sunday 13 September 2026 · 14:09 PDT",
+        "alive: " + a,
+        "must not open: " + b,
+        "repos: lynxlogix-net · house-landings · lynxlogix-house",
+        "superclaude / opencode: brainstorm only inside the house",
+        "sunday tickets: 0",
+        "executed: false",
+        "sealed: " + new Date().toISOString()
       ].join("\n");
-      state.sendWho = name;
-      state.sendLine = line;
-      state.sendText = letter;
-      state.sendSealed = true;
-      state.sendAt = new Date().toISOString();
+      state.alive = a;
+      state.refuse = b;
+      state.inventoryText = letter;
+      state.inventorySealed = true;
+      state.inventoryAt = new Date().toISOString();
       save();
-      if (sendOut) sendOut.textContent = letter;
-      if (sendStatus) sendStatus.textContent = "Sealed. Open Mangasm+ once if they are waiting. Then rest.";
+      if (inventoryOut) inventoryOut.textContent = letter;
+      if (inventoryStatus) inventoryStatus.textContent = "Sealed. Rest. Monday inherits a counted desk.";
     });
   }
 })();

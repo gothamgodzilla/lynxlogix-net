@@ -1,4 +1,4 @@
-# Sunday 13 September 2026 — 13:15 PDT — Day 5 afternoon
+# Sunday 13 September 2026 — 14:09 PDT — Day 5 late afternoon
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
@@ -8,14 +8,14 @@ Sister hallway: https://github.com/gothamgodzilla/house-landings
 House twin (already exists — do not spawn a fourth): https://github.com/gothamgodzilla/lynxlogix-house
 Mangasm (sales door): https://www.mangasm.app/plus
 
-Version A still runs. Designs 01–69 stay in force. Afternoon ships 70–72.
-Sunday law: zero tickets. Rest is a control. Noon silence remains sealed.
+Version A still runs. Designs 01–72 stay in force. Late afternoon ships 73–75.
+Sunday law: zero tickets. Rest is a control. Noon silence and 13:15 seals remain sealed.
 
-## Today's three designs (13:15 pick)
+## Today's three designs (14:09 pick)
 
-1. Design 70 — Afternoon Receipt (ship): proof the hook stayed dark past 13:00. Phrase: KEEP THE AFTERNOON. Live on /afternoon.html.
-2. Design 71 — Patron Tea (ship): 1% cloth, no chart. Hallway ends at Mangasm+. Phrase: POUR THE TEA. Live on /tea.html.
-3. Design 72 — Inherit Lock (ship): freeze the Monday page named at noon. Phrase: LOCK THE INHERIT. Live on /inherit.html.
+1. Design 73 — Vespers Board (ship): second proof the hook stayed dark after lunch. Phrase: KEEP THE VESPERS. Live on /vespers.html.
+2. Design 74 — Patron Correspondence (ship): one UHNW letter that sells Mangasm+, not a coin. Phrase: WRITE THE HOUSE. Live on /correspondence.html.
+3. Design 75 — Desk Inventory (ship): count the three living landings. Refuse a fourth repo. Phrase: COUNT THE DESK. Live on /inventory.html.
 
 Keep Version A as the running system. B and C stay paper architecture.
 
@@ -29,23 +29,23 @@ Recommendation: stay on A. “10x” means ten times the process quality — not
 
 ## Deep-work blocks today
 
-### Block 1 — 15 minutes — Afternoon receipt
-Goal: Open /afternoon.html. Confirm hook dark after noon. Confirm Sunday tickets = 0. Confirm executed: false. Type KEEP THE AFTERNOON.
+### Block 1 — 15 minutes — Vespers
+Goal: Open /vespers.html. Confirm afternoon / tea / inherit still sealed. Confirm hook dark. Confirm Sunday tickets = 0. Confirm executed: false. Type KEEP THE VESPERS.
 
-### Block 2 — 20 minutes — Patron tea
-Goal: Open /tea.html. Name one UHNW courtesy that is not a trade. Name the Mangasm+ door. Type POUR THE TEA. Do not put a pair on the saucer.
+### Block 2 — 20 minutes — Correspondence
+Goal: Open /correspondence.html. Name one recipient and one house offer that is not a trade. Hallway ends at Mangasm+. Type WRITE THE HOUSE. Do not put a pair in the envelope.
 
-### Block 3 — 15 minutes — Inherit lock
-Goal: Open /inherit.html. Freeze the one Monday page already named on /spec.html. Type LOCK THE INHERIT. SuperClaude / OpenCode stay in the house.
+### Block 3 — 15 minutes — Inventory
+Goal: Open /inventory.html. Name the three living repos. Name what agents must not open. Type COUNT THE DESK. SuperClaude / OpenCode stay in the house.
 
-Noon silence / voices / spec from 12:12 remain sealed. Do not reopen them as a second launch.
+Noon silence / voices / spec / afternoon / tea / inherit remain sealed. Do not reopen them as a second launch.
 
 ## Quick wins
 
 - Open https://lynxlogix-net.vercel.app/today.html
-- Seal /afternoon.html
-- Seal /tea.html
-- Seal /inherit.html
+- Seal /vespers.html
+- Seal /correspondence.html
+- Seal /inventory.html
 - Confirm /sunday.html still reads SUNDAY STAYS DARK
 - Confirm executed: false on /witness.html
 - Confirm no fourth landing repo was opened this afternoon
