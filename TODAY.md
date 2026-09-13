@@ -1,4 +1,4 @@
-# Sunday 13 September 2026 — 14:09 PDT — Day 5 late afternoon
+# Sunday 13 September 2026 — 15:06 PDT — Day 5 early evening
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
@@ -8,14 +8,14 @@ Sister hallway: https://github.com/gothamgodzilla/house-landings
 House twin (already exists — do not spawn a fourth): https://github.com/gothamgodzilla/lynxlogix-house
 Mangasm (sales door): https://www.mangasm.app/plus
 
-Version A still runs. Designs 01–72 stay in force. Late afternoon ships 73–75.
-Sunday law: zero tickets. Rest is a control. Noon silence and 13:15 seals remain sealed.
+Version A still runs. Designs 01–75 stay in force. Early evening ships 76–78.
+Sunday law: zero tickets. Rest is a control. Noon silence, 13:15, and 14:09 seals remain sealed.
 
-## Today's three designs (14:09 pick)
+## Today's three designs (15:06 pick)
 
-1. Design 73 — Vespers Board (ship): second proof the hook stayed dark after lunch. Phrase: KEEP THE VESPERS. Live on /vespers.html.
-2. Design 74 — Patron Correspondence (ship): one UHNW letter that sells Mangasm+, not a coin. Phrase: WRITE THE HOUSE. Live on /correspondence.html.
-3. Design 75 — Desk Inventory (ship): count the three living landings. Refuse a fourth repo. Phrase: COUNT THE DESK. Live on /inventory.html.
+1. Design 76 — Compline Board (ship): third proof the hook stayed dark after vespers. Phrase: KEEP THE COMPLINE. Live on /compline.html.
+2. Design 77 — Evening Salon (ship): one UHNW seat that sells Mangasm+, not a coin. Phrase: SEAT THE SALON. Live on /salon.html.
+3. Design 78 — Night Preview (ship): rehearse Daily Close without firing a ticket. Phrase: PREVIEW THE NIGHT. Live on /preview.html.
 
 Keep Version A as the running system. B and C stay paper architecture.
 
@@ -29,26 +29,26 @@ Recommendation: stay on A. “10x” means ten times the process quality — not
 
 ## Deep-work blocks today
 
-### Block 1 — 15 minutes — Vespers
-Goal: Open /vespers.html. Confirm afternoon / tea / inherit still sealed. Confirm hook dark. Confirm Sunday tickets = 0. Confirm executed: false. Type KEEP THE VESPERS.
+### Block 1 — 15 minutes — Compline
+Goal: Open /compline.html. Confirm vespers / letter / inventory still sealed. Confirm hook dark. Confirm Sunday tickets = 0. Confirm executed: false. Type KEEP THE COMPLINE.
 
-### Block 2 — 20 minutes — Correspondence
-Goal: Open /correspondence.html. Name one recipient and one house offer that is not a trade. Hallway ends at Mangasm+. Type WRITE THE HOUSE. Do not put a pair in the envelope.
+### Block 2 — 20 minutes — Salon
+Goal: Open /salon.html. Name one guest and one house offer that is not a trade. Hallway ends at Mangasm+. Type SEAT THE SALON. Do not put a pair on the table.
 
-### Block 3 — 15 minutes — Inventory
-Goal: Open /inventory.html. Name the three living repos. Name what agents must not open. Type COUNT THE DESK. SuperClaude / OpenCode stay in the house.
+### Block 3 — 15 minutes — Night preview
+Goal: Open /preview.html. Name what Monday inherits and what stays in the drawer. Type PREVIEW THE NIGHT. Do not fire a paper ticket to prove the close works.
 
-Noon silence / voices / spec / afternoon / tea / inherit remain sealed. Do not reopen them as a second launch.
+Vespers / correspondence / inventory / afternoon / tea / inherit remain sealed. Do not reopen them as a second launch.
 
 ## Quick wins
 
 - Open https://lynxlogix-net.vercel.app/today.html
-- Seal /vespers.html
-- Seal /correspondence.html
-- Seal /inventory.html
+- Seal /compline.html
+- Seal /salon.html
+- Seal /preview.html
 - Confirm /sunday.html still reads SUNDAY STAYS DARK
 - Confirm executed: false on /witness.html
-- Confirm no fourth landing repo was opened this afternoon
+- Confirm no fourth landing repo was opened this evening
 - Point any custom-domain thought at existing GothamGanesh Vercel projects (lynxlogix-net, house-landings)
 
 ## Do not spend time on today
@@ -58,6 +58,6 @@ Do not wire live Coinbase Advanced, Kraken AddOrder, CryptoHopper live bots, or 
 Do not paste exchange API secrets into Vercel.
 Do not promise 10x returns.
 Do not publish the owner MAR/ARR table as proven cash.
-Do not rebuild Mangasm.app, Coexist.llc, Coexist.Click, Ganesh.Guru, and LynxLogix.AI as six new systems this afternoon.
+Do not rebuild Mangasm.app, Coexist.llc, Coexist.Click, Ganesh.Guru, and LynxLogix.AI as six new systems this evening.
 Do not fire a Sunday paper ticket. Zero means zero.
 Do not treat SuperClaude / OpenCode as permission to leave the house.

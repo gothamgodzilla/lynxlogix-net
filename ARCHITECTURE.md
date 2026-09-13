@@ -61,7 +61,10 @@ Flow
 51. Keep vespers on `/vespers.html` with KEEP THE VESPERS.
 52. Write the house on `/correspondence.html` with WRITE THE HOUSE.
 53. Count the desk on `/inventory.html` with COUNT THE DESK.
-54. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+54. Keep compline on `/compline.html` with KEEP THE COMPLINE.
+55. Seat the salon on `/salon.html` with SEAT THE SALON.
+56. Preview the night on `/preview.html` with PREVIEW THE NIGHT.
+57. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -128,6 +131,7 @@ Day 5 11:04 — 64 Meridian Check, 65 Private Parlor, 66 Rebuild Send
 Day 5 12:12 — 67 Noon Silence, 68 Three Voices, 69 Spec Gate
 Day 5 13:15 — 70 Afternoon Receipt, 71 Patron Tea, 72 Inherit Lock
 Day 5 14:09 — 73 Vespers Board, 74 Patron Correspondence, 75 Desk Inventory
+Day 5 15:06 — 76 Compline Board, 77 Evening Salon, 78 Night Preview
 
 ## Shared risk box
 
@@ -142,6 +146,9 @@ Day 5 14:09 — 73 Vespers Board, 74 Patron Correspondence, 75 Desk Inventory
 - Vespers board: phrase KEEP THE VESPERS
 - Patron correspondence: phrase WRITE THE HOUSE
 - Desk inventory: phrase COUNT THE DESK
+- Compline board: phrase KEEP THE COMPLINE
+- Evening salon: phrase SEAT THE SALON
+- Night preview: phrase PREVIEW THE NIGHT
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
 
 ## Honest meaning of “sell 10x”
@@ -155,3 +162,7 @@ Every hallway ends at Mangasm+ or a house gift. LynxLogix.NET does not sell coin
 ## Repo law
 
 Do not open a fourth landing repository while lynxlogix-net, house-landings, and lynxlogix-house are alive. Upgrade the hallway. Point custom domains at the existing Vercel projects on GothamGanesh or COEXIST iNTeLLiGeNCE.
+
+## Trademark note
+
+Sensitech / Carrier markets a supply-chain product named Lynx Logix. This house desk is an independent Coexist / Mangasm Enterprises property on lynxlogix.net. Do not imply affiliation.
