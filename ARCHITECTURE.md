@@ -49,7 +49,10 @@ Flow
 39. Carry the dawn on `/carry.html` with CARRY THE HOUSE.
 40. Hush the venues on `/hush.html` with HUSH THE VENUES.
 41. Lay patron linen on `/linen.html` with LAY THE LINEN.
-42. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+42. Hold the meridian on `/meridian.html` with HOLD THE MERIDIAN.
+43. Seat the parlor on `/parlor.html` with SEAT THE PARLOR.
+44. Send the home on `/send.html` with SEND THE HOME.
+45. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -112,6 +115,7 @@ Day 4 17:11 — 52 Version Key, 53 Sunday Dark, 54 Evening Walk
 Day 4 18:19 — 55 Night Lamp, 56 Velvet Envelope, 57 Rebuild Door
 Day 5 09:21 — 58 Dawn Census, 59 Dark Window, 60 Patron Breakfast
 Day 5 10:11 — 61 Sunday Carry, 62 Venue Hush, 63 Patron Linen
+Day 5 11:04 — 64 Meridian Check, 65 Private Parlor, 66 Rebuild Send
 
 ## Shared risk box
 
@@ -144,6 +148,9 @@ Day 5 10:11 — 61 Sunday Carry, 62 Venue Hush, 63 Patron Linen
 - Sunday carry: phrase CARRY THE HOUSE
 - Venue hush: phrase HUSH THE VENUES
 - Patron linen: phrase LAY THE LINEN
+- Meridian check: phrase HOLD THE MERIDIAN
+- Private parlor: phrase SEAT THE PARLOR
+- Rebuild send: phrase SEND THE HOME
 - No market-order language on first live week if you later add a private execution worker
 - Record every “would have” fill in paper for 30 days before considering a private execution worker
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
