@@ -1,4 +1,4 @@
-# Saturday 12 September 2026 — 18:19 PDT — Day 4 night
+# Sunday 13 September 2026 — 09:21 PDT — Day 5 dawn
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
@@ -8,13 +8,14 @@ Sister hallway: https://github.com/gothamgodzilla/house-landings
 House twin (already exists — do not spawn a fourth): https://github.com/gothamgodzilla/lynxlogix-house
 Mangasm (sales door): https://www.mangasm.app/plus
 
-Version A still runs. Designs 01–54 stay in force. Night ships 55–57.
+Version A still runs. Designs 01–57 stay in force. Dawn ships 58–60.
+Sunday law: zero tickets. Rest is a control.
 
-## Today's three designs (18:19 pick)
+## Today's three designs (09:21 pick)
 
-1. Design 55 — Night Lamp (ship): one light after close. Phrase: LIGHT THE LAMP. Live on /lamp.html.
-2. Design 56 — Velvet Envelope (ship): 1% private note. Phrase: SEAL THE VELVET. Live on /velvet.html.
-3. Design 57 — Rebuild Door (ship): one Mangasm+ send. Phrase: OPEN THE REBUILD. Live on /rebuild.html.
+1. Design 58 — Dawn Census (ship): count what the house already holds. Phrase: COUNT THE HOUSE. Live on /dawn.html.
+2. Design 59 — Dark Window (ship): markets stay dark on Sunday. Phrase: KEEP THE WINDOW DARK. Live on /window.html.
+3. Design 60 — Patron Breakfast (ship): 1% table that sells the home, not a coin. Phrase: BREAKFAST THE HOUSE. Live on /breakfast.html.
 
 Keep Version A as the running system. B and C stay paper architecture.
 
@@ -28,24 +29,25 @@ Recommendation: stay on A. “10x” means ten times the process quality — not
 
 ## Deep-work blocks today
 
-### Block 1 — 15 minutes — Night lamp
-Goal: Open /lamp.html. Name rooms the lamp may light and rooms that stay dark. Type LIGHT THE LAMP. Do not reopen the ticket book.
+### Block 1 — 20 minutes — Dawn census
+Goal: Open /dawn.html. Name three rooms that already exist and one room that must stay unbuilt. Type COUNT THE HOUSE. Do not invent a fourth landing repo.
 
-### Block 2 — 15 minutes — Velvet envelope
-Goal: Open /velvet.html. First name + one private line. Type SEAL THE VELVET. Do not attach a chart.
+### Block 2 — 15 minutes — Dark window
+Goal: Open /window.html. Confirm Sunday refuses tickets, live keys, and Hopper fire. Type KEEP THE WINDOW DARK. Do not post /api/hook.
 
-### Block 3 — 15 minutes — Rebuild door
-Goal: Open /rebuild.html. Name the room. Why the home, not a coin. Type OPEN THE REBUILD. Send https://www.mangasm.app/plus once. Then /close.html → CLOSE THE DESK.
+### Block 3 — 20 minutes — Patron breakfast
+Goal: Open /breakfast.html. First name + why they sit at a table, not a ticker. Type BREAKFAST THE HOUSE. Send https://www.mangasm.app/plus once if a living patron is waiting. Then leave the desk closed.
 
 ## Quick wins
 
 - Open https://lynxlogix-net.vercel.app/today.html
-- Seal /lamp.html
-- Seal /velvet.html
-- Seal /rebuild.html
+- Seal /dawn.html
+- Seal /window.html
+- Seal /breakfast.html
+- Confirm /sunday.html still reads SUNDAY STAYS DARK
 - Confirm executed: false on /witness.html
-- Confirm no fourth landing repo was opened this hour
-- Send one living checkout: https://www.mangasm.app/plus
+- Confirm no fourth landing repo was opened this morning
+- Point any new custom-domain thought at existing GothamGanesh Vercel projects
 
 ## Do not spend time on today
 
@@ -54,6 +56,6 @@ Do not wire live Coinbase Advanced, Kraken AddOrder, CryptoHopper live bots, or 
 Do not paste exchange API secrets into Vercel.
 Do not promise 10x returns.
 Do not publish the owner MAR/ARR table as proven cash.
-Do not rebuild Mangasm.app, Coexist.llc, Coexist.Click, Ganesh.Guru, and LynxLogix.AI as six new systems tonight.
-Do not fire a second Saturday paper ticket.
+Do not rebuild Mangasm.app, Coexist.llc, Coexist.Click, Ganesh.Guru, and LynxLogix.AI as six new systems this morning.
+Do not fire a Sunday paper ticket. Zero means zero.
 Do not treat SuperClaude / OpenCode as permission to leave the house.

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dawn Census — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>DAWN CENSUS</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="window.html">Window</a>
+        <a href="breakfast.html">Breakfast</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Sunday 13 September 2026 · Design 58 · 09:21 PDT</div>
+      <h1>Count the house.<br/>Do not build a fourth.</h1>
+      <p class="lede">Dawn is an inventory, not a launch. Three rooms already stand: the desk, the hallway, the house twin. Name what is alive. Name what must stay unbuilt.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="dawn-hold">Rooms that already exist</label>
+      <textarea id="dawn-hold" data-dawn-hold rows="2" placeholder="lynxlogix-net desk. house-landings hallway. lynxlogix-house twin. Mangasm+ checkout."></textarea>
+      <label for="dawn-unbuilt">Room that must stay unbuilt today</label>
+      <textarea id="dawn-unbuilt" data-dawn-unbuilt rows="2" placeholder="No fourth landing repo. No live venue worker. No Sunday ticket."></textarea>
+      <label for="dawn-phrase">Release phrase</label>
+      <input id="dawn-phrase" data-dawn-phrase placeholder="COUNT THE HOUSE" />
+      <div class="hero-actions">
+        <button class="btn solid" data-dawn-btn>Seal the dawn census</button>
+        <a class="btn" href="window.html">Dark window</a>
+        <a class="btn ghost" href="house.html">House map</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Dawn receipt</div>
+        <pre class="muted" data-dawn-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No dawn census on this browser.</pre>
+      </article>
+      <p class="note" data-dawn-status>Type COUNT THE HOUSE. Two lines. No pair names.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A census is a count of rooms. It is not a fill. executed: false.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day5.js"></script>
+</body>
+</html>
