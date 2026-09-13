@@ -1,21 +1,21 @@
-# Sunday 13 September 2026 — 10:11 PDT — Day 5 mid-morning
+# Sunday 13 September 2026 — 11:04 PDT — Day 5 late morning
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
 Hook: POST /api/hook?key=paper — stays dark today
-Team: GothamGanesh · project `lynxlogix-net` (unpaused 10:11)
+Team: GothamGanesh · project `lynxlogix-net`
 Sister hallway: https://github.com/gothamgodzilla/house-landings
 House twin (already exists — do not spawn a fourth): https://github.com/gothamgodzilla/lynxlogix-house
 Mangasm (sales door): https://www.mangasm.app/plus
 
-Version A still runs. Designs 01–60 stay in force. Mid-morning ships 61–63.
+Version A still runs. Designs 01–63 stay in force. Late morning ships 64–66.
 Sunday law: zero tickets. Rest is a control.
 
-## Today's three designs (10:11 pick)
+## Today's three designs (11:04 pick)
 
-1. Design 61 — Sunday Carry (ship): hand off what dawn sealed. Phrase: CARRY THE HOUSE. Live on /carry.html.
-2. Design 62 — Venue Hush (ship): name Coinbase, Kraken, Phantom, Hopper as silent passports. Phrase: HUSH THE VENUES. Live on /hush.html.
-3. Design 63 — Patron Linen (ship): 1% cloth that sells Mangasm+, not a coin. Phrase: LAY THE LINEN. Live on /linen.html.
+1. Design 64 — Meridian Check (ship): mid-day proof that money did not move. Phrase: HOLD THE MERIDIAN. Live on /meridian.html.
+2. Design 65 — Private Parlor (ship): 1% room with no chart on the table. Phrase: SEAT THE PARLOR. Live on /parlor.html.
+3. Design 66 — Rebuild Send (ship): one living checkout to Mangasm+. Phrase: SEND THE HOME. Live on /send.html.
 
 Keep Version A as the running system. B and C stay paper architecture.
 
@@ -29,26 +29,27 @@ Recommendation: stay on A. “10x” means ten times the process quality — not
 
 ## Deep-work blocks today
 
-### Block 1 — 20 minutes — Sunday carry
-Goal: Open /carry.html. Name what dawn already holds and the one motion that must not reopen the till. Type CARRY THE HOUSE. Do not invent a fourth landing repo.
+### Block 1 — 20 minutes — Meridian check
+Goal: Open /meridian.html. Confirm executed: false. Confirm Sunday tickets = 0. Confirm no hook fire since dawn. Type HOLD THE MERIDIAN.
 
-### Block 2 — 15 minutes — Venue hush
-Goal: Open /hush.html. Name venues as passports. Name what stays silent. Type HUSH THE VENUES. Do not paste API secrets. Do not post /api/hook.
+### Block 2 — 20 minutes — Private parlor
+Goal: Open /parlor.html. First name of one patron. What they are buying (belonging, not a pair). Type SEAT THE PARLOR. Do not open a chart in the room.
 
-### Block 3 — 20 minutes — Patron linen
-Goal: Open /linen.html. First name + why they sit at cloth, not a chart. Type LAY THE LINEN. Send https://www.mangasm.app/plus once if a living patron is waiting. Then leave the desk closed.
+### Block 3 — 15 minutes — Rebuild send
+Goal: Open /send.html. One sentence to the living product. Type SEND THE HOME. Send https://www.mangasm.app/plus once if a parlor guest is waiting. Then leave the till closed.
+
+Carry / hush / linen from 10:11 remain sealed. Do not reopen them as a second launch.
 
 ## Quick wins
 
 - Open https://lynxlogix-net.vercel.app/today.html
-- Confirm lynxlogix.net is unpaused (was 503)
-- Seal /carry.html
-- Seal /hush.html
-- Seal /linen.html
+- Seal /meridian.html
+- Seal /parlor.html
+- Seal /send.html
 - Confirm /sunday.html still reads SUNDAY STAYS DARK
 - Confirm executed: false on /witness.html
 - Confirm no fourth landing repo was opened this morning
-- Point any custom-domain thought at existing GothamGanesh Vercel projects
+- Point any custom-domain thought at existing GothamGanesh Vercel projects (lynxlogix-net, house-landings)
 
 ## Do not spend time on today
 

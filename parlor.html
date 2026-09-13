@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Private Parlor — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>PRIVATE PARLOR</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="linen.html">Linen</a>
+        <a href="wealth.html">Quiet desk</a>
+        <a href="send.html">Send</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Sunday 13 September 2026 · Design 65 · 11:04 PDT · 1% room</div>
+      <h1>Seat the parlor.<br/>Leave the chart outside.</h1>
+      <p class="lede">The wealthy guest is buying discretion, time, and a rebuilt home. Mangasm+ is the membership. The house pass is the key. No ticker sits on this table.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="parlor-who">Who is seated</label>
+      <input id="parlor-who" data-parlor-who placeholder="First name only" />
+      <label for="parlor-why">What they are buying</label>
+      <textarea id="parlor-why" data-parlor-why rows="3" placeholder="Belonging, privacy, a rebuilt social home — never a pair or a return."></textarea>
+      <label for="parlor-phrase">Release phrase</label>
+      <input id="parlor-phrase" data-parlor-phrase placeholder="SEAT THE PARLOR" />
+      <div class="hero-actions">
+        <button class="btn solid" data-parlor-btn>Seal the parlor</button>
+        <a class="btn" href="send.html">Rebuild send</a>
+        <a class="btn ghost" href="pay.html">House pass</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Parlor card</div>
+        <pre class="muted" data-parlor-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No parlor seated on this browser.</pre>
+      </article>
+      <p class="note" data-parlor-status>Type SEAT THE PARLOR. Sunday cap is one guest after linen.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">The parlor sells the home. It does not advise on securities or route orders.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day5late.js"></script>
+</body>
+</html>
