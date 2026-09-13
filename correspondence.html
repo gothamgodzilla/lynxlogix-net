@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Patron Correspondence — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>CORRESPONDENCE</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="vespers.html">Vespers</a>
+        <a href="inventory.html">Inventory</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Sunday 13 September 2026 · Design 74 · 14:09 PDT</div>
+      <h1>Write the house.<br/>Sell the home, not the coin.</h1>
+      <p class="lede">One UHNW letter. No ticker. No promised multiple. The hallway ends at Mangasm+ or a house gift invoice.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="letter-who">Who receives the cloth</label>
+      <textarea id="letter-who" data-letter-who rows="2" placeholder="A patron who already has enough charts. First name only if you must."></textarea>
+      <label for="letter-offer">What the house offers</label>
+      <textarea id="letter-offer" data-letter-offer rows="2" placeholder="Mangasm+ rebuild seat. Quiet desk. Velvet envelope. Not a trade."></textarea>
+      <label for="letter-phrase">Release phrase</label>
+      <input id="letter-phrase" data-letter-phrase placeholder="WRITE THE HOUSE" />
+      <div class="hero-actions">
+        <button class="btn solid" data-letter-btn>Seal the letter</button>
+        <a class="btn" href="https://www.mangasm.app/plus">Open Mangasm+</a>
+        <a class="btn ghost" href="inventory.html">Count the desk</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Correspondence card</div>
+        <pre class="muted" data-letter-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No letter on this browser.</pre>
+      </article>
+      <p class="note" data-letter-status>Type WRITE THE HOUSE. Two lines. No coins in the envelope.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">LynxLogix.NET does not sell coins. Sales live on Mangasm+.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day5late.js"></script>
+</body>
+</html>
