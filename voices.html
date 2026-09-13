@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Three Voices — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>THREE VOICES</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="silence.html">Silence</a>
+        <a href="spec.html">Spec</a>
+        <a href="orchestra.html">Orchestra</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Sunday 13 September 2026 · Design 68 · 12:12 PDT</div>
+      <h1>Three Grok bots.<br/>None of them spend.</h1>
+      <p class="lede">Today’s turnkey roster is three roles, not ten unsupervised spenders. They write. They veto. They sell the home. You keep the key.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <div class="grid three">
+        <article class="card">
+          <div class="tiny">Bot 1 · Scribe</div>
+          <h3>Brief Factory voice</h3>
+          <p class="muted">Turns a TradingView or Hopper flag into a one-page paper ticket: pair as a code, side, size as % of equity, invalidation, why-now, why-not. Never places.</p>
+        </article>
+        <article class="card">
+          <div class="tiny">Bot 2 · Veto</div>
+          <h3>Risk counsel</h3>
+          <p class="muted">May only say no, hold, or reduce. Checks Sunday law, Saturday cap, daily stop, and missing invalidation. A yes from this voice is a defect.</p>
+        </article>
+        <article class="card">
+          <div class="tiny">Bot 3 · Liaison</div>
+          <h3>Mangasm sales</h3>
+          <p class="muted">Never names a coin. Routes the 1% guest to Mangasm+, the house pass, or a gift invoice. Belonging is the product.</p>
+        </article>
+      </div>
+      <label for="voices-pick" style="margin-top:28px;display:block">Which voice sits first tomorrow</label>
+      <textarea id="voices-pick" data-voices-pick rows="2" placeholder="Scribe writes the Monday inherit ticket. Veto stays seated. Liaison sends one parlor guest."></textarea>
+      <label for="voices-refuse">What no voice may do</label>
+      <textarea id="voices-refuse" data-voices-refuse rows="2" placeholder="Sign Phantom. AddOrder on Kraken. Trade scope on Coinbase. Store a seed. Promise a return."></textarea>
+      <label for="voices-phrase">Release phrase</label>
+      <input id="voices-phrase" data-voices-phrase placeholder="SEAT THE VOICES" />
+      <div class="hero-actions">
+        <button class="btn solid" data-voices-btn>Seat the voices</button>
+        <a class="btn" href="spec.html">Keep the spec</a>
+        <a class="btn ghost" href="orchestra.html">Full ten</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Voice receipt</div>
+        <pre class="muted" data-voices-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No voices seated on this browser.</pre>
+      </article>
+      <p class="note" data-voices-status>Type SEAT THE VOICES. Two lines. No secrets.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">Roles are architecture. They are not live agents with withdrawal rights.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day5noon.js"></script>
+</body>
+</html>
