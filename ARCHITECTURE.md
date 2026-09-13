@@ -64,7 +64,10 @@ Flow
 54. Keep compline on `/compline.html` with KEEP THE COMPLINE.
 55. Seat the salon on `/salon.html` with SEAT THE SALON.
 56. Preview the night on `/preview.html` with PREVIEW THE NIGHT.
-57. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+57. Keep the stillness on `/still.html` with KEEP THE STILLNESS.
+58. Set the patron table on `/table.html` with SET THE TABLE.
+59. Lock the drawer on `/drawer.html` with LOCK THE DRAWER.
+60. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -132,6 +135,7 @@ Day 5 12:12 — 67 Noon Silence, 68 Three Voices, 69 Spec Gate
 Day 5 13:15 — 70 Afternoon Receipt, 71 Patron Tea, 72 Inherit Lock
 Day 5 14:09 — 73 Vespers Board, 74 Patron Correspondence, 75 Desk Inventory
 Day 5 15:06 — 76 Compline Board, 77 Evening Salon, 78 Night Preview
+Day 5 16:01 — 79 Stillness Board, 80 Patron Table, 81 Drawer Lock
 
 ## Shared risk box
 
@@ -149,6 +153,9 @@ Day 5 15:06 — 76 Compline Board, 77 Evening Salon, 78 Night Preview
 - Compline board: phrase KEEP THE COMPLINE
 - Evening salon: phrase SEAT THE SALON
 - Night preview: phrase PREVIEW THE NIGHT
+- Stillness board: phrase KEEP THE STILLNESS
+- Patron table: phrase SET THE TABLE
+- Drawer lock: phrase LOCK THE DRAWER
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
 
 ## Honest meaning of “sell 10x”
