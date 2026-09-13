@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Salon Night — LynxLogix.NET</title>
+  <title>Evening Salon — LynxLogix.NET</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
@@ -15,45 +15,40 @@
       <a class="brand" href="index.html">LYNXLOGIX<small>SALON</small></a>
       <nav class="nav-links">
         <a href="index.html">Home</a>
-        <a href="quiet.html">Quiet room</a>
-        <a href="pay.html">Pass</a>
-        <a href="owner.html">Owner</a>
-        <a href="contact.html">Contact</a>
+        <a href="today.html">Today</a>
+        <a href="compline.html">Compline</a>
+        <a href="preview.html">Preview</a>
+        <a href="https://www.mangasm.app/plus">Mangasm+</a>
       </nav>
     </div>
   </header>
   <main>
     <section class="hero wrap">
-      <div class="kicker">Design 12 · one percent texture · Mangasm sales</div>
-      <h1>After the book,<br/>the campfire.</h1>
-      <p class="lede">The desk is a vault door. The living product is Mangasm — connection without extraction. A salon night is how the house sells belonging instead of a coin.</p>
+      <div class="kicker">Sunday 13 September 2026 · Design 77 · 15:06 PDT</div>
+      <h1>Seat the salon.<br/>Sell the home.</h1>
+      <p class="lede">One guest. One house offer. The hallway ends at Mangasm+, not at a pair. The 1% buy belonging that does not extract — they do not buy a ticker from this table.</p>
     </section>
-    <section class="section wrap">
-      <div class="grid two">
-        <article class="card">
-          <div class="tiny">Product · live Stripe</div>
-          <h3>Mangasm+</h3>
-          <p class="stat">$9.99</p>
-          <p class="muted">Monthly membership. Extended bio, events, AI match. 18+.</p>
-          <button class="btn solid" data-pay="mangasm">Buy Mangasm+</button>
-        </article>
-        <article class="card">
-          <div class="tiny">UHNW seat</div>
-          <h3>Salon night + desk</h3>
-          <p class="stat">$2,500</p>
-          <p class="muted">Seated evening and paper concierge. Not a fund. Not a token. Not advice.</p>
-          <a class="btn" href="contact.html">Request a seat</a>
-        </article>
-      </div>
-      <p class="note" style="margin-top:24px">If a guest asks what the coin is, there is no coin. Point them at the rebuild: they built it for us, then they forgot us.</p>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="salon-guest">Who sits</label>
+      <textarea id="salon-guest" data-salon-guest rows="2" placeholder="One name. One reason they already trust the house."></textarea>
+      <label for="salon-offer">What the house offers</label>
+      <textarea id="salon-offer" data-salon-offer rows="2" placeholder="Mangasm+ rebuild seat. Safety-first home. No coin."></textarea>
+      <label for="salon-phrase">Release phrase</label>
+      <input id="salon-phrase" data-salon-phrase placeholder="SEAT THE SALON" />
       <div class="hero-actions">
-        <a class="btn solid" href="https://www.mangasm.app/">Read the rebuild</a>
-        <a class="btn" href="pay.html">House pass</a>
-        <a class="btn ghost" href="https://www.mangasm.app/plus">Mangasm+ checkout</a>
+        <button class="btn solid" data-salon-btn>Seal salon</button>
+        <a class="btn" href="https://www.mangasm.app/plus">Open Mangasm+</a>
+        <a class="btn ghost" href="preview.html">Preview the night</a>
       </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Salon card</div>
+        <pre class="muted" data-salon-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No salon card on this browser.</pre>
+      </article>
+      <p class="note" data-salon-status>Type SEAT THE SALON. Two lines. No pair names.</p>
     </section>
   </main>
-  <footer class="footer wrap"><p class="disclaimer">Salon language is hospitality. It is not a securities offering.</p></footer>
+  <footer class="footer wrap"><p class="disclaimer">The salon sells the home. It does not sell coins.</p></footer>
   <script src="js/site.js"></script>
+  <script src="js/day5eve.js"></script>
 </body>
 </html>

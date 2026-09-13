@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Compline Board — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>COMPLINE</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="salon.html">Salon</a>
+        <a href="preview.html">Preview</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Sunday 13 September 2026 · Design 76 · 15:06 PDT</div>
+      <h1>Keep the compline.<br/>Do not reopen the desk.</h1>
+      <p class="lede">Vespers already sealed the second proof. Compline is the third, not a second open. Name what is still dark. Name what tried to turn the lights back on after 15:00.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="compline-dark">What is still dark</label>
+      <textarea id="compline-dark" data-compline-dark rows="2" placeholder="Hook dark. Sunday tickets at zero. Version A. Vespers / letter / inventory already sealed."></textarea>
+      <label for="compline-itch">What tried to reopen</label>
+      <textarea id="compline-itch" data-compline-itch rows="2" placeholder="A live Coinbase key. A Hopper toggle. A fourth landing repo."></textarea>
+      <label for="compline-phrase">Release phrase</label>
+      <input id="compline-phrase" data-compline-phrase placeholder="KEEP THE COMPLINE" />
+      <div class="hero-actions">
+        <button class="btn solid" data-compline-btn>Seal compline</button>
+        <a class="btn" href="salon.html">Seat the salon</a>
+        <a class="btn ghost" href="sunday.html">Sunday dark</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Compline board</div>
+        <pre class="muted" data-compline-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No compline board on this browser.</pre>
+      </article>
+      <p class="note" data-compline-status>Type KEEP THE COMPLINE. Two lines. No pair names.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">Compline is a control. executed: false.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day5eve.js"></script>
+</body>
+</html>
