@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Venue Hush — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>VENUE HUSH</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="carry.html">Carry</a>
+        <a href="ready.html">Ready</a>
+        <a href="linen.html">Linen</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Sunday 13 September 2026 · Design 62 · 10:11 PDT</div>
+      <h1>Name the venues.<br/>Keep them silent.</h1>
+      <p class="lede">Coinbase Advanced, Kraken, Phantom, Kraken Wallet, TradingView, and Hopper may be named as passports. They may not receive a Sunday key, a webhook fire, or a signed transaction from this desk.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="hush-passports">Passports that may be named</label>
+      <textarea id="hush-passports" data-hush-pass rows="2" placeholder="Four rooms as passports only. Scripts may wait in a drawer."></textarea>
+      <label for="hush-refused">What stays silent today</label>
+      <textarea id="hush-refused" data-hush-refuse rows="2" placeholder="No AddOrder. No Advanced Trade live order. No wallet signature. No Hopper live bot."></textarea>
+      <label for="hush-phrase">Release phrase</label>
+      <input id="hush-phrase" data-hush-phrase placeholder="HUSH THE VENUES" />
+      <div class="hero-actions">
+        <button class="btn solid" data-hush-btn>Seal the venue hush</button>
+        <a class="btn" href="linen.html">Lay the linen</a>
+        <a class="btn ghost" href="ready.html">Venue card</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Hush receipt</div>
+        <pre class="muted" data-hush-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No venue hush on this browser.</pre>
+      </article>
+      <p class="note" data-hush-status>Type HUSH THE VENUES. Two lines. Do not paste secrets.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">Passports are names. Keys stay dark. executed: false.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day5mid.js"></script>
+</body>
+</html>
