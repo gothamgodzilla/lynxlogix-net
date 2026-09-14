@@ -23,7 +23,7 @@
       if (phrase !== "STEWARD THE HOUR") { if (stStatus) stStatus.textContent = "Type STEWARD THE HOUR."; return; }
       if (!a || !b) { if (stStatus) stStatus.textContent = "Two lines. Who sits. What they may do."; return; }
       if (banned.test(a + " " + b) || tickerBan.test(a + " " + b)) { if (stStatus) stStatus.textContent = "Void. No keys. No promised return."; return; }
-      const book = ["LYNXLOGIX.NET · STEWARD HOUR","Monday 14 September 2026 · 15:16 PDT","who sits: " + a,"this hour may: " + b,"second ticket: DARK","version: A running · B/C paper","venue live: none","executed: false","sealed: " + new Date().toISOString()].join("\n");
+      const book = ["LYNXLOGIX.NET · FOYER WATCH","Monday 14 September 2026 · 15:16 PDT","who sits: " + a,"this hour may: " + b,"second ticket: DARK","version: A running · B/C paper","venue live: none","executed: false","sealed: " + new Date().toISOString()].join("\n");
       state.who = a; state.allow = b; state.stText = book; state.stSealed = true; save();
       if (stOut) stOut.textContent = book;
       if (stStatus) stStatus.textContent = "Sealed. Carry to /relic.html.";
@@ -51,7 +51,7 @@
       const card = ["LYNXLOGIX.NET · RELIC HALL","Monday 14 September 2026 · 15:16 PDT","relic: " + a,"offered to: " + b,"product: Mangasm+","door: https://www.mangasm.app/plus","also: /pay.html · ganesh.guru","coins sold: none","executed: false","sealed: " + new Date().toISOString()].join("\n");
       state.object = a; state.patron = b; state.rlText = card; state.rlSealed = true; save();
       if (rlOut) rlOut.textContent = card;
-      if (rlStatus) rlStatus.textContent = "Sealed. Carry to /mandate.html.";
+      if (rlStatus) rlStatus.textContent = "Sealed. Carry to /oath.html.";
     });
   }
 
@@ -63,7 +63,7 @@
   if (law && state.law) law.value = state.law;
   if (forbid && state.forbid) forbid.value = state.forbid;
   if (mdOut && state.mdText) mdOut.textContent = state.mdText;
-  if (mdStatus && state.mdSealed) mdStatus.textContent = "Mandate sealed. Version A still runs.";
+  if (mdStatus && state.mdSealed) mdStatus.textContent = "Oath sealed. Version A still runs.";
   const mdBtn = document.querySelector("[data-md-btn]");
   if (mdBtn) {
     mdBtn.addEventListener("click", function () {
@@ -73,7 +73,7 @@
       if (phrase !== "MANDATE THE PAPER") { if (mdStatus) mdStatus.textContent = "Type MANDATE THE PAPER."; return; }
       if (!a || !b) { if (mdStatus) mdStatus.textContent = "Two lines. The law. What stays forbidden."; return; }
       if (banned.test(a + " " + b) || tickerBan.test(a + " " + b)) { if (mdStatus) mdStatus.textContent = "Void. Do not paste keys or seeds."; return; }
-      const letter = ["LYNXLOGIX.NET · PAPER MANDATE","Monday 14 September 2026 · 15:16 PDT","law: " + a,"forbidden: " + b,"Coinbase Advanced: DARK","Kraken: DARK","Phantom / Kraken Wallet: DARK","TradingView: paper hook only","CryptoHopper: architecture only","version: A running · B/C paper","10x: process quality, not a promised return","executed: false","sealed: " + new Date().toISOString()].join("\n");
+      const letter = ["LYNXLOGIX.NET · PAPER OATH","Monday 14 September 2026 · 15:16 PDT","law: " + a,"forbidden: " + b,"Coinbase Advanced: DARK","Kraken: DARK","Phantom / Kraken Wallet: DARK","TradingView: paper hook only","CryptoHopper: architecture only","version: A running · B/C paper","10x: process quality, not a promised return","executed: false","sealed: " + new Date().toISOString()].join("\n");
       state.law = a; state.forbid = b; state.mdText = letter; state.mdSealed = true; save();
       if (mdOut) mdOut.textContent = letter;
       if (mdStatus) mdStatus.textContent = "Sealed. Version A still runs the week.";
