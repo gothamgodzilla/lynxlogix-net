@@ -62,8 +62,8 @@
   const cnStatus = document.querySelector("[data-cn-status]");
   if (venues && state.venues) venues.value = state.venues;
   if (vnState && state.vnState) vnState.value = state.vnState;
-  if (cnOut && state.cnText) cnOut.textContent = state.cnText;
-  if (cnStatus && state.cnSealed) cnStatus.textContent = "Colonnade sealed. Version A still runs.";
+  if (cnOut && state["cnText"]) cnOut.textContent = state["cnText"];
+  if (cnStatus && state["cnSealed"]) cnStatus.textContent = "Colonnade sealed. Version A still runs.";
   const cnBtn = document.querySelector("[data-cn-btn]");
   if (cnBtn) {
     cnBtn.addEventListener("click", function () {
@@ -76,8 +76,8 @@
       const letter = ["LYNXLOGIX.NET · COLONNADE CENSUS","Monday 14 September 2026 · 16:16 PDT","venues: " + a,"state: " + b,"Coinbase Advanced: DARK","Kraken: DARK","Phantom / Kraken Wallet: DARK","TradingView: paper hook only","CryptoHopper: architecture only","version: A running · B/C paper","10x: process quality, not a promised return","executed: false","sealed: " + new Date().toISOString()].join("\n");
       state.venues = a;
       state.vnState = b;
-      state.cnText = letter;
-      state.cnSealed = true;
+      state["cnText"] = letter;
+      state["cnSealed"] = true;
       save();
       if (cnOut) cnOut.textContent = letter;
       if (cnStatus) cnStatus.textContent = "Sealed. Version A still runs the week.";
