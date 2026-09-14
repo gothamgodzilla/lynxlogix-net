@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Midday Receipt — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>MIDDAY RECEIPT</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="ledger.html">Ledger</a>
+        <a href="luncheon.html">Luncheon</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Monday 14 September 2026 · Design 97 · 12:17 PDT · Day 6 noon</div>
+      <h1>Hold the midday.<br/>Do not graduate the morning.</h1>
+      <p class="lede">The paper score already exists. Noon only confirms it is still paper after the dry-fire. A receipt is not an order.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="md-carry">What the morning sealed</label>
+      <textarea id="md-carry" data-md-carry rows="2" placeholder="Paper ledger scored. Hook dry-fired. Key remains paper."></textarea>
+      <label for="md-hold">Why noon stays unexecuted</label>
+      <textarea id="md-hold" data-md-hold rows="2" placeholder="No thirty paper days. Venues stay dark. Human is still the key."></textarea>
+      <label for="md-phrase">Release phrase</label>
+      <input id="md-phrase" data-md-phrase placeholder="HOLD THE MIDDAY" />
+      <div class="hero-actions">
+        <button class="btn solid" data-md-btn>Seal midday receipt</button>
+        <a class="btn" href="luncheon.html">Seat the luncheon</a>
+        <a class="btn ghost" href="ledger.html">Morning ledger</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Midday board</div>
+        <pre class="muted" data-md-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No midday receipt on this browser.</pre>
+      </article>
+      <p class="note" data-md-status>Type HOLD THE MIDDAY. Two lines. No keys. No promised return.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A noon receipt is still paper. executed: false remains the law.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day6noon.js"></script>
+</body>
+</html>

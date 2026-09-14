@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ten Voices — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>TEN VOICES</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="luncheon.html">Luncheon</a>
+        <a href="desk.html">Desk</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Monday 14 September 2026 · Design 99 · 12:17 PDT · Day 6 noon</div>
+      <h1>Name the ten.<br/>Seat three.</h1>
+      <p class="lede">Ten Grok roles may speak. Only Scribe, Veto, and Liaison sit this week. None of them holds a venue key. You remain the last key.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <div class="grid three" style="margin-bottom:28px">
+        <article class="card"><div class="tiny">Seated</div><h3>Scribe</h3><p class="muted">Writes the one-page ticket. Never sizes live.</p></article>
+        <article class="card"><div class="tiny">Seated</div><h3>Veto</h3><p class="muted">Kills the ticket. Never places it.</p></article>
+        <article class="card"><div class="tiny">Seated</div><h3>Liaison</h3><p class="muted">Sells Mangasm+. Never trades.</p></article>
+      </div>
+      <label for="tv-sit">Who sits this noon</label>
+      <textarea id="tv-sit" data-tv-sit rows="2" placeholder="Scribe. Veto. Liaison."></textarea>
+      <label for="tv-dark">What stays standing</label>
+      <textarea id="tv-dark" data-tv-dark rows="2" placeholder="Ingestor, Regime, Sizer, Advocate, Compliance, Night watch, Journal — no keys."></textarea>
+      <label for="tv-phrase">Release phrase</label>
+      <input id="tv-phrase" data-tv-phrase placeholder="NAME THE TEN" />
+      <div class="hero-actions">
+        <button class="btn solid" data-tv-btn>Seal the ten</button>
+        <a class="btn" href="desk.html">Open the desk</a>
+        <a class="btn ghost" href="gate.html">Version key</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Orchestra card</div>
+        <pre class="muted" data-tv-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No orchestra named on this browser.</pre>
+      </article>
+      <p class="note" data-tv-status>Type NAME THE TEN. Two lines. No venue secrets.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">Roles are process. They are not unsupervised spenders.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day6noon.js"></script>
+</body>
+</html>

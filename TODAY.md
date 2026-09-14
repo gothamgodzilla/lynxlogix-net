@@ -1,4 +1,4 @@
-# Monday 14 September 2026 — 11:02 PDT — Day 6 late morning
+# Monday 14 September 2026 — 12:17 PDT — Day 6 noon
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
@@ -9,15 +9,15 @@ House twin (already exists — do not spawn a fourth): https://github.com/gotham
 Mangasm (sales door): https://www.mangasm.app/plus
 Owner book: /owner.html · Contact: /contact.html · Paywall: /pay.html
 
-Version A still runs. Designs 01–93 stay in force. Late morning ships 94–96.
+Version A still runs. Designs 01–96 stay in force. Noon ships 97–99.
 Monday law: inherit Sunday dark. First ticket of the week is paper. Type PAPER ONLY before Approve.
-10:22 seals (91–93) remain history. Do not reopen them as a second launch.
+11:02 seals (94–96) remain history. Do not reopen them as a second launch.
 
-## Today's three designs (11:02 pick)
+## Today's three designs (12:17 pick)
 
-1. Design 94 — Paper Ledger (ship): score the morning ticket without converting it to a live order. Phrase: SCORE THE PAPER. Live on /ledger.html.
-2. Design 95 — UHNW Menu (ship): three garments for the 1% that all end at Mangasm+ or the house pass. Phrase: MENU THE HOUSE. Live on /menu.html.
-3. Design 96 — Hook Dry-Fire (ship): fire the TradingView / Hopper webhook against paper only. Phrase: DRY FIRE THE HOOK. Live on /dryfire.html.
+1. Design 97 — Midday Receipt (ship): confirm the morning paper score still reads executed: false after the dry-fire. Phrase: HOLD THE MIDDAY. Live on /midday.html.
+2. Design 98 — Patron Luncheon (ship): one UHNW table that sells Mangasm+ and a house pass — never a coin. Phrase: SEAT THE LUNCHEON. Live on /luncheon.html.
+3. Design 99 — Ten Voices (ship): name the ten Grok bot roles. Only three sit this week. The human is still the key. Phrase: NAME THE TEN. Live on /tenvoices.html.
 
 Keep Version A as the running system. B and C stay paper architecture.
 
@@ -31,26 +31,26 @@ Recommendation: stay on A. “10x” means ten times the process quality — not
 
 ## Deep-work blocks today
 
-### Block 1 — 25 minutes — Score the paper
-Goal: Open /ledger.html. Carry the 10:22 first ticket. Mark one would-have fill and one veto reason. Type SCORE THE PAPER. Confirm executed: false.
+### Block 1 — 25 minutes — Hold the midday
+Goal: Open /midday.html. Carry the 11:02 paper score. Confirm the hook is still paper. Type HOLD THE MIDDAY. Confirm executed: false.
 
-### Block 2 — 25 minutes — Menu the house
-Goal: Open /menu.html. Name three UHNW garments. At least one is Mangasm+. None is a coin. Type MENU THE HOUSE.
+### Block 2 — 25 minutes — Seat the luncheon
+Goal: Open /luncheon.html. Name one guest and one garment. The garment is Mangasm+ or a house pass. Type SEAT THE LUNCHEON.
 
-### Block 3 — 30 minutes — Dry-fire the hook
-Goal: Open /dryfire.html. Send one paper webhook (or write the payload you would send). Confirm the hook key is still `paper`. Type DRY FIRE THE HOOK. Do not paste a live exchange secret.
+### Block 3 — 30 minutes — Name the ten
+Goal: Open /tenvoices.html. Seat Scribe, Veto, Liaison. Leave the other seven standing. Type NAME THE TEN. Do not give any voice a live venue key.
 
-91–93 remain sealed history.
+94–96 remain sealed history.
 
 ## Quick wins
 
 - Open https://lynxlogix-net.vercel.app/today.html
-- Seal /ledger.html
-- Seal /menu.html
-- Seal /dryfire.html
-- Confirm /firstticket.html still reads executed: false
+- Seal /midday.html
+- Seal /luncheon.html
+- Seal /tenvoices.html
+- Confirm /ledger.html still reads executed: false
 - Confirm /sunday.html still reads SUNDAY STAYS DARK
-- Point one UHNW menu line at https://www.mangasm.app/plus
+- Point the luncheon garment at https://www.mangasm.app/plus
 - Point any custom-domain thought at existing GothamGanesh Vercel projects (lynxlogix-net, house-landings)
 
 ## Do not spend time on today
@@ -60,5 +60,5 @@ Do not wire live Coinbase Advanced Create Order, Kraken AddOrder, CryptoHopper l
 Do not paste exchange API secrets into Vercel.
 Do not promise 10x returns.
 Do not publish the owner MAR/ARR table as proven cash.
-Do not rebuild Mangasm.app, Coexist.llc, Coexist.Click, Ganesh.Guru, and LynxLogix.AI as six new systems this morning.
+Do not rebuild Mangasm.app, Coexist.llc, Coexist.Click, Ganesh.Guru, and LynxLogix.AI as six new systems this noon.
 Do not treat SuperClaude / OpenCode as permission to leave the house.
