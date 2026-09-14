@@ -4,13 +4,13 @@ Luxury crypto command desk. Piano-black. Human-gated. Paper first.
 
 Live: https://lynxlogix-net.vercel.app
 
-Day 5 early evening (13 September 2026, 15:06 PDT) ships designs 76–78:
+Day 6 morning (14 September 2026, 09:29 PDT) ships designs 88–90:
 
-- `/compline.html` — KEEP THE COMPLINE
-- `/salon.html` — SEAT THE SALON
-- `/preview.html` — PREVIEW THE NIGHT
+- `/mondayopen.html` — OPEN THE MONDAY
+- `/atelier.html` — SEAT THE ATELIER
+- `/sleeve.html` — CHARTER THE SLEEVE
 
-Version A runs. Versions B and C stay paper. Sunday tickets: zero.
+Version A runs. Versions B and C stay paper.
 
 Law: signals may be automatic. Money may not.
 
