@@ -74,7 +74,11 @@
       if (!a || !b) { if (cnStatus) cnStatus.textContent = "Two lines. Venues that exist. Their state."; return; }
       if (banned.test(a + " " + b) || tickerBan.test(a + " " + b)) { if (cnStatus) cnStatus.textContent = "Void. Do not paste keys or seeds."; return; }
       const letter = ["LYNXLOGIX.NET · COLONNADE CENSUS","Monday 14 September 2026 · 16:16 PDT","venues: " + a,"state: " + b,"Coinbase Advanced: DARK","Kraken: DARK","Phantom / Kraken Wallet: DARK","TradingView: paper hook only","CryptoHopper: architecture only","version: A running · B/C paper","10x: process quality, not a promised return","executed: false","sealed: " + new Date().toISOString()].join("\n");
-      state.venues = a; state.vnState = b; state.cnText = letter; state.cnSealed = true; save();
+      state.venues = a;
+      state.vnState = b;
+      state.cnText = letter;
+      state.cnSealed = true;
+      save();
       if (cnOut) cnOut.textContent = letter;
       if (cnStatus) cnStatus.textContent = "Sealed. Version A still runs the week.";
     });
