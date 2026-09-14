@@ -1,4 +1,4 @@
-# Sunday 13 September 2026 — 17:18 PDT — Day 5 evening
+# Sunday 13 September 2026 — 18:14 PDT — Day 5 night
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
@@ -9,14 +9,14 @@ House twin (already exists — do not spawn a fourth): https://github.com/gotham
 Mangasm (sales door): https://www.mangasm.app/plus
 Owner book: /owner.html · Contact: /contact.html · Paywall: /pay.html
 
-Version A still runs. Designs 01–81 stay in force. Evening ships 82–84.
-Sunday law: zero tickets. Rest is a control. Stillness / table / drawer remain sealed.
+Version A still runs. Designs 01–84 stay in force. Night ships 85–87.
+Sunday law: zero tickets. Rest is a control. Evening / carriage / keys remain sealed.
 
-## Today's three designs (17:18 pick)
+## Today's three designs (18:14 pick)
 
-1. Design 82 — Evening Watch (ship): fifth proof the hook stayed dark after 16:01. Phrase: HOLD THE EVENING. Live on /evening.html.
-2. Design 83 — Patron Carriage (ship): one UHNW seat that sells Mangasm+, not a coin. Phrase: SEND THE CARRIAGE. Live on /carriage.html.
-3. Design 84 — Key Ring (ship): Coinbase, Kraken, Hopper, Phantom signing stay dark. Phrase: KEEP THE KEYS. Live on /keys.html.
+1. Design 85 — Nocturne Board (ship): sixth proof the hook stayed dark after 17:18. Phrase: KEEP THE NOCTURNE. Live on /nocturne.html.
+2. Design 86 — Patron Loge (ship): one UHNW rail that sells Mangasm+, not a coin. Phrase: SEAT THE LOGE. Live on /loge.html.
+3. Design 87 — Vault Hinge (ship): Coinbase, Kraken, Hopper, Phantom signing stay dark. Three repos only. Phrase: KEEP THE HINGE. Live on /hinge.html.
 
 Keep Version A as the running system. B and C stay paper architecture.
 
@@ -30,26 +30,26 @@ Recommendation: stay on A. “10x” means ten times the process quality — not
 
 ## Deep-work blocks today
 
-### Block 1 — 15 minutes — Evening
-Goal: Open /evening.html. Confirm stillness / table / drawer still sealed. Confirm hook dark. Confirm Sunday tickets = 0. Confirm executed: false. Type HOLD THE EVENING.
+### Block 1 — 15 minutes — Nocturne
+Goal: Open /nocturne.html. Confirm evening / carriage / keys still sealed. Confirm hook dark. Confirm Sunday tickets = 0. Confirm executed: false. Type KEEP THE NOCTURNE.
 
-### Block 2 — 20 minutes — Carriage
-Goal: Open /carriage.html. Name one guest and one house offer that is not a trade. Hallway ends at Mangasm+. Type SEND THE CARRIAGE. Do not put a pair on the seat.
+### Block 2 — 20 minutes — Patron loge
+Goal: Open /loge.html. Name one guest and one house offer that is not a trade. Hallway ends at Mangasm+. Type SEAT THE LOGE. Do not put a pair on the rail.
 
-### Block 3 — 15 minutes — Key ring
-Goal: Open /keys.html. Name what stays on the ring and what stays inside the three living repos. Type KEEP THE KEYS. Do not paste a key. Do not open a fourth landing repo.
+### Block 3 — 15 minutes — Vault hinge
+Goal: Open /hinge.html. Name what the hinge holds and what stays inside the three living repos. Type KEEP THE HINGE. Do not paste a key. Do not open a fourth landing repo.
 
-Stillness / table / drawer / compline / salon / preview remain sealed. Do not reopen them as a second launch.
+Evening / carriage / keys / stillness / table / drawer remain sealed. Do not reopen them as a second launch.
 
 ## Quick wins
 
 - Open https://lynxlogix-net.vercel.app/today.html
-- Seal /evening.html
-- Seal /carriage.html
-- Seal /keys.html
+- Seal /nocturne.html
+- Seal /loge.html
+- Seal /hinge.html
 - Confirm /sunday.html still reads SUNDAY STAYS DARK
 - Confirm executed: false on /witness.html
-- Confirm no fourth landing repo was opened this evening
+- Confirm no fourth landing repo was opened tonight
 - Point any custom-domain thought at existing GothamGanesh Vercel projects (lynxlogix-net, house-landings)
 
 ## Do not spend time on today
@@ -59,6 +59,6 @@ Do not wire live Coinbase Advanced, Kraken AddOrder, CryptoHopper live bots, or 
 Do not paste exchange API secrets into Vercel.
 Do not promise 10x returns.
 Do not publish the owner MAR/ARR table as proven cash.
-Do not rebuild Mangasm.app, Coexist.llc, Coexist.Click, Ganesh.Guru, and LynxLogix.AI as six new systems this evening.
+Do not rebuild Mangasm.app, Coexist.llc, Coexist.Click, Ganesh.Guru, and LynxLogix.AI as six new systems tonight.
 Do not fire a Sunday paper ticket. Zero means zero.
 Do not treat SuperClaude / OpenCode as permission to leave the house.
