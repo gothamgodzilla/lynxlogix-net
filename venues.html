@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Venue Passports — LynxLogix.NET</title>
+  <title>Venue Census — LynxLogix.NET</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
@@ -12,51 +12,43 @@
 <body>
   <header class="nav">
     <div class="wrap nav-inner">
-      <a class="brand" href="index.html">LYNXLOGIX<small>VENUE PASSPORTS</small></a>
+      <a class="brand" href="index.html">LYNXLOGIX<small>VENUE CENSUS</small></a>
       <nav class="nav-links">
         <a href="index.html">Home</a>
         <a href="today.html">Today</a>
-        <a href="desk.html">Desk</a>
-        <a href="packet.html">Packet</a>
+        <a href="firstticket.html">Ticket</a>
+        <a href="keys.html">Keys</a>
         <a href="pay.html">Pass</a>
       </nav>
-      <a class="btn solid" href="desk.html">Open desk</a>
     </div>
   </header>
   <main>
     <section class="hero wrap">
-      <div class="kicker">Design 07 · Friday 11 September 2026 · Day 3</div>
-      <h1>Passports,<br/>not hot keys.</h1>
-      <p class="lede">Each venue is allowed to speak. None is allowed to spend. Coinbase, Kraken, Phantom, and the script houses stay paper or read-only until you press a key that is not on this site.</p>
-      <div class="piano" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="kicker">Monday 14 September 2026 · Design 93 · 10:22 PDT · Day 6 mid-morning</div>
+      <h1>Count the venues.<br/>Keep them dark.</h1>
+      <p class="lede">Coinbase Advanced, Kraken, Phantom, Kraken Wallet, and Hopper may be named. They may not be armed. A later Version B passport is read-only. Version C still needs you.</p>
     </section>
     <section class="section wrap" style="border-top:0;padding-top:0">
-      <div class="grid two" data-venues></div>
-    </section>
-    <section class="section wrap">
-      <div class="tiny">Law of the desk</div>
-      <h2>Adapters may read. They may not sign.</h2>
-      <div class="grid two" style="margin-top:24px">
-        <article class="card">
-          <h3>Allowed today</h3>
-          <p class="muted">Webhook ingest. Watchlist labels. Paper tickets. Venue health as a sentence. Human approve / reject / hold. JSON ledger. Family-office packet.</p>
-        </article>
-        <article class="card">
-          <h3>Forbidden today</h3>
-          <p class="muted">API secrets in the browser. Seed-phrase fields. Coinbase or Kraken order routing. Phantom transaction signing. Hopper live bots. Overnight unattended fills.</p>
-        </article>
-      </div>
+      <label for="vn-seen">What a read-only passport would see later</label>
+      <textarea id="vn-seen" data-vn-seen rows="2" placeholder="Balances. Fills. Watch addresses. Never a seed."></textarea>
+      <label for="vn-dark">What stays dark this week</label>
+      <textarea id="vn-dark" data-vn-dark rows="2" placeholder="Create Order. AddOrder. Hopper live bot. Phantom signing."></textarea>
+      <label for="vn-phrase">Release phrase</label>
+      <input id="vn-phrase" data-vn-phrase placeholder="COUNT THE VENUES" />
       <div class="hero-actions">
-        <a class="btn solid" href="packet.html">Open the packet</a>
-        <a class="btn" href="quiet.html">Quiet room</a>
-        <a class="btn ghost" href="https://www.mangasm.app/plus">Mangasm+</a>
+        <button class="btn solid" data-vn-btn>Seal census</button>
+        <a class="btn" href="sleeve.html">Sleeve charter</a>
+        <a class="btn ghost" href="ready.html">Readiness card</a>
       </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Census letter</div>
+        <pre class="muted" data-vn-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No venue census on this browser.</pre>
+      </article>
+      <p class="note" data-vn-status>Type COUNT THE VENUES. Two lines. Do not paste a key.</p>
     </section>
   </main>
-  <footer class="footer wrap">
-    <p class="disclaimer">Venue names are labels. This page is not an integration with those companies and is not an offer of brokerage.</p>
-  </footer>
+  <footer class="footer wrap"><p class="disclaimer">Naming a venue is not connecting a venue. Live order routing is off this build.</p></footer>
   <script src="js/site.js"></script>
-  <script src="js/day3.js"></script>
+  <script src="js/day6mid.js"></script>
 </body>
 </html>
