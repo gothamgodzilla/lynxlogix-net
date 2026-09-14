@@ -4,11 +4,11 @@ Luxury crypto command desk. Piano-black. Human-gated. Paper first.
 
 Live: https://lynxlogix-net.vercel.app
 
-Day 6 noon (14 September 2026, 12:17 PDT) ships designs 97–99:
+Day 6 late afternoon (14 September 2026, 14:09 PDT) ships designs 103–105:
 
-- `/midday.html` — HOLD THE MIDDAY
-- `/luncheon.html` — SEAT THE LUNCHEON
-- `/tenvoices.html` — NAME THE TEN
+- `/taught.html` — SCORE THE AFTERNOON
+- `/corridor.html` — WALK THE CORRIDOR
+- `/ring.html` — KEEP THE RING DARK
 
 Version A runs. Versions B and C stay paper.
 
