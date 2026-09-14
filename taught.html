@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Afternoon Taught — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>AFTERNOON TAUGHT</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="second.html">Second</a>
+        <a href="corridor.html">Corridor</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Monday 14 September 2026 · Design 103 · 14:09 PDT · Day 6 late afternoon</div>
+      <h1>Score the<br/>afternoon.</h1>
+      <p class="lede">The first Monday paper ticket still sits unexecuted. Scoring it is not filling it. Write what the ticket taught. Leave the second dark.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="as-taught">What the first ticket taught</label>
+      <textarea id="as-taught" data-as-taught rows="2" placeholder="One sentence. Process quality, not a promised return."></textarea>
+      <label for="as-hold">What still stays paper</label>
+      <textarea id="as-hold" data-as-hold rows="2" placeholder="Size, venue, and execution remain unreleased."></textarea>
+      <label for="as-phrase">Release phrase</label>
+      <input id="as-phrase" data-as-phrase placeholder="SCORE THE AFTERNOON" />
+      <div class="hero-actions">
+        <button class="btn solid" data-as-btn>Seal the score</button>
+        <a class="btn" href="second.html">Hold the second</a>
+        <a class="btn ghost" href="ledger.html">Read the ledger</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Afternoon receipt</div>
+        <pre class="muted" data-as-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No afternoon score on this browser.</pre>
+      </article>
+      <p class="note" data-as-status>Type SCORE THE AFTERNOON. Two lines. executed: false.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A scored ticket is still paper. Not a fill. Not investment advice.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day6pm2.js"></script>
+</body>
+</html>
