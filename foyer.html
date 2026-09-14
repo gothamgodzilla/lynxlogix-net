@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Foyer Watch — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>FOYER WATCH</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="taught.html">Taught</a>
+        <a href="relic.html">Relic</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Monday 14 September 2026 · Design 106 · 15:16 PDT · Day 6 mid-afternoon</div>
+      <h1>Steward<br/>the hour.</h1>
+      <p class="lede">The first paper ticket is scored. The second stays dark. Name who sits this foyer hour and what they are allowed to do. Sitting is not spending.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="st-who">Who sits this hour</label>
+      <textarea id="st-who" data-st-who rows="2" placeholder="Name the human. Bots may brief. Bots may not sit."></textarea>
+      <label for="st-allow">What this hour may do</label>
+      <textarea id="st-allow" data-st-allow rows="2" placeholder="Read, score, reject, hold. No live venue."></textarea>
+      <label for="st-phrase">Release phrase</label>
+      <input id="st-phrase" data-st-phrase placeholder="STEWARD THE HOUR" />
+      <div class="hero-actions">
+        <button class="btn solid" data-st-btn>Seal the hour</button>
+        <a class="btn" href="relic.html">Keep the relic</a>
+        <a class="btn ghost" href="desk.html">Open the desk</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Hour receipt</div>
+        <pre class="muted" data-st-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No foyer hour on this browser.</pre>
+      </article>
+      <p class="note" data-st-status>Type STEWARD THE HOUR. Two lines. executed: false.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A steward is a witness. Not a router. Not investment advice.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day6pm3.js"></script>
+</body>
+</html>
