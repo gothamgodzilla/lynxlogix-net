@@ -73,7 +73,10 @@ Flow
 63. Keep the nocturne on `/nocturne.html` with KEEP THE NOCTURNE.
 64. Seat the loge on `/loge.html` with SEAT THE LOGE.
 65. Keep the hinge on `/hinge.html` with KEEP THE HINGE.
-66. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+66. Open Monday on `/mondayopen.html` with OPEN THE MONDAY.
+67. Seat the atelier on `/atelier.html` with SEAT THE ATELIER.
+68. Charter the sleeve on `/sleeve.html` with CHARTER THE SLEEVE.
+69. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -100,7 +103,7 @@ Grok bots (roles, not 10 unsupervised spenders)
 9. Night watch (alerts only)
 10. Post-trade journal
 
-Today’s seated trio (Design 68): **Scribe, Veto, Liaison.** All ten may speak. Only the human key releases.
+This week’s seated trio (Design 90): **Scribe, Veto, Liaison.** All ten may speak. Only the human key releases.
 
 ## Version C — Dual-confirm Hopper
 
@@ -144,6 +147,7 @@ Day 5 15:06 — 76 Compline Board, 77 Evening Salon, 78 Night Preview
 Day 5 16:01 — 79 Stillness Board, 80 Patron Table, 81 Drawer Lock
 Day 5 17:18 — 82 Evening Watch, 83 Patron Carriage, 84 Key Ring
 Day 5 18:14 — 85 Nocturne Board, 86 Patron Loge, 87 Vault Hinge
+Day 6 09:29 — 88 Monday Open, 89 Patron Atelier, 90 Sleeve Charter
 
 ## Shared risk box
 
@@ -152,9 +156,9 @@ Day 5 18:14 — 85 Nocturne Board, 86 Patron Loge, 87 Vault Hinge
 - Saturday hard cap: one ticket
 - Sunday: zero tickets
 - Kill switch is a single “desk closed” flag plus the Daily Close phrase
-- Nocturne board: phrase KEEP THE NOCTURNE
-- Patron loge: phrase SEAT THE LOGE
-- Vault hinge: phrase KEEP THE HINGE
+- Monday open: phrase OPEN THE MONDAY
+- Patron atelier: phrase SEAT THE ATELIER
+- Sleeve charter: phrase CHARTER THE SLEEVE
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
 
 ## Honest meaning of “sell 10x”
