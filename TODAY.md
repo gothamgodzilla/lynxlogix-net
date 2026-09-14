@@ -1,4 +1,4 @@
-# Monday 14 September 2026 — 14:09 PDT — Day 6 late afternoon
+# Monday 14 September 2026 — 15:16 PDT — Day 6 mid-afternoon
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
@@ -9,15 +9,15 @@ House twin (already exists — do not spawn a fourth): https://github.com/gotham
 Mangasm (sales door): https://www.mangasm.app/plus
 Owner book: /owner.html · Contact: /contact.html · Paywall: /pay.html
 
-Version A still runs. Designs 01–102 stay in force. Late afternoon ships 103–105.
+Version A still runs. Designs 01–105 stay in force. Mid-afternoon ships 106–108.
 Monday law: inherit Sunday dark. First ticket of the week is paper. Type PAPER ONLY before Approve.
-A second ticket this afternoon stays dark. 13:01 seals (100–102) remain history. Do not reopen them as a second launch.
+A second ticket this afternoon stays dark. 103–105 (taught / corridor / ring) remain history. Do not reopen them as a second launch.
 
-## Today's three designs (14:09 pick)
+## Today's three designs (15:16 pick)
 
-1. Design 103 — Afternoon Taught (ship): score the first paper ticket without filling it. Phrase: SCORE THE AFTERNOON. Live on /taught.html.
-2. Design 104 — Patron Corridor (ship): one UHNW hall that ends at Mangasm+, a house pass, or Ganesh — never a coin. Phrase: WALK THE CORRIDOR. Live on /corridor.html.
-3. Design 105 — Venue Ring (ship): name Coinbase, Kraken, Phantom, Hopper. Do not arm them. Phrase: KEEP THE RING DARK. Live on /ring.html.
+1. Design 106 — Foyer Watch (ship): name who sits this hour and what they may do. Phrase: STEWARD THE HOUR. Live on /foyer.html.
+2. Design 107 — Relic Hall (ship): one UHNW object that is Mangasm+, a house pass, or Ganesh — never a coin. Phrase: KEEP THE RELIC. Live on /relic.html.
+3. Design 108 — Paper Oath (ship): write the week's law and what stays forbidden. Phrase: MANDATE THE PAPER. Live on /oath.html.
 
 Keep Version A as the running system. B and C stay paper architecture.
 
@@ -31,26 +31,27 @@ Recommendation: stay on A. “10x” means ten times the process quality — not
 
 ## Deep-work blocks today
 
-### Block 1 — 25 minutes — Score the afternoon
-Goal: Open /taught.html. Write what the first ticket taught. Write what stays paper. Type SCORE THE AFTERNOON. Confirm executed: false.
+### Block 1 — 25 minutes — Steward the hour
+Goal: Open /foyer.html. Name the human. Write what this hour may do. Type STEWARD THE HOUR. Confirm executed: false.
 
-### Block 2 — 25 minutes — Walk the corridor
-Goal: Open /corridor.html. Name one walker and one door. The door is Mangasm+, a house pass, or Ganesh. Type WALK THE CORRIDOR.
+### Block 2 — 25 minutes — Keep the relic
+Goal: Open /relic.html. Name one object and one patron class. The object is Mangasm+, a house pass, or Ganesh. Type KEEP THE RELIC.
 
-### Block 3 — 30 minutes — Keep the ring dark
-Goal: Open /ring.html. Name the venues. Write why they stay dark. Type KEEP THE RING DARK. Do not paste a live key.
+### Block 3 — 30 minutes — Mandate the paper
+Goal: Open /oath.html. Write the week's law. Write what stays forbidden. Type MANDATE THE PAPER. Do not paste a live key.
 
-100–102 remain sealed history.
+103–105 remain sealed history.
 
 ## Quick wins
 
 - Open https://lynxlogix-net.vercel.app/today.html
-- Seal /taught.html
-- Seal /corridor.html
-- Seal /ring.html
+- Seal /foyer.html
+- Seal /relic.html
+- Seal /oath.html
 - Confirm /ledger.html still reads executed: false
 - Confirm /sunday.html still reads SUNDAY STAYS DARK
-- Point the corridor door at https://www.mangasm.app/plus
+- Confirm /ring.html still reads KEEP THE RING DARK
+- Point the relic door at https://www.mangasm.app/plus
 - Point any custom-domain thought at existing GothamGanesh Vercel projects (lynxlogix-net, house-landings)
 
 ## Do not spend time on today
