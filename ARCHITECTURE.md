@@ -82,7 +82,13 @@ Flow
 72. Score the paper on `/ledger.html` with SCORE THE PAPER.
 73. Write the UHNW menu on `/menu.html` with MENU THE HOUSE.
 74. Dry-fire the hook on `/dryfire.html` with DRY FIRE THE HOOK.
-75. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+75. Steward the foyer on `/foyer.html` with STEWARD THE HOUR.
+76. Keep the relic on `/relic.html` with KEEP THE RELIC.
+77. Mandate the paper on `/oath.html` with MANDATE THE PAPER.
+78. Seat the antechamber on `/antechamber.html` with SEAT THE ANTECHAMBER.
+79. Keep the cloister on `/cloister.html` with KEEP THE CLOISTER.
+80. Count the colonnade on `/colonnade.html` with COUNT THE COLONNADE.
+81. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -156,6 +162,8 @@ Day 5 18:14 — 85 Nocturne Board, 86 Patron Loge, 87 Vault Hinge
 Day 6 09:29 — 88 Monday Open, 89 Patron Atelier, 90 Sleeve Charter
 Day 6 10:22 — 91 First Ticket, 92 Patron Commission, 93 Venue Census
 Day 6 11:02 — 94 Paper Ledger, 95 UHNW Menu, 96 Hook Dry-Fire
+Day 6 15:16 — 106 Foyer Watch, 107 Relic Hall, 108 Paper Oath
+Day 6 16:16 — 109 Antechamber Brief, 110 Cloister Invite, 111 Colonnade Census
 
 ## Shared risk box
 
@@ -164,15 +172,9 @@ Day 6 11:02 — 94 Paper Ledger, 95 UHNW Menu, 96 Hook Dry-Fire
 - Saturday hard cap: one ticket
 - Sunday: zero tickets
 - Kill switch is a single “desk closed” flag plus the Daily Close phrase
-- Monday open: phrase OPEN THE MONDAY
-- Patron atelier: phrase SEAT THE ATELIER
-- Sleeve charter: phrase CHARTER THE SLEEVE
-- First ticket: phrase FIRST THE TICKET
-- Patron commission: phrase COMMISSION THE HOUSE
-- Venue census: phrase COUNT THE VENUES
-- Paper ledger: phrase SCORE THE PAPER
-- UHNW menu: phrase MENU THE HOUSE
-- Hook dry-fire: phrase DRY FIRE THE HOOK
+- Antechamber brief: phrase SEAT THE ANTECHAMBER
+- Cloister invite: phrase KEEP THE CLOISTER
+- Colonnade census: phrase COUNT THE COLONNADE
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
 
 ## Honest meaning of “sell 10x”
