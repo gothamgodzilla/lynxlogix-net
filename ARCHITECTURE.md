@@ -76,7 +76,13 @@ Flow
 66. Open Monday on `/mondayopen.html` with OPEN THE MONDAY.
 67. Seat the atelier on `/atelier.html` with SEAT THE ATELIER.
 68. Charter the sleeve on `/sleeve.html` with CHARTER THE SLEEVE.
-69. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+69. Write the first paper ticket on `/firstticket.html` with FIRST THE TICKET.
+70. Commission one patron on `/commission.html` with COMMISSION THE HOUSE.
+71. Count the venues on `/venues.html` with COUNT THE VENUES.
+72. Score the paper on `/ledger.html` with SCORE THE PAPER.
+73. Write the UHNW menu on `/menu.html` with MENU THE HOUSE.
+74. Dry-fire the hook on `/dryfire.html` with DRY FIRE THE HOOK.
+75. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -148,6 +154,8 @@ Day 5 16:01 — 79 Stillness Board, 80 Patron Table, 81 Drawer Lock
 Day 5 17:18 — 82 Evening Watch, 83 Patron Carriage, 84 Key Ring
 Day 5 18:14 — 85 Nocturne Board, 86 Patron Loge, 87 Vault Hinge
 Day 6 09:29 — 88 Monday Open, 89 Patron Atelier, 90 Sleeve Charter
+Day 6 10:22 — 91 First Ticket, 92 Patron Commission, 93 Venue Census
+Day 6 11:02 — 94 Paper Ledger, 95 UHNW Menu, 96 Hook Dry-Fire
 
 ## Shared risk box
 
@@ -159,6 +167,12 @@ Day 6 09:29 — 88 Monday Open, 89 Patron Atelier, 90 Sleeve Charter
 - Monday open: phrase OPEN THE MONDAY
 - Patron atelier: phrase SEAT THE ATELIER
 - Sleeve charter: phrase CHARTER THE SLEEVE
+- First ticket: phrase FIRST THE TICKET
+- Patron commission: phrase COMMISSION THE HOUSE
+- Venue census: phrase COUNT THE VENUES
+- Paper ledger: phrase SCORE THE PAPER
+- UHNW menu: phrase MENU THE HOUSE
+- Hook dry-fire: phrase DRY FIRE THE HOOK
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
 
 ## Honest meaning of “sell 10x”
