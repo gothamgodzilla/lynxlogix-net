@@ -67,7 +67,13 @@ Flow
 57. Keep the stillness on `/still.html` with KEEP THE STILLNESS.
 58. Set the patron table on `/table.html` with SET THE TABLE.
 59. Lock the drawer on `/drawer.html` with LOCK THE DRAWER.
-60. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+60. Hold the evening on `/evening.html` with HOLD THE EVENING.
+61. Send the carriage on `/carriage.html` with SEND THE CARRIAGE.
+62. Keep the keys on `/keys.html` with KEEP THE KEYS.
+63. Keep the nocturne on `/nocturne.html` with KEEP THE NOCTURNE.
+64. Seat the loge on `/loge.html` with SEAT THE LOGE.
+65. Keep the hinge on `/hinge.html` with KEEP THE HINGE.
+66. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -136,6 +142,8 @@ Day 5 13:15 — 70 Afternoon Receipt, 71 Patron Tea, 72 Inherit Lock
 Day 5 14:09 — 73 Vespers Board, 74 Patron Correspondence, 75 Desk Inventory
 Day 5 15:06 — 76 Compline Board, 77 Evening Salon, 78 Night Preview
 Day 5 16:01 — 79 Stillness Board, 80 Patron Table, 81 Drawer Lock
+Day 5 17:18 — 82 Evening Watch, 83 Patron Carriage, 84 Key Ring
+Day 5 18:14 — 85 Nocturne Board, 86 Patron Loge, 87 Vault Hinge
 
 ## Shared risk box
 
@@ -144,18 +152,9 @@ Day 5 16:01 — 79 Stillness Board, 80 Patron Table, 81 Drawer Lock
 - Saturday hard cap: one ticket
 - Sunday: zero tickets
 - Kill switch is a single “desk closed” flag plus the Daily Close phrase
-- Afternoon receipt: phrase KEEP THE AFTERNOON
-- Patron tea: phrase POUR THE TEA
-- Inherit lock: phrase LOCK THE INHERIT
-- Vespers board: phrase KEEP THE VESPERS
-- Patron correspondence: phrase WRITE THE HOUSE
-- Desk inventory: phrase COUNT THE DESK
-- Compline board: phrase KEEP THE COMPLINE
-- Evening salon: phrase SEAT THE SALON
-- Night preview: phrase PREVIEW THE NIGHT
-- Stillness board: phrase KEEP THE STILLNESS
-- Patron table: phrase SET THE TABLE
-- Drawer lock: phrase LOCK THE DRAWER
+- Nocturne board: phrase KEEP THE NOCTURNE
+- Patron loge: phrase SEAT THE LOGE
+- Vault hinge: phrase KEEP THE HINGE
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
 
 ## Honest meaning of “sell 10x”
