@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paper Ledger — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>PAPER LEDGER</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="menu.html">Menu</a>
+        <a href="dryfire.html">Dry-fire</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Monday 14 September 2026 · Design 94 · 11:02 PDT · Day 6 late morning</div>
+      <h1>Score the paper.<br/>Do not graduate it.</h1>
+      <p class="lede">The morning ticket exists. Now you measure it. A would-have fill is a number. A live order is a different species. This page only writes the first.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="ld-fill">Would-have fill (paper)</label>
+      <textarea id="ld-fill" data-ld-fill rows="2" placeholder="What the tape would have printed if this were live. No venue key."></textarea>
+      <label for="ld-veto">Why it stays unexecuted</label>
+      <textarea id="ld-veto" data-ld-veto rows="2" placeholder="No thirty paper days. Sunday was dark. Keys stay off Vercel."></textarea>
+      <label for="ld-phrase">Release phrase</label>
+      <input id="ld-phrase" data-ld-phrase placeholder="SCORE THE PAPER" />
+      <div class="hero-actions">
+        <button class="btn solid" data-ld-btn>Seal paper ledger</button>
+        <a class="btn" href="menu.html">Menu the house</a>
+        <a class="btn ghost" href="firstticket.html">Morning ticket</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Ledger board</div>
+        <pre class="muted" data-ld-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No paper score on this browser.</pre>
+      </article>
+      <p class="note" data-ld-status>Type SCORE THE PAPER. Two lines. No keys. No promised return.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A scored ticket is still paper. executed: false remains the law.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day6late.js"></script>
+</body>
+</html>

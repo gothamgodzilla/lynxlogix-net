@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hook Dry-Fire — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>DRY-FIRE</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="ledger.html">Ledger</a>
+        <a href="grammar.html">Grammar</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Monday 14 September 2026 · Design 96 · 11:02 PDT · Day 6 late morning</div>
+      <h1>Dry-fire the hook.<br/>Paper only.</h1>
+      <p class="lede">TradingView and Hopper may speak. The hook key is still <em>paper</em>. A dry-fire proves the pipe. It does not place an order on Coinbase, Kraken, or Phantom.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="df-payload">Paper payload you would send</label>
+      <textarea id="df-payload" data-df-payload rows="3" placeholder='{"source":"tradingview","side":"paper","note":"regime only"}'></textarea>
+      <label for="df-result">What the desk should do with it</label>
+      <textarea id="df-result" data-df-result rows="2" placeholder="Queue a brief. Never Create Order. Never AddOrder. Never sign."></textarea>
+      <label for="df-phrase">Release phrase</label>
+      <input id="df-phrase" data-df-phrase placeholder="DRY FIRE THE HOOK" />
+      <div class="hero-actions">
+        <button class="btn solid" data-df-btn>Seal dry-fire</button>
+        <a class="btn" href="grammar.html">Signal grammar</a>
+        <a class="btn ghost" href="desk.html">Human key</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Hook board</div>
+        <pre class="muted" data-df-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No dry-fire on this browser.</pre>
+      </article>
+      <p class="note" data-df-status>Type DRY FIRE THE HOOK. Endpoint stays /api/hook?key=paper.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A working webhook is not a live bot. Wallets stay in human hands.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day6late.js"></script>
+</body>
+</html>
