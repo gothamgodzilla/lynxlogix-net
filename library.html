@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Library Watch — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>LIBRARY</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="terrace.html">Terrace</a>
+        <a href="vestibule.html">Vestibule</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Tuesday 15 September 2026 · Design 118 · 09:17 PDT · Day 7 morning</div>
+      <h1>Keep the<br/>library.</h1>
+      <p class="lede">Tuesday inherits Monday paper. One Grok voice may read. One human sits. The library produces a sentence, not an order. Conservatory 115 stays sealed history this morning.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="lb-scribe">Who reads this hour</label>
+      <textarea id="lb-scribe" data-lb-scribe rows="2" placeholder="Name the Grok voice. Name the human who gates it."></textarea>
+      <label for="lb-brief">The one sentence allowed</label>
+      <textarea id="lb-brief" data-lb-brief rows="2" placeholder="Pair, side, size as % of paper equity — or HOLD. No live venue."></textarea>
+      <label for="lb-phrase">Release phrase</label>
+      <input id="lb-phrase" data-lb-phrase placeholder="KEEP THE LIBRARY" />
+      <div class="hero-actions">
+        <button class="btn solid" data-lb-btn>Seal the library</button>
+        <a class="btn" href="terrace.html">Open the terrace</a>
+        <a class="btn ghost" href="desk.html">Open the desk</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Library receipt</div>
+        <pre class="muted" data-lb-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No library brief on this browser.</pre>
+      </article>
+      <p class="note" data-lb-status>Type KEEP THE LIBRARY. Two lines. executed: false.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A reader is a witness. Not a router. Not investment advice.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day7.js"></script>
+</body>
+</html>
