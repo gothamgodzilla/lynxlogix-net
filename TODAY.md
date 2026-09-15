@@ -1,66 +1,65 @@
-# Tuesday 15 September 2026 — 12:05 PDT — Day 7 after noon
+# Tuesday 15 September 2026 — 13:05 PDT — Day 7 mid-afternoon
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
 Hook: POST /api/hook?key=paper — paper only
 Team: GothamGanesh · project `lynxlogix-net`
-Sister hallway: https://github.com/gothamgodzilla/house-landings
-House twin (already exists — do not spawn a fourth): https://github.com/gothamgodzilla/lynxlogix-house
-Holdings twin (already exists — do not spawn a fifth): https://github.com/gothamgodzilla/lynxlogix-holdings
-Mangasm (sales door): https://www.mangasm.app/plus
+Sister: house-landings · house twin: lynxlogix-house · holdings twin: lynxlogix-holdings
+Do not spawn a fifth landing repo.
+
+Mangasm sales door: https://www.mangasm.app/plus
 Owner book: /owner.html · Contact: /contact.html · Paywall: /pay.html
 
-Version A still runs. Designs 01–123 stay in force. After-noon ships 124–126.
-Tuesday law: inherit Monday paper. First ticket of the week remains paper. Type PAPER ONLY before Approve.
-A second ticket this afternoon stays dark. 121–123 (solarium / courtyard / rotunda) remain history. Do not reopen them as a second launch.
+## Law still in force
 
-## Today's three designs (12:05 pick)
+Signals may be automatic. Money may not.
+Version A is the running system. B and C stay architecture until 30 paper days exist.
+Type PAPER ONLY before Approve. executed: false until a human says otherwise on a private worker that is not this site.
+Saturday cap: one ticket. Sunday: zero tickets.
+Product cash (Mangasm+, Coexist StoreKit, Ganesh) never recapitalizes the paper sleeve mid-drawdown.
 
-1. Design 124 — Observatory Watch (ship): name the after-noon Grok voice and the one sentence this hour may produce. Phrase: KEEP THE OBSERVATORY. Live on /observatory.html.
-2. Design 125 — Arcade Invite (ship): one UHNW invitation that is Mangasm+, a house pass, or Ganesh — never a coin. Phrase: OPEN THE ARCADE. Live on /arcade.html.
-3. Design 126 — Atrium Census (ship): name the venues that exist and confirm they stay dark. Phrase: COUNT THE ATRIUM. Live on /atrium.html.
+## Today's three designs (13:05 pick)
 
-Keep Version A as the running system. B and C stay paper architecture.
+1. Design 127 — Decision Board (use this session): pick Version A / B / C in writing. Default: KEEP VERSION A.
+2. Design 128 — One Cash Door: every hallway ends at Mangasm+, Ganesh checkout, or a house gift. Never a coin sale.
+3. Design 129 — Venue Dark Stamp: Coinbase / Kraken / Phantom / CryptoHopper stay read-only or dark. Keys stay off Vercel.
+
+121–126 (solarium through atrium) remain history. Do not reopen them as a second launch.
 
 ## Three versions — human gate — you decide
 
-- Version A · running — Signal Concierge. TradingView webhook → Grok brief → PAPER ONLY → Approve / Reject / Hold → Daily Close → Night Ledger.
-- Version B · after 30 paper days — Multi-venue Paper Desk. Coinbase, Kraken, Phantom as read-only passports. Live keys never on this site.
+- Version A · running — Signal Concierge. TradingView webhook → Grok brief → PAPER ONLY → Approve / Reject / Hold → Daily Close.
+- Version B · after 30 paper days — Multi-venue Paper Desk. Coinbase, Kraken, Phantom as read-only passports.
 - Version C · last — Dual-confirm Hopper. Script flag + Grok veto + human. Two machines may recommend. Only you release.
 
-Recommendation: stay on A. “10x” means ten times the process quality — not a promised return.
+Recommendation: stay on A. “10x” means process quality and ticket throughput, not a promised return.
 
-## Deep-work blocks today
+## Deep-work blocks today (remaining afternoon)
 
-### Block 1 — 25 minutes — Keep the observatory
-Goal: Open /observatory.html. Name the reader. Write the one sentence allowed. Type KEEP THE OBSERVATORY. Confirm executed: false.
+### Block 1 — 30 minutes — Seal the version
+Goal: Write KEEP VERSION A (or name B/C with a date). Confirm the first ticket of the week is still paper.
 
-### Block 2 — 25 minutes — Open the arcade
-Goal: Open /arcade.html. Name one invitation and one patron class. The invitation is Mangasm+, a house pass, or Ganesh. Type OPEN THE ARCADE.
+### Block 2 — 25 minutes — Wire one cash door
+Goal: Confirm /pay.html and Mangasm+ are the only money doors a patron hits. Paste live Stripe payment-link URLs into pay-config when you have them. Do not invent prices as proven ARR.
 
-### Block 3 — 30 minutes — Count the atrium
-Goal: Open /atrium.html. Name the venues. Write their state. Type COUNT THE ATRIUM. Do not paste a live key.
-
-121–123 remain sealed history.
+### Block 3 — 25 minutes — Bind domains, not repos
+Goal: Point lynxlogix.net / coexist.click thoughts at existing Vercel projects. No new GitHub landing.
 
 ## Quick wins
 
-- Open https://lynxlogix-net.vercel.app/today.html
-- Seal /observatory.html
-- Seal /arcade.html
-- Seal /atrium.html
-- Confirm /ledger.html still reads executed: false
-- Confirm /sunday.html still reads SUNDAY STAYS DARK
-- Confirm /solarium.html, /courtyard.html, /rotunda.html remain history
-- Point the arcade door at https://www.mangasm.app/plus
-- Point any custom-domain thought at existing GothamGanesh Vercel projects (lynxlogix-net, house-landings)
+- Open https://lynxlogix-net.vercel.app
+- Open https://github.com/gothamgodzilla/lynxlogix-holdings (piano-black house surface)
+- Confirm /ledger.html reads executed: false
+- Confirm Sunday stays dark
+- Point one UHNW sentence at https://www.mangasm.app/plus
+- Add Stripe Payment Link URLs to holdings `js/pay-config.js` when ready
 
 ## Do not spend time on today
 
-Do not create a new GitHub landing repo. lynxlogix-net, house-landings, lynxlogix-house, and lynxlogix-holdings already exist. Upgrade. Do not spawn a fifth.
+Do not create a new GitHub landing repo.
 Do not wire live Coinbase Advanced Create Order, Kraken AddOrder, CryptoHopper live bots, or Phantom transaction signing.
-Do not paste exchange API secrets into Vercel.
+Do not paste exchange API secrets or seed phrases into Vercel or this repo.
 Do not promise 10x returns.
 Do not publish the owner MAR/ARR table as proven cash.
-Do not rebuild Mangasm.app, Coexist.llc, Coexist.Click, Ganesh.Guru, and LynxLogix.AI as six new systems this afternoon.
-Do not treat SuperClaude / OpenCode as permission to leave the house.
+Do not rebuild Mangasm.app, Coexist.llc, Coexist.Click, Ganesh.Guru, LynxLogix.AI, and LynxLogix.NET as six new systems this afternoon.
+Do not add another hallway of ritual rooms. Upgrade the living pages.
