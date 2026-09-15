@@ -1,4 +1,4 @@
-# Tuesday 15 September 2026 — 14:10 PDT — Day 7 mid-afternoon
+# Tuesday 15 September 2026 — 15:10 PDT — Day 7 late afternoon
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
@@ -18,13 +18,13 @@ Type PAPER ONLY before Approve. executed: false until a human says otherwise on 
 Saturday cap: one ticket. Sunday: zero tickets.
 Product cash (Mangasm+, Coexist StoreKit, Ganesh) never recapitalizes the paper sleeve mid-drawdown.
 
-## Today's three designs (14:10 pick)
+## Today's three designs (15:10 pick)
 
-1. Design 130 — Version Receipt (use this session): write KEEP VERSION A on /gate.html. Default remains A.
-2. Design 131 — Sales Spine: six domains are hallways. The only living checkout is Mangasm+. House gift and desk seat stay invoice/contact until Stripe Payment Links are pasted.
-3. Design 132 — Hook Smoke: dry-fire POST /api/hook?key=paper from /desk.html. Confirm the ticket lands with executed: false. Venues stay dark.
+1. Design 133 — Afternoon Receipt (use this session): one operating brief. Three deep-work blocks. Quick wins. One explicit non-goal. Living page: /today.html.
+2. Design 134 — Patron Cash Path: UHNW language stays quiet. The only living checkout is Mangasm+. Gift and desk seat stay invoice/contact until Stripe Payment Links exist in holdings `js/pay-config.js`.
+3. Design 135 — Ten-Bot Roster: name the orchestra. Only three seats speak today (Scribe, Veto, Liaison). The other seven may draft. None may spend.
 
-127–129 (Decision Board, One Cash Door, Venue Dark Stamp) stay in force. 121–126 remain history. Do not reopen them as a second launch.
+130–132 (Version Receipt, Sales Spine, Hook Smoke) stay in force. 127–129 stay in force. Do not reopen them as a second launch.
 
 ## Three versions — human gate — you decide
 
@@ -34,24 +34,24 @@ Product cash (Mangasm+, Coexist StoreKit, Ganesh) never recapitalizes the paper 
 
 Recommendation: stay on A. “10x” means process quality and ticket throughput, not a promised return.
 
-## Deep-work blocks today (remaining afternoon)
+## Deep-work blocks today (remaining late afternoon)
 
-### Block 1 — 25 minutes — Seal the version receipt
-Goal: Open /gate.html. Mark A. Type KEEP VERSION A. One sentence why. First ticket of the week stays paper.
+### Block 1 — 25 minutes — Write the afternoon receipt
+Goal: Open /today.html and /gate.html. Confirm Version A. Type KEEP VERSION A if the browser has no receipt. One sentence why. No pair in the sentence.
 
-### Block 2 — 25 minutes — Walk the sales spine
-Goal: Click every house door and confirm it ends at https://www.mangasm.app/plus, /pay.html, or /contact.html. Paste live Stripe Payment Link URLs when you have them. Do not invent prices as proven ARR.
+### Block 2 — 25 minutes — Walk the cash path
+Goal: Click https://www.mangasm.app/plus from this site, holdings, and house-landings. Confirm /pay.html still offers gift / seat / plus. Paste live Stripe Payment Link URLs only if you already have them. Do not invent ARR.
 
-### Block 3 — 30 minutes — Smoke the hook, not the venues
-Goal: On /desk.html, post one paper ticket through the existing hook. Confirm /ledger.html (or the on-page ledger) still reads executed: false. Do not add Coinbase Create Order.
+### Block 3 — 30 minutes — Seat three voices, not ten spenders
+Goal: On /desk.html, dry-fire one paper ticket if you have not already today. On /orchestra.html or the roster on /today.html, mark Scribe / Veto / Liaison as seated. Do not add Coinbase Create Order.
 
 ## Quick wins
 
-- Open https://lynxlogix-net.vercel.app
 - Open https://lynxlogix-net.vercel.app/today.html
-- Open https://github.com/gothamgodzilla/house-landings
+- Open https://lynxlogix-net.vercel.app/gate.html
+- Open https://www.mangasm.app/plus
 - Confirm Sunday stays dark
-- Point one UHNW sentence at https://www.mangasm.app/plus
+- Point one UHNW sentence at Mangasm+, not at a ticker
 - Add Stripe Payment Link URLs to holdings `js/pay-config.js` when ready
 
 ## Do not spend time on today

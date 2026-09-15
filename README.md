@@ -4,11 +4,11 @@ Luxury crypto command desk. Piano-black. Human-gated. Paper first.
 
 Live: https://lynxlogix-net.vercel.app
 
-Day 7 mid-afternoon (15 September 2026, 14:10 PDT) ships designs 130–132 on living pages:
+Day 7 late afternoon (15 September 2026, 15:10 PDT) ships designs 133–135 on living pages:
 
-- `/gate.html` — KEEP VERSION A (Design 130)
-- `/pay.html` + https://www.mangasm.app/plus — sales spine (Design 131)
-- `/desk.html` — paper hook smoke (Design 132)
+- `/today.html` — Afternoon Receipt (Design 133)
+- `/pay.html` + https://www.mangasm.app/plus — Patron Cash Path (Design 134)
+- `/today.html` roster + `/desk.html` — Ten-Bot Roster, three seats only (Design 135)
 
 Version A runs. Versions B and C stay paper.
 
