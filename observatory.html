@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Observatory Watch — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>OBSERVATORY</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="arcade.html">Arcade</a>
+        <a href="atrium.html">Atrium</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Tuesday 15 September 2026 · Design 124 · 12:05 PDT · Day 7 after noon</div>
+      <h1>Keep the<br/>observatory.</h1>
+      <p class="lede">High light after noon. One Grok voice may read the paper tape. One human sits. The observatory produces a sentence, not an order. Solarium 121 stays sealed history this hour. A second ticket stays dark.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="ob-scribe">Who reads this hour</label>
+      <textarea id="ob-scribe" data-ob-scribe rows="2" placeholder="Name the Grok voice. Name the human who gates it."></textarea>
+      <label for="ob-brief">The one sentence allowed</label>
+      <textarea id="ob-brief" data-ob-brief rows="2" placeholder="Pair, side, size as % of paper equity — or HOLD. No live venue."></textarea>
+      <label for="ob-phrase">Release phrase</label>
+      <input id="ob-phrase" data-ob-phrase placeholder="KEEP THE OBSERVATORY" />
+      <div class="hero-actions">
+        <button class="btn solid" data-ob-btn>Seal the observatory</button>
+        <a class="btn" href="arcade.html">Open the arcade</a>
+        <a class="btn ghost" href="desk.html">Open the desk</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Observatory receipt</div>
+        <pre class="muted" data-ob-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No observatory brief on this browser.</pre>
+      </article>
+      <p class="note" data-ob-status>Type KEEP THE OBSERVATORY. Two lines. executed: false.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">A reader is a witness. Not a router. Not investment advice.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day7pm.js"></script>
+</body>
+</html>
