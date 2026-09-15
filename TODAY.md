@@ -1,4 +1,4 @@
-# Tuesday 15 September 2026 — 13:05 PDT — Day 7 mid-afternoon
+# Tuesday 15 September 2026 — 14:10 PDT — Day 7 mid-afternoon
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
@@ -18,13 +18,13 @@ Type PAPER ONLY before Approve. executed: false until a human says otherwise on 
 Saturday cap: one ticket. Sunday: zero tickets.
 Product cash (Mangasm+, Coexist StoreKit, Ganesh) never recapitalizes the paper sleeve mid-drawdown.
 
-## Today's three designs (13:05 pick)
+## Today's three designs (14:10 pick)
 
-1. Design 127 — Decision Board (use this session): pick Version A / B / C in writing. Default: KEEP VERSION A.
-2. Design 128 — One Cash Door: every hallway ends at Mangasm+, Ganesh checkout, or a house gift. Never a coin sale.
-3. Design 129 — Venue Dark Stamp: Coinbase / Kraken / Phantom / CryptoHopper stay read-only or dark. Keys stay off Vercel.
+1. Design 130 — Version Receipt (use this session): write KEEP VERSION A on /gate.html. Default remains A.
+2. Design 131 — Sales Spine: six domains are hallways. The only living checkout is Mangasm+. House gift and desk seat stay invoice/contact until Stripe Payment Links are pasted.
+3. Design 132 — Hook Smoke: dry-fire POST /api/hook?key=paper from /desk.html. Confirm the ticket lands with executed: false. Venues stay dark.
 
-121–126 (solarium through atrium) remain history. Do not reopen them as a second launch.
+127–129 (Decision Board, One Cash Door, Venue Dark Stamp) stay in force. 121–126 remain history. Do not reopen them as a second launch.
 
 ## Three versions — human gate — you decide
 
@@ -36,20 +36,20 @@ Recommendation: stay on A. “10x” means process quality and ticket throughput
 
 ## Deep-work blocks today (remaining afternoon)
 
-### Block 1 — 30 minutes — Seal the version
-Goal: Write KEEP VERSION A (or name B/C with a date). Confirm the first ticket of the week is still paper.
+### Block 1 — 25 minutes — Seal the version receipt
+Goal: Open /gate.html. Mark A. Type KEEP VERSION A. One sentence why. First ticket of the week stays paper.
 
-### Block 2 — 25 minutes — Wire one cash door
-Goal: Confirm /pay.html and Mangasm+ are the only money doors a patron hits. Paste live Stripe payment-link URLs into pay-config when you have them. Do not invent prices as proven ARR.
+### Block 2 — 25 minutes — Walk the sales spine
+Goal: Click every house door and confirm it ends at https://www.mangasm.app/plus, /pay.html, or /contact.html. Paste live Stripe Payment Link URLs when you have them. Do not invent prices as proven ARR.
 
-### Block 3 — 25 minutes — Bind domains, not repos
-Goal: Point lynxlogix.net / coexist.click thoughts at existing Vercel projects. No new GitHub landing.
+### Block 3 — 30 minutes — Smoke the hook, not the venues
+Goal: On /desk.html, post one paper ticket through the existing hook. Confirm /ledger.html (or the on-page ledger) still reads executed: false. Do not add Coinbase Create Order.
 
 ## Quick wins
 
 - Open https://lynxlogix-net.vercel.app
-- Open https://github.com/gothamgodzilla/lynxlogix-holdings (piano-black house surface)
-- Confirm /ledger.html reads executed: false
+- Open https://lynxlogix-net.vercel.app/today.html
+- Open https://github.com/gothamgodzilla/house-landings
 - Confirm Sunday stays dark
 - Point one UHNW sentence at https://www.mangasm.app/plus
 - Add Stripe Payment Link URLs to holdings `js/pay-config.js` when ready
