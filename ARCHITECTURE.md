@@ -91,7 +91,10 @@ Flow
 81. Seat the oratory on `/oratory.html` with SEAT THE ORATORY.
 82. Open the loggia on `/loggia.html` with OPEN THE LOGGIA.
 83. Count the portico on `/portico.html` with COUNT THE PORTICO.
-84. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
+84. Keep the conservatory on `/conservatory.html` with KEEP THE CONSERVATORY.
+85. Open the pavilion on `/pavilion.html` with OPEN THE PAVILION.
+86. Count the gatehouse on `/gatehouse.html` with COUNT THE GATEHOUSE.
+87. End of session: Daily Close on /close.html. Type CLOSE THE DESK. Compose `/night.html`.
 
 Why it wins: one integration, visible gate, you already know the logic.
 
@@ -168,6 +171,7 @@ Day 6 11:02 — 94 Paper Ledger, 95 UHNW Menu, 96 Hook Dry-Fire
 Day 6 15:16 — 106 Foyer Watch, 107 Relic Hall, 108 Paper Oath
 Day 6 16:16 — 109 Antechamber Brief, 110 Cloister Invite, 111 Colonnade Census
 Day 6 17:20 — 112 Oratory Watch, 113 Loggia Invite, 114 Portico Census
+Day 6 18:06 — 115 Conservatory Watch, 116 Pavilion Invite, 117 Gatehouse Census
 
 ## Shared risk box
 
@@ -176,9 +180,9 @@ Day 6 17:20 — 112 Oratory Watch, 113 Loggia Invite, 114 Portico Census
 - Saturday hard cap: one ticket
 - Sunday: zero tickets
 - Kill switch is a single “desk closed” flag plus the Daily Close phrase
-- Oratory watch: phrase SEAT THE ORATORY
-- Loggia invite: phrase OPEN THE LOGGIA
-- Portico census: phrase COUNT THE PORTICO
+- Conservatory watch: phrase KEEP THE CONSERVATORY
+- Pavilion invite: phrase OPEN THE PAVILION
+- Gatehouse census: phrase COUNT THE GATEHOUSE
 - Product revenue (Mangasm+, Coexist StoreKit) never tops up the paper sleeve mid-drawdown
 
 ## Honest meaning of “sell 10x”
