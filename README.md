@@ -4,11 +4,11 @@ Luxury crypto command desk. Piano-black. Human-gated. Paper first.
 
 Live: https://lynxlogix-net.vercel.app
 
-Day 7 morning (15 September 2026, 09:17 PDT) ships designs 118–120:
+Day 7 noon (15 September 2026, 11:13 PDT) ships designs 121–123:
 
-- `/library.html` — KEEP THE LIBRARY
-- `/terrace.html` — OPEN THE TERRACE
-- `/vestibule.html` — COUNT THE VESTIBULE
+- `/solarium.html` — KEEP THE SOLARIUM
+- `/courtyard.html` — OPEN THE COURTYARD
+- `/rotunda.html` — COUNT THE ROTUNDA
 
 Version A runs. Versions B and C stay paper.
 
