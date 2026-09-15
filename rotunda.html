@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rotunda Census — LynxLogix.NET</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>ROTUNDA</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="solarium.html">Solarium</a>
+        <a href="courtyard.html">Courtyard</a>
+        <a href="pay.html">Pass</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Tuesday 15 September 2026 · Design 123 · 11:13 PDT · venues stay dark</div>
+      <h1>Count the<br/>rotunda.</h1>
+      <p class="lede">Name the venues that exist. Confirm they stay dark. Vestibule 120 stays sealed history this hour. Version A still runs. SuperClaude / OpenCode may brainstorm inside the house. They may not wire a live order.</p>
+    </section>
+    <section class="section wrap" style="border-top:0;padding-top:0">
+      <label for="ro-venues">Venues that exist</label>
+      <textarea id="ro-venues" data-ro-venues rows="2" placeholder="Coinbase Advanced, Kraken, Phantom, Kraken Wallet, TradingView, CryptoHopper."></textarea>
+      <label for="ro-state">Their state this hour</label>
+      <textarea id="ro-state" data-ro-state rows="2" placeholder="DARK. Paper hook only. No Create Order. No AddOrder. No wallet sign."></textarea>
+      <label for="ro-phrase">Release phrase</label>
+      <input id="ro-phrase" data-ro-phrase placeholder="COUNT THE ROTUNDA" />
+      <div class="hero-actions">
+        <button class="btn solid" data-ro-btn>Seal the rotunda</button>
+        <a class="btn" href="desk.html">Open the desk</a>
+        <a class="btn ghost" href="opencode.html">Keep OpenCode in the house</a>
+      </div>
+      <article class="card" style="margin-top:28px">
+        <div class="tiny">Rotunda letter</div>
+        <pre class="muted" data-ro-out style="white-space:pre-wrap;font-family:Josefin Sans,sans-serif;letter-spacing:0.04em;font-size:13px">No rotunda census on this browser.</pre>
+      </article>
+      <p class="note" data-ro-status>Type COUNT THE ROTUNDA. Two lines. Do not paste a live key.</p>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">Venues named are passports. Not live keys. Not investment advice.</p></footer>
+  <script src="js/site.js"></script>
+  <script src="js/day7noon.js"></script>
+</body>
+</html>
