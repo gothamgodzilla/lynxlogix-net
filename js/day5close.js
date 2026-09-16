@@ -1,7 +1,7 @@
 (function () {
   const KEY = "llx.day5.close";
   const state = JSON.parse(localStorage.getItem(KEY) || "{}");
-  const banned = /\b(btc|eth|sol|xbt|usdt|10x|return|profit|addorder|coinbase|kraken|hopper|phantom|private.key|seed|secret)\b/i;
+  const banned = /\b(btc|eth|sol|xbt|usdt|10x|return|profit|addorder|coinbase|kraken|hopper|phantom|private\.key|seed|secret)\b/i;
 
   function save() {
     localStorage.setItem(KEY, JSON.stringify(state));
