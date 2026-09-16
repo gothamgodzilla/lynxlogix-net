@@ -1,7 +1,7 @@
 (function () {
   const KEY = "llx.day5.close";
   const state = JSON.parse(localStorage.getItem(KEY) || "{}");
-  const banned = /\b(btc|eth|sol|xbt|usdt|10x|return|profit|addorder|private.key|seed|secret)\b/i;
+  const banned = /\b(btc|eth|sol|xbt|usdt|10x|return|profit|addorder|coinbase|kraken|hopper|phantom|private.key|seed|secret)\b/i;
 
   function save() {
     localStorage.setItem(KEY, JSON.stringify(state));
@@ -135,6 +135,10 @@
       }
       if (banned.test(a + " " + b)) {
         if (hingeStatus) hingeStatus.textContent = "Void. Do not paste keys or tickers.";
+        return;
+      }
+      if (/\blynxlogix-holdings\b/i.test(b)) {
+        if (hingeStatus) hingeStatus.textContent = "Void. Three living repos only. No fourth landing repo.";
         return;
       }
       const letter = [
