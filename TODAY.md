@@ -1,4 +1,4 @@
-# Tuesday 15 September 2026 — 17:17 PDT — Day 7 last light
+# Tuesday 15 September 2026 — 18:00 PDT — Day 7 evening command
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
@@ -18,14 +18,13 @@ Type PAPER ONLY before Approve. executed: false until a human says otherwise on 
 Saturday cap: one ticket. Sunday: zero tickets.
 Product cash (Mangasm+, Coexist StoreKit, Ganesh) never recapitalizes the paper sleeve mid-drawdown.
 
-## Today's three designs (17:17 pick)
+## Today's three designs (18:00 pick)
 
-1. Design 139 — Last Light Receipt (use this session): one operating brief after vespers. Three deep-work blocks. Quick wins. One explicit non-goal. Living page: /today.html.
-2. Design 140 — Six-Door Cash Spine: Mangasm.app, Coexist.llc, Coexist.Click, Ganesh.Guru, LynxLogix.AI, LynxLogix.NET already have Vercel projects. Each door sells Mangasm+ or a house gift. No sixth rebuild. Custom domains only.
-3. Design 141 — SuperClaude / OpenCode Constraint: brainstorm → design → plan only. Implement never includes Coinbase Create Order, Kraken AddOrder, hopper live bots, or Phantom signing. Phrase: KEEP THE SPEC.
+1. Design 142 — Evening Command Brief (use this session): three deep-work blocks, quick wins, one explicit non-goal. Living page: /today.html.
+2. Design 143 — Orchestra Seat Check: Scribe, Veto, Liaison remain the only seated voices. The other seven may draft. None may spend. Living page: /bots.html.
+3. Design 144 — One UHNW Object: the 1% buy restraint and a living product. Tonight that object is Mangasm+. Not a ticker. Living page: /pay.html.
 
-136–138 (Vespers Receipt, Domain Binding Audit, Paper Sleeve Attendance) stay in force.
-133–135 stay in force. 130–132 stay in force. Do not reopen them as a second launch.
+139–141 stay in force. 136–138 stay in force. Do not reopen them as a second launch.
 
 ## Three versions — human gate — you decide
 
@@ -35,16 +34,16 @@ Product cash (Mangasm+, Coexist StoreKit, Ganesh) never recapitalizes the paper 
 
 Recommendation: stay on A. “10x” means process quality and ticket throughput, not a promised return.
 
-## Deep-work blocks today (17:17 last light)
+## Deep-work blocks today (18:00 evening)
 
 ### Block 1 — 20 minutes — Seal the version again
-Goal: Open /gate.html. Confirm Version A. If the browser has no receipt, type KEEP VERSION A. One sentence why. No pair in the sentence.
+Goal: Open /gate.html. Confirm Version A. Type KEEP VERSION A. One sentence why. No pair in the sentence.
 
-### Block 2 — 25 minutes — Cash spine, not new brands
-Goal: Walk the six names as doors, not companies. Confirm the living checkout is https://www.mangasm.app/plus. If a Stripe Payment Link exists for house gift / retain, paste it into holdings `js/pay-config.js`. If it does not exist, leave the slots empty.
+### Block 2 — 25 minutes — Seat the three voices
+Goal: Open /bots.html. Confirm Scribe, Veto, Liaison are the seated trio. Write one line each would say about tonight. No ticker in Liaison's line.
 
-### Block 3 — 25 minutes — One paper ticket or one close
-Goal: /desk.html. Dry-fire if the day has no ticket. If it has one, type CLOSE THE DESK on /close.html. Do not add Coinbase Create Order.
+### Block 3 — 25 minutes — One object, one ticket or close
+Goal: Send one UHNW sentence to Mangasm+ (https://www.mangasm.app/plus). Then /desk.html: dry-fire if empty, or CLOSE THE DESK if a ticket already exists. Do not add Coinbase Create Order.
 
 ## Quick wins
 
