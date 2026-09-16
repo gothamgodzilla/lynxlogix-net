@@ -1,4 +1,4 @@
-# Tuesday 15 September 2026 — 16:06 PDT — Day 7 vespers
+# Tuesday 15 September 2026 — 17:17 PDT — Day 7 last light
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
@@ -18,14 +18,14 @@ Type PAPER ONLY before Approve. executed: false until a human says otherwise on 
 Saturday cap: one ticket. Sunday: zero tickets.
 Product cash (Mangasm+, Coexist StoreKit, Ganesh) never recapitalizes the paper sleeve mid-drawdown.
 
-## Today's three designs (16:06 pick)
+## Today's three designs (17:17 pick)
 
-1. Design 136 — Vespers Receipt (use this session): one operating brief for the last light. Three deep-work blocks. Quick wins. One explicit non-goal. Living page: /today.html.
-2. Design 137 — Domain Binding Audit: Mangasm.app, Coexist.llc, Coexist.Click, Ganesh.Guru, LynxLogix.AI, LynxLogix.NET all point at existing Vercel projects. No sixth rebuild. Custom domains only.
-3. Design 138 — Paper Sleeve Attendance: if no paper ticket exists today, dry-fire one on /desk.html. If one already exists, journal it and close. Do not open a second sleeve.
+1. Design 139 — Last Light Receipt (use this session): one operating brief after vespers. Three deep-work blocks. Quick wins. One explicit non-goal. Living page: /today.html.
+2. Design 140 — Six-Door Cash Spine: Mangasm.app, Coexist.llc, Coexist.Click, Ganesh.Guru, LynxLogix.AI, LynxLogix.NET already have Vercel projects. Each door sells Mangasm+ or a house gift. No sixth rebuild. Custom domains only.
+3. Design 141 — SuperClaude / OpenCode Constraint: brainstorm → design → plan only. Implement never includes Coinbase Create Order, Kraken AddOrder, hopper live bots, or Phantom signing. Phrase: KEEP THE SPEC.
 
-133–135 (Afternoon Receipt, Patron Cash Path, Ten-Bot Roster) stay in force.
-130–132 stay in force. 127–129 stay in force. Do not reopen them as a second launch.
+136–138 (Vespers Receipt, Domain Binding Audit, Paper Sleeve Attendance) stay in force.
+133–135 stay in force. 130–132 stay in force. Do not reopen them as a second launch.
 
 ## Three versions — human gate — you decide
 
@@ -35,13 +35,13 @@ Product cash (Mangasm+, Coexist StoreKit, Ganesh) never recapitalizes the paper 
 
 Recommendation: stay on A. “10x” means process quality and ticket throughput, not a promised return.
 
-## Deep-work blocks today (vespers)
+## Deep-work blocks today (17:17 last light)
 
 ### Block 1 — 20 minutes — Seal the version again
 Goal: Open /gate.html. Confirm Version A. If the browser has no receipt, type KEEP VERSION A. One sentence why. No pair in the sentence.
 
-### Block 2 — 25 minutes — Bind domains, do not rebuild them
-Goal: List which of the six names already resolve to lynxlogix-net, house-landings, lynxlogix-house, lynxlogix-holdings, or mangasm.app. Write the missing bindings as DNS tasks, not as new repos.
+### Block 2 — 25 minutes — Cash spine, not new brands
+Goal: Walk the six names as doors, not companies. Confirm the living checkout is https://www.mangasm.app/plus. If a Stripe Payment Link exists for house gift / retain, paste it into holdings `js/pay-config.js`. If it does not exist, leave the slots empty.
 
 ### Block 3 — 25 minutes — One paper ticket or one close
 Goal: /desk.html. Dry-fire if the day has no ticket. If it has one, type CLOSE THE DESK on /close.html. Do not add Coinbase Create Order.
@@ -54,6 +54,7 @@ Goal: /desk.html. Dry-fire if the day has no ticket. If it has one, type CLOSE T
 - Confirm Sunday stays dark
 - Point one UHNW sentence at Mangasm+, not at a ticker
 - Add Stripe Payment Link URLs to holdings `js/pay-config.js` when ready (`gift` and `retain` are still empty)
+- Keep SuperClaude / OpenCode on /opencode.html and /spec.html — brainstorm and plan only
 
 ## Do not spend time on today
 
