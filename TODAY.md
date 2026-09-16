@@ -1,4 +1,4 @@
-# Wednesday 16 September 2026 — 09:01 PDT — Day 8 dawn command
+# Wednesday 16 September 2026 — 10:00 PDT — Day 8 mid-morning command
 
 Repo: https://github.com/gothamgodzilla/lynxlogix-net
 Live: https://lynxlogix-net.vercel.app
@@ -20,13 +20,13 @@ Saturday cap: one ticket. Sunday: zero tickets.
 Product cash (Mangasm+, Coexist StoreKit, Ganesh) never recapitalizes the paper sleeve mid-drawdown.
 SuperClaude / OpenCode may brainstorm. They may not arm Coinbase, Kraken, Hopper, or Phantom.
 
-## Today's three designs (09:01 pick)
+## Today's three designs (10:00 pick)
 
-1. Design 145 — Dawn Command Brief (use this session): three deep-work blocks, quick wins, one explicit non-goal. Living page: /today.html.
-2. Design 146 — Paper Day One: start the thirty-day streak that is the only key to Version B. Living page: /gate.html.
-3. Design 147 — Prospectus, not proof: owner bio + IP book stay public; projected MAR/ARR stays behind the house pass. Sales object is still Mangasm+. Living page: /owner.html + /pay.html.
+1. Design 148 — Mid-Morning Command (use this session): three deep-work blocks, quick wins, one explicit non-goal. Living page: /today.html.
+2. Design 149 — Honest Empty Desk: dry-fire the hook or leave the book blank. Do not invent a pair to look busy. Living page: /dryfire.html + /desk.html.
+3. Design 150 — Quiet Sentence: one UHNW line a buyer would believe, pointed at Mangasm+. Living page: /pay.html.
 
-142–144 stay in force. 139–141 stay in force. Do not reopen them as a second launch.
+145–147 stay in force. 142–144 stay in force. Do not reopen them as a second launch.
 
 ## Three versions — human gate — you decide
 
@@ -36,23 +36,23 @@ SuperClaude / OpenCode may brainstorm. They may not arm Coinbase, Kraken, Hopper
 
 Recommendation: stay on A. “10x” means process quality and ticket throughput, not a promised return.
 
-## Deep-work blocks today (09:01 dawn)
+## Deep-work blocks today (10:00 mid-morning)
 
-### Block 1 — 25 minutes — Seal A and stamp paper day 1
-Goal: Open /gate.html. Mark A. Type KEEP VERSION A. Press Seal today's paper day once. One sentence why A still runs. No pair in the sentence.
+### Block 1 — 20 minutes — Confirm the dawn seals
+Goal: Open /gate.html. If paper day 1 is not stamped, stamp it once. Confirm Version A is sealed with KEEP VERSION A. Do not reopen B or C.
 
-### Block 2 — 25 minutes — One paper ticket or an honest empty desk
-Goal: Open /desk.html. If a signal exists, write a ticket with executed: false. If none exists, dry-fire once and leave the desk empty. Do not invent a pair to look busy.
+### Block 2 — 25 minutes — Honest empty desk
+Goal: Open /desk.html then /dryfire.html. If a real signal exists, write one paper ticket with executed: false. If none exists, dry-fire the hook with no invented pair and leave the book empty. Empty is a control.
 
-### Block 3 — 20 minutes — One UHNW sentence at Mangasm+
-Goal: Send one sentence a quiet buyer would believe toward https://www.mangasm.app/plus. Then open /owner.html and confirm the MAR/ARR table is still veiled. Do not paste Stripe secrets.
+### Block 3 — 20 minutes — One quiet sentence
+Goal: Write one sentence a quiet buyer would believe on /pay.html and send it toward https://www.mangasm.app/plus. Confirm /owner.html still veils MAR/ARR. Do not paste Stripe secrets.
 
 ## Quick wins
 
 - Open https://lynxlogix-net.vercel.app/today.html
-- Open https://lynxlogix-net.vercel.app/gate.html and stamp paper day 1
+- Confirm paper day 1 on /gate.html
+- Dry-fire once on /dryfire.html without naming a pair
 - Open https://www.mangasm.app/plus
-- Confirm the owner book still calls the valuation a model
 - Keep SuperClaude / OpenCode on /opencode.html and /spec.html — brainstorm and plan only
 - Leave gift and retain Stripe slots empty until a real Payment Link exists
 
