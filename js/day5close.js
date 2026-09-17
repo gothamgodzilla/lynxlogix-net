@@ -1,7 +1,7 @@
 (function () {
   const KEY = "llx.day5.close";
   const state = JSON.parse(localStorage.getItem(KEY) || "{}");
-  const banned = /\b(btc|eth|sol|xbt|usdt|10x|return|profit|addorder|private.key|seed|secret)\b/i;
+  const banned = /\b(btc|eth|sol|xbt|usdt|10x|return|profit|addorder|coinbase|kraken|hopper|phantom|private\.key|seed|secret)\b/i;
 
   function save() {
     localStorage.setItem(KEY, JSON.stringify(state));
@@ -137,6 +137,10 @@
         if (hingeStatus) hingeStatus.textContent = "Void. Do not paste keys or tickers.";
         return;
       }
+      if (/\blynxlogix-holdings\b/i.test(b)) {
+        if (hingeStatus) hingeStatus.textContent = "Void. Three living repos only. No fourth landing repo.";
+        return;
+      }
       const letter = [
         "LYNXLOGIX.NET · VAULT HINGE",
         "Sunday 13 September 2026 · 18:14 PDT",
@@ -144,6 +148,10 @@
         "house: " + b,
         "repos: lynxlogix-net · house-landings · lynxlogix-house",
         "venues live: none",
+        "coinbase advanced: DARK",
+        "kraken addorder: DARK",
+        "cryptohopper bots: DARK",
+        "phantom signing: DARK",
         "superclaude / opencode: brainstorm only inside the house",
         "sunday tickets: 0",
         "executed: false",

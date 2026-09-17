@@ -4,13 +4,15 @@ Luxury crypto command desk. Piano-black. Human-gated. Paper first.
 
 Live: https://lynxlogix-net.vercel.app
 
-Day 7 last light (15 September 2026, 17:17 PDT) ships designs 139–141 on living pages:
+Day 8 mid-morning (16 September 2026, 10:00 PDT) ships designs 148–150 on living pages:
 
-- `/today.html` — Last Light Receipt (Design 139)
-- `/pay.html` + https://www.mangasm.app/plus — Six-Door Cash Spine (Design 140)
-- `/spec.html` + `/opencode.html` — SuperClaude / OpenCode Constraint (Design 141)
+- `/today.html` — Mid-Morning Command (Design 148)
+- `/dryfire.html` + `/desk.html` — Honest Empty Desk (Design 149)
+- `/pay.html` — Quiet Sentence toward Mangasm+ (Design 150)
 
-Version A runs. Versions B and C stay paper.
+145–147 remain in force from dawn.
+
+Version A runs. Versions B and C stay paper until 30 paper days exist.
 
 Law: signals may be automatic. Money may not.
 

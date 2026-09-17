@@ -24,9 +24,9 @@
   </header>
   <main>
     <section class="hero wrap">
-      <div class="kicker">Saturday 12 September 2026 · Design 52 · 17:11 PDT</div>
+      <div class="kicker">Wednesday 16 September 2026 · Design 146 · Day 8 09:01 PDT</div>
       <h1>You pick<br/>the running desk.</h1>
-      <p class="lede">Three versions exist. Only one may run. Signals may be automatic. Money may not. Tonight the law is KEEP VERSION A.</p>
+      <p class="lede">Three versions exist. Only one may run. Signals may be automatic. Money may not. Dawn law: KEEP VERSION A. Stamp paper day 1.</p>
     </section>
     <section class="section wrap" style="border-top:0;padding-top:0">
       <div class="grid three">
@@ -37,7 +37,7 @@
       <label for="gate-vote">Running version tonight</label>
       <select id="gate-vote" data-gate-vote>
         <option value="">Choose</option>
-        <option value="A">A — Signal Concierge (required tonight)</option>
+        <option value="A">A — Signal Concierge (required this morning)</option>
         <option value="B">B — held until 30 paper days</option>
         <option value="C">C — last, after A and B are dull</option>
       </select>
@@ -56,9 +56,62 @@
       </article>
       <p class="note" data-gate-status>Type KEEP VERSION A. Mark A. One sentence.</p>
     </section>
+    <section class="section wrap">
+      <div class="tiny">Design 146</div>
+      <h2>Paper days on this browser.</h2>
+      <p class="lede">Version B does not unlock because a page exists. It unlocks when thirty separate calendar days have been stamped paper-only on this machine.</p>
+      <article class="card" style="margin-top:24px">
+        <div class="tiny">Streak</div>
+        <p class="stat" id="paper-count">0 / 30</p>
+        <p class="muted" id="paper-note">No paper day stamped on this browser.</p>
+        <div class="hero-actions">
+          <button class="btn solid" id="paper-stamp" type="button">Seal today's paper day</button>
+          <a class="btn ghost" href="desk.html">Open the paper desk</a>
+        </div>
+      </article>
+      <p class="note">Local only. Not a fill. Not a venue connection. Clearing this browser clears the streak — that is the point. Discipline lives with the operator.</p>
+    </section>
   </main>
   <footer class="footer wrap"><p class="disclaimer">A version key is a process control. It is not a fill and not investment advice. “10x” means process quality.</p></footer>
   <script src="js/site.js"></script>
   <script src="js/day4late.js"></script>
+  <script>
+    (function () {
+      var KEY = "ll_paper_days_v1";
+      var countEl = document.getElementById("paper-count");
+      var noteEl = document.getElementById("paper-note");
+      var btn = document.getElementById("paper-stamp");
+      if (!countEl || !noteEl || !btn) return;
+      function load() {
+        try { return JSON.parse(localStorage.getItem(KEY) || "{\"days\":[]}"); }
+        catch (e) { return { days: [] }; }
+      }
+      function save(state) { localStorage.setItem(KEY, JSON.stringify(state)); }
+      function today() {
+        var d = new Date();
+        return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+      }
+      function render() {
+        var state = load();
+        var n = state.days.length;
+        countEl.textContent = n + " / 30";
+        if (n === 0) noteEl.textContent = "No paper day stamped on this browser.";
+        else if (n >= 30) noteEl.textContent = "Thirty paper days exist on this browser. Version B may be considered. Live keys still stay off this site.";
+        else noteEl.textContent = "Last stamp: " + state.days[state.days.length - 1] + ". " + (30 - n) + " paper days remain before Version B is even discussable.";
+      }
+      btn.addEventListener("click", function () {
+        var state = load();
+        var t = today();
+        if (state.days.indexOf(t) !== -1) {
+          noteEl.textContent = "Already stamped " + t + ". One stamp per calendar day.";
+          return;
+        }
+        state.days.push(t);
+        save(state);
+        render();
+      });
+      render();
+    })();
+  </script>
 </body>
 </html>
