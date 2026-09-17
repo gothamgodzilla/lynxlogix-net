@@ -7,6 +7,13 @@
     localStorage.setItem(KEY, JSON.stringify(state));
   }
 
+  function readFieldValue(field) {
+    if (!field) return "";
+    const value = field.value.trim();
+    const fallback = String(field.getAttribute("placeholder") || "").trim();
+    return value || fallback;
+  }
+
   const keep = document.querySelector("[data-noc-keep]");
   const itch = document.querySelector("[data-noc-itch]");
   const nocPhrase = document.querySelector("[data-noc-phrase]");
@@ -21,15 +28,11 @@
   const nocBtn = document.querySelector("[data-noc-btn]");
   if (nocBtn) {
     nocBtn.addEventListener("click", function () {
-      const a = keep ? keep.value.trim() : "";
-      const b = itch ? itch.value.trim() : "";
+      const a = readFieldValue(keep);
+      const b = readFieldValue(itch);
       const phrase = nocPhrase ? nocPhrase.value.trim().toUpperCase() : "";
       if (phrase !== "KEEP THE NOCTURNE") {
         if (nocStatus) nocStatus.textContent = "Type KEEP THE NOCTURNE.";
-        return;
-      }
-      if (!a || !b) {
-        if (nocStatus) nocStatus.textContent = "Two lines. What the night keeps. What arrived after 17:18.";
         return;
       }
       if (banned.test(a + " " + b)) {
@@ -71,15 +74,11 @@
   const logeBtn = document.querySelector("[data-loge-btn]");
   if (logeBtn) {
     logeBtn.addEventListener("click", function () {
-      const a = guest ? guest.value.trim() : "";
-      const b = offer ? offer.value.trim() : "";
+      const a = readFieldValue(guest);
+      const b = readFieldValue(offer);
       const phrase = logePhrase ? logePhrase.value.trim().toUpperCase() : "";
       if (phrase !== "SEAT THE LOGE") {
         if (logeStatus) logeStatus.textContent = "Type SEAT THE LOGE.";
-        return;
-      }
-      if (!a || !b) {
-        if (logeStatus) logeStatus.textContent = "Two lines. Who sits. What the house offers.";
         return;
       }
       if (banned.test(a + " " + b)) {
@@ -122,15 +121,11 @@
   const hingeBtn = document.querySelector("[data-hinge-btn]");
   if (hingeBtn) {
     hingeBtn.addEventListener("click", function () {
-      const a = ring ? ring.value.trim() : "";
-      const b = house ? house.value.trim() : "";
+      const a = readFieldValue(ring);
+      const b = readFieldValue(house);
       const phrase = hingePhrase ? hingePhrase.value.trim().toUpperCase() : "";
       if (phrase !== "KEEP THE HINGE") {
         if (hingeStatus) hingeStatus.textContent = "Type KEEP THE HINGE.";
-        return;
-      }
-      if (!a || !b) {
-        if (hingeStatus) hingeStatus.textContent = "Two lines. Hinge. House.";
         return;
       }
       if (banned.test(a + " " + b)) {
