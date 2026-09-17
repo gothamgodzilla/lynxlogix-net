@@ -15,20 +15,36 @@
       <a class="brand" href="index.html">LYNXLOGIX<small>PAYWALL</small></a>
       <nav class="nav-links">
         <a href="index.html">Home</a>
-        <a href="quiet.html">Quiet room</a>
+        <a href="today.html">Today</a>
         <a href="owner.html">Owner</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
   <main class="wrap" style="padding:64px 0">
-    <div class="kicker">Working wall · Mangasm+ is live</div>
+    <div class="kicker">Design 150 · Quiet Sentence · Day 8 10:00</div>
     <h1>Pass, gift, membership.</h1>
-    <p class="lede">Mangasm+ already charges through Stripe. House patronage collects via contact until Payment Links are pasted.</p>
+    <p class="lede">Mangasm+ already charges through Stripe. House patronage collects via contact until Payment Links are pasted. The one percent buy a home they can keep — not a promised multiple on a coin.</p>
+    <section class="section" style="border-top:0;padding-top:28px">
+      <div class="tiny">Quiet sentence board</div>
+      <h2>One line a buyer would believe.</h2>
+      <p class="muted">Write the sentence. Do not name a ticker. Do not promise a return. The object is Mangasm+.</p>
+      <label for="uhnw-line">Sentence</label>
+      <textarea id="uhnw-line" rows="3" placeholder="They built belonging and shipped extraction. This is the rebuild you can actually join."></textarea>
+      <div class="hero-actions">
+        <button class="btn solid" type="button" id="uhnw-seal">Seal the sentence</button>
+        <a class="btn" href="https://www.mangasm.app/plus">Send it to Mangasm+</a>
+        <a class="btn ghost" href="owner.html">Keep the book veiled</a>
+      </div>
+      <article class="card" style="margin-top:24px">
+        <div class="tiny">Sealed line on this browser</div>
+        <p class="muted" id="uhnw-out">No sentence sealed yet.</p>
+      </article>
+    </section>
     <div class="grid three" style="margin-top:32px">
       <article class="card"><div class="tiny">Product · live checkout</div><h3>Mangasm+</h3><p class="stat">$9.99</p><p class="muted">Monthly on mangasm.app/plus. 3-month $24.99.</p><button class="btn solid" data-pay="mangasm">Buy Mangasm+</button></article>
       <article class="card"><div class="tiny">Donation</div><h3>House gift</h3><p class="stat">$50–$500</p><p class="muted">Request an invoice until a Stripe link lives here.</p><a class="btn" href="contact.html">Request gift invoice</a></article>
-      <article class="card"><div class="tiny">UHNW seat</div><h3>Desk seat</h3><p class="stat">$2,500</p><p class="muted">Monthly concierge. Not investment advice.</p><a class="btn" href="contact.html">Request a seat</a></article>
+      <article class="card"><div class="tiny">UHNW seat</div><h3>Desk seat</h3><p class="stat">$2,500</p><p class="muted">Monthly concierge. Not investment advice. Not a live trading account.</p><a class="btn" href="contact.html">Request a seat</a></article>
     </div>
     <section class="section">
       <h2>Atelier key for this browser</h2>
@@ -39,7 +55,30 @@
       </div>
     </section>
   </main>
-  <footer class="footer wrap"><p class="disclaimer">Live money today: Mangasm+.</p></footer>
+  <footer class="footer wrap"><p class="disclaimer">Live money today: Mangasm+. House gift and desk seat wait for a real Payment Link. Not investment advice.</p></footer>
   <script src="js/site.js"></script>
+  <script>
+    (function () {
+      var KEY = "ll_uhnw_sentence_v1";
+      var out = document.getElementById("uhnw-out");
+      var box = document.getElementById("uhnw-line");
+      var btn = document.getElementById("uhnw-seal");
+      if (!out || !box || !btn) return;
+      try {
+        var saved = localStorage.getItem(KEY);
+        if (saved) { box.value = saved; out.textContent = saved; }
+      } catch (e) {}
+      btn.addEventListener("click", function () {
+        var line = (box.value || "").trim();
+        if (!line) { out.textContent = "Write one sentence first."; return; }
+        if (/btc|eth|sol|xrp|10x|guaranteed/i.test(line)) {
+          out.textContent = "Refused. No ticker. No return claim. Rewrite.";
+          return;
+        }
+        try { localStorage.setItem(KEY, line); } catch (e) {}
+        out.textContent = line;
+      });
+    })();
+  </script>
 </body>
 </html>
