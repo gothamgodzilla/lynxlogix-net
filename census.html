@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Equinox Census — LynxLogix.NET</title>
+  <meta name="description" content="Count paper days. Version B waits for thirty stamps." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Josefin+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html">LYNXLOGIX<small>CENSUS · 151</small></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="today.html">Today</a>
+        <a href="gate.html">Version</a>
+        <a href="empty.html">Sleeve</a>
+        <a href="desk.html">Desk</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="kicker">Design 151 · Wednesday 30 September 2026 · Day 22</div>
+      <h1>Count the paper.<br/>Do not invent it.</h1>
+      <p class="lede">Version B opens after thirty honest paper days. Calendar days since the repo was born are not paper days. Stamps on /gate.html are paper days. If the number is short of thirty, type KEEP VERSION A and walk away from the key ceremony.</p>
+      <div class="hero-actions">
+        <a class="btn solid" href="gate.html">Open the version key</a>
+        <a class="btn" href="desk.html">Open the desk</a>
+        <a class="btn ghost" href="empty.html">See the empty sleeve</a>
+      </div>
+    </section>
+    <section class="section wrap">
+      <div class="tiny">How to count</div>
+      <h2>A paper day is a sealed book.</h2>
+      <div class="grid two" style="margin-top:24px">
+        <article class="card">
+          <div class="tiny">Counts</div>
+          <h3>What is a stamp</h3>
+          <p class="muted">A day with either one paper ticket marked executed: false, or an explicit empty-book close. Saturday may hold one ticket. Sunday must hold zero. A dry-fire with no pair still counts if you seal the close.</p>
+        </article>
+        <article class="card">
+          <div class="tiny">Does not count</div>
+          <h3>What is vanity</h3>
+          <p class="muted">A hallway page. A new repo. A SuperClaude plan. A promised 10x. A Coinbase balance you do not have. An invented pair so the book looks busy.</p>
+        </article>
+      </div>
+    </section>
+    <section class="section wrap">
+      <div class="tiny">This browser</div>
+      <h2>Local census.</h2>
+      <p class="muted">This counter lives in your browser. It is not the house ledger. Type a number you can defend, then seal it.</p>
+      <label for="paper-days">Paper days completed</label>
+      <input id="paper-days" type="number" min="0" max="30" placeholder="0" />
+      <div class="hero-actions">
+        <button class="btn solid" type="button" id="census-seal">Seal the count</button>
+        <a class="btn" href="gate.html">KEEP VERSION A</a>
+      </div>
+      <article class="card" style="margin-top:24px">
+        <div class="tiny">Verdict on this machine</div>
+        <p class="muted" id="census-out">No count sealed yet.</p>
+      </article>
+    </section>
+  </main>
+  <footer class="footer wrap"><p class="disclaimer">Thirty paper days are a process door, not a performance claim. Not investment advice.</p></footer>
+  <script src="js/site.js"></script>
+  <script>
+    (function () {
+      var KEY = "ll_paper_days_v1";
+      var input = document.getElementById("paper-days");
+      var out = document.getElementById("census-out");
+      var btn = document.getElementById("census-seal");
+      if (!input || !out || !btn) return;
+      try {
+        var saved = localStorage.getItem(KEY);
+        if (saved) { input.value = saved; render(Number(saved)); }
+      } catch (e) {}
+      function render(n) {
+        if (!Number.isFinite(n) || n < 0) { out.textContent = "Enter a number you can defend."; return; }
+        if (n >= 30) {
+          out.textContent = n + " paper days. Architecture for Version B may be reviewed. Live Create Order remains dark on this site.";
+          return;
+        }
+        out.textContent = n + " paper days. Short of thirty. KEEP VERSION A. " + (30 - n) + " stamps remain.";
+      }
+      btn.addEventListener("click", function () {
+        var n = Number(input.value);
+        render(n);
+        if (Number.isFinite(n) && n >= 0) {
+          try { localStorage.setItem(KEY, String(Math.floor(n))); } catch (e) {}
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
